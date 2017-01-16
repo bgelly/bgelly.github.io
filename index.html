@@ -12,7 +12,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
     <!-- Custom CSS -->
+    
     <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <link href="css/heights2.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,7 +30,7 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+    <div class="page-containerr">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -37,7 +41,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" id="navletters"><i class="glyphicon glyphicon-home"></i></a>
+                <a class="navbar-brand page-scroll" href="#page-top" id="navletter1"><i class="glyphicon glyphicon-home"></i></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -48,14 +52,14 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about" id="navletters">For Advertisers</a>
+                        <a class="page-scroll" href="#about" id="navletter2">Join Us - 2017 Launch</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services" id="navletters">For Drivers</a>
+                        <a class="page-scroll" href="#services" id="navletter3">About Us</a>
                     </li>
-                    <li>
+   <!--                  <li>
                         <a class="page-scroll" href="#contact" id="navletters">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -63,16 +67,17 @@
         <!-- /.container -->
     </nav>
 
+        <div id="page-container1">
+            <h1 id='title'>Rideo</h1>
+            <h3 id='subtitle'> New York City's Rideshare Advertising Platform</h3>
+
+        </div>
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                        <div id="page-container1">
-                            <h1 id='title'>Rideo</h1>
-                            <h3 id='subtitle'> New York City's Rideshare Advertising Platform</h3>
-
-                        </div>
+                        
  <!--                    <h1>More Info</h1> -->
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                       <!-- Indicators -->
@@ -86,34 +91,48 @@
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                          <img src="background.jpg" alt="background">
+                        <div class="square"></div>
+                        <div class="container-slider">
+                          <img class="img1" src="background.jpg" alt="background">
+                        </div>
                           <div class="carousel-content">
-                            <p id="ctext1">Advertise your business in a rideshare vehicle, like Uber or Lyft, today!</p>
-                          </div>
+
+                            <p id="ctext4">Use Rideo's tablet to reach an <p3 id="highlight5">untapped customer base</p3> by advertising in a rideshare vehicle, like Uber or Lyft, today!</p>
+                        
+                        </div>
                         </div>
 
 
                         <div class="item">
-                          <img src="aboutbackground.jpg" alt="background">
+                            <div class="square"></div>
+                          <div class="container-slider">
+                          <img class="img" src="aboutbackground.jpg" alt="background">
+                        </div>
                           <div class="carousel-content">
-                            <div id="ctext1">Use Rideo to reach highly sought-after customers in and around your neighborhood!</div>
+                            <div id="ctext1">Reach <p3 id="highlight5">highly sought-after</p3> customers in and around your neighborhood with Rideo!</div>
                           </div>
 
                         </div>
 
                         <div class="item">
-                          <img src="rideoheadrest.jpg" alt="background">
+                            <div class="square"></div>
+                          <div class="container-slider">
+                          <img class="img" src="rideoheadrest.jpg" alt="background">
+                          </div>
                           <div class="carousel-content">
                              <div id="ctext2">
 
-                                Drivers can earn an additional $3000-$4000 per year!</div>
+                                Drivers can earn an additional <p3 id="highlight5">$3000-$4000 per year!</p3></div>
                           </div>
                         </div>
 
                         <div class="item">
-                          <img src="bridgebackground.jpg" alt="background">
+                            <div class="square"></div>
+                        <div class="container-slider">
+                          <img class="img" src="bridgebackground.jpg" alt="background">
+                        </div>
                         <div class="carousel-content">
-                            <div id="ctext1">Contact us today at info@driverideo.com to get started!</div>
+                            <div id="ctext3">Contact us today at <p3 id="highlight5">info@driverideo.com</p3> to get started!</div>
                           </div>
                         </div>
                       </div>
@@ -130,18 +149,28 @@
 
                     </div>  
 
-                      <p1 id="grad" class="demo">
-<!--                       <h1>Scroll Down Button #1</h1> -->
-<!--                       <a href="#section02"><span></span>More Info</a> -->
-                    </p1>
                     <img src="rideoheadrest2.jpg" id="img">
                     <div id="hover">
                     <a class="btn btn-default page-scroll" href="#about">More Info</a>
-                    <div class="v"></div>
+                    <div class="menuarrow">
+                    <p><i class="glyphicon glyphicon-menu-down"></i></p>
+                    <!-- <div class="v"></div> -->
+
+
+
+
+
+
                     </div>
+                                        <p1 id="grad2" class="demo">
+<!--                       <h1>Scroll Down Button #1</h1> -->
+<!--                       <a href="#section02"><span></span>More Info</a> -->
+                    </p1>
+                        <p1 id="purple2">  </p1>
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <!-- About Section -->
@@ -150,21 +179,36 @@
             <div class="row">
                 <div class="col-lg-12">
                     <img src="background.jpg" id="img2">
-            <div id="textbox"></div>
-            <div id="p1">
-<!--             <br> Rideo allows <b>New York City drivers</b> of rideshare vehicles, such as Uber and Lyft, to 
-          <b>generate extra income</b> 
-          by displaying advertisements on a tablet in their car.</br> -->
+                        <h5 id="heading5">For Advertisers</h5>
+                        <div id="textbox"></div>
+                            <div id="p1">
 
-          <br>Place your ad on one of Rideo's tablets in rideshare vehicles today!<br></br> We offer a brand new advertising platform -- one that provides direct access to generally <u>wealthy, well-educated and young potential customers</u> in and around your neighborhood.</br>
 
-          <br>Rideo provides data and analytics to our advertising partners, including: <br></br> <ul><li>The number of <u>unique views</u> your ad received. <br></br> <li>Data on passengers' <u>specific geographic </u> drop-off locations, which are guaranteed to be within a radius of your business.<br></br> <li>Tracking on <u>customer engagement</u> through special offers, discounts and loyalty points...etc. </br><br><li>For more information, contact us - our information is below!</div></ul>
-                </div>
+          <br><p3 id="highlight1">A unique, exciting new advertising platform.</p3></br> <br>Connect to an untapped, capitve audience of wealthy, well-educated and young customers <p3 id="highlight">by advertising in rideshare vehicles, such as Uber and Lyft, today!</p3><br>
 
-                </div>
-            </div>
-        </div>
+          <br></br><p3 id="highlight1">Smart Advertising.</p3>
+          <br>Rideo provides advertising partners with data and analytics to ensure every ad counts, including: <br></br> <ul class=nobull><p id="icon"><i class="glyphicon glyphicon-eye-open"></i></p><li>The number of <p3 id="highlight">unique views</p3> your ad received. <br></br> <p id="icon"><i class="glyphicon glyphicon-map-marker"></i></p><li>Data on potential customers' <p3 id="highlight">specific geographic locations</p3>, which are guaranteed to be within a radius of your business.<br></br>  <p id="icon"><i class="glyphicon glyphicon-stats"></i></p><li>Tracking on <p3 id="highlight">customer engagement</p3> through special offers, discounts and loyalty points that are unique to Rideo's plaform. </br><br><p id="icon"><i class="glyphicon glyphicon-envelope"></i></p><li>To join our 2017 launch or for more information, contact us at <p3 id="highlight">info@driverideo.com</p3></ul></div>
+        <h6 id="heading6">For Drivers</h6>
+        <div id="textbox3"></div>
+            <div id="p3">
+
+
+
+           <br><p3 id="highlight1">We provide the tablet, you keep driving.</p3></br><br> <p3 id="highlight2">Generate $3,000-$4,000 in extra income per year with no extra work</p3> -- just display Rideo's tablet in your vehicle.<br>
+
+          <br></br><p3 id="highlight1">Smart Driving.</p3>
+          <br>Join the growing number of rideshare vehicle drivers earning extra income with no extra work.<br></br> <ul class=nobull><p id="icon2"><i class="glyphicon glyphicon-usd"></i></p><li>Drivers can expect to <p3 id="highlight2">earn over $300 per month</p3> <br></br> <p id="icon2"><i class="glyphicon glyphicon-road"></i></p><li><p3 id="highlight2">Uber has explicitly stated they will not penalize you or deactivate your account.</p3><br></br>  <p id="icon2"><i class="glyphicon glyphicon-thumbs-up"></i></p><li> As <p3 id="highlight2">independent contractors</p3>, rideshare drivers and are free to make their own decisions as business owners.</br><br><p id="icon2"><i class="glyphicon glyphicon-envelope"></i></p><li>To join our 2017 launch or for more information, contact us at <p3 id="highlight2">info@driverideo.com</p3></ul></div>
+    </div>
+    </div>       
+    </div>
+    <p1 id="purple">  </p1>
+                                                    <p1 id="grad" class="demo">
+<!--                       <h1>Scroll Down Button #1</h1> -->
+<!--                       <a href="#section02"><span></span>More Info</a> -->
+                    </p1>
+
     </section>
+
 
     <!-- Services Section -->
     <section id="services" class="services-section">
@@ -172,35 +216,31 @@
             <div class="row">
                 <div class="col-lg-12">
                     <img src="aboutbackground.jpg" id="img3">
-            <div id="textbox"></div>
-            <div id="p1">
+                    <div id="textbox2"></div>
+                    <div id="p2">Rideo was founded in 2016 in Greenpoint, Brooklyn by three friends - Bennett, Dillon and Koji. With the goal of enabling small New York City businesses to show what is great about their product or service, they created a platform that provides a brand new form of advertising.<br><HR> Rideo enables its partners reach a previously untapped audience, passengers in rideshare vehicles -  a generally young, wealthy and proximately located demographic. Additionally, drivers can generate extra income and entertain passengers with no extra work by mounting Rideo’s tablet in their car.<br><br>Contact us at info@driverideo.com<br>(414) 238 4746 </div>
 
-
-          <br> Rideo allows <u>New York City area drivers</u> of rideshare vehicles, such as Uber and Lyft, to 
-          <u>generate extra income</u> 
-          by displaying advertisements on a tablet in their car.</br>
-
-           <br>Frequently asked questions: <br></br> <ul><li>Drivers can expect to earn $3000-$4000 in additional income per year.<br></br> <li>No, you will not get in trouble or be deactivated for displaying advertisements as drivers are independent contractors. Uber has explicitly said that it is your decision as a business owner.<br></br> <li>For more information, contact us - our information is below!</br><br></div></ul>
-
-        </div> 
                 </div>
             </div>
         </div>
+                                                <p1 id="grad3" class="demo">
+<!--                       <h1>Scroll Down Button #1</h1> -->
+<!--                       <a href="#section02"><span></span>More Info</a> -->
+                    </p1>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+<!--     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <img src="rideoheadrest2.jpg" id="img4">
                     <div id="textbox2"></div>
-                    <div id="p2">Contact:<br></br> info@driverideo.com<br>(414) 238 4746 </div>
+
                 </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -211,7 +251,7 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
+</div>
 </body>
 
 </html>
