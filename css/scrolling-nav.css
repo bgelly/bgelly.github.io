@@ -1971,7 +1971,7 @@ width: 230px;
 
 }
 
-@media only screen and (min-width: 260px) and (max-width: 767px) {
+@media only screen and (min-width: 250px) and (max-width: 767px) {
 /*@media only screen and (max-width: 767px) {*/
 .intro-section{
   opacity: 1;
@@ -2357,7 +2357,7 @@ width: 230px;
 
 }
 
-@media only screen and (max-width: 255px) {
+@media only screen and (max-width: 250px) {
 /*@media only screen and (max-width: 767px) {*/
 .intro-section{
   opacity: 1;
