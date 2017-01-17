@@ -2512,7 +2512,7 @@ width: 230px;
 }
 #grad3 {
   position: absolute;
-  top: 2965px;
+  top: 2955px;
   left: 0px;
   width: 350px;
   height: 150px;
@@ -2726,7 +2726,7 @@ width: 230px;
 
   .btn {
   margin-top:337px;
-  margin-left: -397px;
+  margin-left: -398px;
   font-size: 36px;
   z-index: 5;
 
@@ -2735,7 +2735,7 @@ width: 230px;
 
 .menuarrow{
   margin-top: 354px;
-  margin-left: -390px;
+  margin-left: -392px;
   z-index: 2;
   font-size: 38px;
 
@@ -2865,19 +2865,19 @@ width: 230px;
     opacity:.9999999;
     /*bottom: 100px;*/
     margin-top: 67px;
-    z-index: 600;
+    z-index: 6;
     position: absolute;
   }
 
   #imggg{
     margin-top:-0px;
     z-index: 5;
-    height: 147px;
+    height: 148px;
     top: 64px;
     left: 47px;
-    width: 254px;
+    width: 255px;
     position: absolute;
-    opacity: .4;
+    opacity: .8;
   }
 
 }
