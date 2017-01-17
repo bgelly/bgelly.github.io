@@ -2382,6 +2382,17 @@ width: 230px;
 
 
   }
+    #imggg{
+    margin-top:0px;
+    z-index: 2;
+    height: 148px;
+    top: 64px;
+    left: 47px;
+    width: 255px;
+    position: absolute;
+    opacity: .8;
+    display: none;
+  }
 
 }
 
@@ -2712,7 +2723,7 @@ width: 230px;
 .navbar-collapse {
   margin-top: 12px;
   padding-top: 10px;
-
+  z-index: 100;
   padding-right: 0px;
   padding-left: 90px;
   text-align: center;
@@ -2865,13 +2876,13 @@ width: 230px;
     opacity:.9999999;
     /*bottom: 100px;*/
     margin-top: 67px;
-    z-index: 6;
+    z-index: 3;
     position: absolute;
   }
 
   #imggg{
     margin-top:-0px;
-    z-index: 5;
+    z-index: 2;
     height: 148px;
     top: 64px;
     left: 47px;
