@@ -183,6 +183,7 @@ of those sections to manage the look and feel of the site. */
   font-size: 2vw;
 
 
+
 }
 
 
@@ -796,7 +797,7 @@ opacity:.9;
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .icon-next {
       font-size: 2.3vw;
-      height: 20vw;
+      height: 28vw;
       margin-left: 10vmax;
 
 
@@ -2389,8 +2390,8 @@ width: 230px;
 .intro-section{
   opacity: 1;
   width: 350px;
-  height: 690px;
-  min-height: 720px;
+  height: 680px;
+  min-height: 710px;
   margin-bottom: -475px;
   opacity: 1;
 }
@@ -2421,10 +2422,11 @@ width: 230px;
   }
 
   #myCarousel {
-    height: 142px;
-    top: 65px;
+    height: 143px;
+    top: 64px;
     left: 32px;
     width: 255px;
+    display: none;
   }
 
     .services-section {
@@ -2589,7 +2591,7 @@ width: 230px;
 #purple2 {
   width: 350px;
   height:173px;
-  top: 293px;
+  top: 295px;
   background-color: rgb(109, 100,232);
   position: absolute;
   left: 0px;
@@ -2723,8 +2725,8 @@ width: 230px;
 }
 
   .btn {
-  margin-top:127px;
-  margin-left: -390px;
+  margin-top:337px;
+  margin-left: -397px;
   font-size: 36px;
   z-index: 5;
 
@@ -2732,7 +2734,7 @@ width: 230px;
 }
 
 .menuarrow{
-  margin-top: 140px;
+  margin-top: 354px;
   margin-left: -390px;
   z-index: 2;
   font-size: 38px;
@@ -2740,18 +2742,18 @@ width: 230px;
 }
 
 #ctext4 {
-    width: 90%;
-    font-size: 14px;
-    margin-left: -13%;
+    width: 100%;
+    font-size: 16px;
+    margin-left: -18%;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: .085vw;
     text-shadow: .1vw .1vw .1vw rgba(0, 0, 0, .8);
     /*text-shadow: 1px 1px 1px rgba(255, 255, 255, .8);*/
     /*font-style: "Raleway-Thin";*/
     opacity:.9;
     /*bottom: 100px;*/
-    margin-bottom: -30px;
+    margin-bottom: -47px;
   }
 
   #highlight5 {
@@ -2764,26 +2766,26 @@ width: 230px;
   
   #ctext1 {
     width: 90%;
-    font-size: 14px;
-    margin-left: -13%;
+    font-size: 16px;
+    margin-left: -14%;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: .085vw;
     text-shadow: .1vw .1vw .1vw rgba(0, 0, 0, .8);
     /*text-shadow: 1px 1px 1px rgba(255, 255, 255, .8);*/
     /*font-style: "Raleway-Thin";*/
     opacity:.9;
     /*bottom: 100px;*/
-    margin-bottom: 0px;
+    margin-bottom: -20px;
 
   }
 
   #ctext3 {
     width: 90%;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: -13%;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: .085vw;
     text-shadow: .1vw .1vw .1vw rgba(0, 0, 0, .8);
     /*text-shadow: 1px 1px 1px rgba(255, 255, 255, .8);*/
@@ -2796,17 +2798,17 @@ width: 230px;
     
   #ctext2 {
     width: 65%;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: -2%;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: .085vw;
     text-shadow: .1vw .1vw .1vw rgba(0, 0, 0, .8);
     /*text-shadow: 1px 1px 1px rgba(255, 255, 255, .8);*/
     /*font-style: "Raleway-Thin";*/
     opacity:.9;
 
-    margin-bottom: 0%;
+    margin-bottom: -10px;
   }
      .carousel-indicators {
     position: absolute;
@@ -2818,6 +2820,7 @@ width: 230px;
     margin-left: -30%;
     text-align: center;
     list-style: none;
+    display: none;
   }
 
   .carousel-indicators li {
@@ -2838,6 +2841,43 @@ width: 230px;
     height: 5px;
     margin: 1px;
     background-color: #fff;
+    display: none;
+  }
+
+  .carousel-content, .carousel-inner, .container-slider {
+    display: none;
+  }
+
+  .carousel-control {
+    display: none;
+  }
+
+  #slidestill {
+    width: 70%;
+    font-size: 19px;
+    margin-left: 10.5%;
+    color: white;
+    font-weight: 300;
+    letter-spacing: .085vw;
+    text-shadow: .1vw .1vw .1vw rgba(0, 0, 0, .8);
+    /*text-shadow: 1px 1px 1px rgba(255, 255, 255, .8);*/
+    /*font-style: "Raleway-Thin";*/
+    opacity:.9999999;
+    /*bottom: 100px;*/
+    margin-top: 67px;
+    z-index: 600;
+    position: absolute;
+  }
+
+  #imggg{
+    margin-top:-0px;
+    z-index: 5;
+    height: 147px;
+    top: 64px;
+    left: 47px;
+    width: 254px;
+    position: absolute;
+    opacity: .4;
   }
 
 }
