@@ -2509,13 +2509,13 @@ width: 230px;
 
 #grad2 {
   position: absolute;
-  top: 196px;
+  top: 215px;
   left: 0px;
   width: 350px;
   height: 150px;
   z-index: 1;
 
-    height: 100px;
+    height: 80px;
     background: -webkit-linear-gradient(top, rgba(109,100,232,0), rgba(109,100,232,1)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom, rgba(109,100,232,0), rgba(109,100,232,1)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(top, rgba(109,100,232,0), rgba(109,100,232,1)); /* For Firefox 3.6 to 15 */
@@ -2565,7 +2565,7 @@ width: 230px;
 
   border-radius: 3px;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 /*  border: 2px solid rgba(255,255,255,1);*/
 }
 #p3 {
@@ -2579,7 +2579,7 @@ width: 230px;
   position: absolute;
   z-index: 2;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 1px;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
@@ -2623,7 +2623,7 @@ width: 230px;
 /*  border: 2px solid rgba(255,255,255,1);*/
   border-radius: 3px;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 #p1 {
 
@@ -2636,7 +2636,7 @@ width: 230px;
   position: absolute;
   z-index: 2;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 1px;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
@@ -2736,9 +2736,9 @@ width: 230px;
 }
 
   .btn {
-  margin-top:337px;
-  margin-left: -398px;
-  font-size: 36px;
+  margin-top:320px;
+  margin-left: -413px;
+  font-size: 45px;
   z-index: 5;
 
 
@@ -2770,8 +2770,8 @@ width: 230px;
   #highlight5 {
     /*  color: rgb(109, 100,232);*/
     font-style: italic;
-    font-weight: 200;
-    text-shadow: .1vw .1vw .1vw rgba(224, 27, 132, 1);
+    font-weight: 400;
+    text-shadow: .2vw .2vw .2vw rgba(224, 27, 132, 1);
 
 }
   
@@ -2889,6 +2889,17 @@ width: 230px;
     width: 255px;
     position: absolute;
     opacity: .8;
+  }
+
+  #hr{
+    
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(224, 27, 132);
+    margin: 1em 0;
+    padding: 0; 
+
   }
 
 }
