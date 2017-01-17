@@ -86,6 +86,10 @@ of those sections to manage the look and feel of the site. */
                 
 }
 
+#subtitle2 {
+  display: none;
+}
+
 
 #img2 {
     
@@ -1967,7 +1971,7 @@ width: 230px;
 
 }
 
-@media only screen and (min-width: 569px) and (max-width: 767px) {
+@media only screen and (min-width: 269px) and (max-width: 767px) {
 /*@media only screen and (max-width: 767px) {*/
 .intro-section{
   opacity: 1;
@@ -2353,7 +2357,7 @@ width: 230px;
 
 }
 
-@media only screen and (max-width: 469px) {
+@media only screen and (max-width: 269px) {
 /*@media only screen and (max-width: 767px) {*/
 .intro-section{
   opacity: 1;
@@ -2361,6 +2365,7 @@ width: 230px;
   height: 850px;
   min-height: 700px;
   margin-bottom: -440px;
+  opacity: 1;
 }
 
     .about-section {
@@ -2412,7 +2417,35 @@ width: 230px;
   left: 20px;
   width: 400px;
   font-size: 20px;
+  opacity: 0;
 }
+
+
+  #subtitle2 {
+/*    margin-bottom: 5%;*/
+    color: white;
+    letter-spacing: .085vw;
+    font-family: "Raleway";
+    font-weight: 600;
+    text-shadow: .1vw .1vw .1vw rgba(0, 0, 0, .8);
+/*    right:-7.3vw;*/
+    display: inline-block;
+
+/*    padding-bottom: 3%;*/
+/*    padding-right: 12vw;*/
+/*    margin-top: -1%;*/
+/*    top:4.7vw;*/
+    position: fixed;
+    z-index: 300;
+
+  margin-top: 5px;
+  left: 5px;
+  width: 170px;
+  font-size: 20px;
+
+
+  }
+
 
 .navbar{
   padding-bottom: 15px;
@@ -2748,6 +2781,7 @@ width: 230px;
   }
 
 }
+
 
 
 
