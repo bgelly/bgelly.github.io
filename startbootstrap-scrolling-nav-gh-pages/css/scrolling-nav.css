@@ -192,10 +192,10 @@ of those sections to manage the look and feel of the site. */
   top: 570px;
   left: -56px;
   width: 1280px;
-  height: 150px;
+  height: 500px;
   z-index: 1;
-  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 1%);
-  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 80%,rgba(0,0,0,0) 80%);
+  background: -webkit-linear-gradient(top,rgba(0,0,0,.5) 90%,rgba(0,0,0,1) 90%,rgba(0,0,0,1) 90%);
+  background: linear-gradient(to bottom,rgba(0,0,0,.5) 90%,rgba(0,0,0,.5) 80%,rgba(0,0,0,.5) 80%);
 }
 
 /*.demo a {
