@@ -654,7 +654,7 @@ opacity:.9;
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 736px) {
 
 #imggg {
   display: none;
@@ -2033,7 +2033,7 @@ width: 230px;
     .about-section {
     width: 736px;
     min-height: 340px;
-    height: 2602px;
+    height: 2102px;
     background-color: rgb(109,100,232);
     opacity: 1;
 /*    text-shadow: 2px 2px 2px rgba(109, 100, 232, 1);*/
@@ -2052,8 +2052,8 @@ width: 230px;
   }
 
   #img3 {
-    left:-250%;
-    width: 572%;
+    left:-80%;
+    width: 252%;
   }
 
   #myCarousel {
@@ -2120,7 +2120,7 @@ display: none;
 }
 #grad {
   position: absolute;
-  top: 1870px;
+  top: 1670px;
   left: 0px;
   width: 736px;
   height: 150px;
@@ -2150,7 +2150,7 @@ display: none;
 }
 #grad3 {
   position: absolute;
-  top: 3040px;
+  top: 2720px;
   left: 0px;
   width: 736px;
   height: 150px;
@@ -2169,7 +2169,7 @@ display: none;
   background-color: black;
   margin-top:0px;
   width: 100%;
-  height: 280px;
+  height: 200px;
   top:190px;
   left: 0;
   opacity: 0.3;
@@ -2185,8 +2185,8 @@ display: none;
   background-color: black;
   margin-top:180px;
   width: 100%;
-  height: 450px;
-  top:1500px;
+  height: 170px;
+  top:1240px;
   left: 0%;
   opacity: .3;
 
@@ -2201,7 +2201,7 @@ display: none;
   margin-top:170px;
   width: 90%;
   height: 1600px;
-  top:1500px;
+  top:1250px;
   left: 20px;
   position: absolute;
   z-index: 2;
@@ -2218,8 +2218,8 @@ display: none;
 
 #purple {
   width: 736px;
-  height:1050px;
-  top: 1990px;
+  height:950px;
+  top: 1790px;
   background-color: rgb(224,27,132);
   position: absolute;
   left: 0px;
@@ -2242,11 +2242,11 @@ display: none;
 
 /*  background-color: #31592a;*/
   background-color: rgb(109, 100,232);
-  margin-top:40px;
-  width: 470px;
-  height: 945px;
+  margin-top:150px;
+  width: 600px;
+  height: 605px;
   top:80px;
-  left: 16px;
+  left: 70px;
   opacity: .7;
 /*  border: 2px solid rgba(255,255,255,1);*/
   border-radius: 3px;
@@ -2295,7 +2295,7 @@ display: none;
   opacity: 1;
   margin-top:10px;
   width: 736px;
-  top:1605px;
+  top:1305px;
   left: 5px;
   position: absolute;
   z-index: 6;
@@ -2315,11 +2315,11 @@ display: none;
 #p2 {
 
   opacity: 1;
-  margin-top:125px;
-  width: 80%;
+  margin-top:275px;
+  width: 75%;
   height: 500px;
   top:0%;
-  left: 35px;
+  left: 80px;
   position: absolute;
   z-index: 2;
   font-size: 20px;
@@ -2548,17 +2548,17 @@ display: none;
   #tag {
   position: fixed;
   z-index: 20;
-  width: 105px;
-  height:40px;
-  left: -37px;
+  width: 185px;
+  height:70px;
+  left: -58px;
   background-color: rgba(0,0,0,.8);
-  margin-top: 360px;
+  margin-top: 540px;
   border-radius: 2px;
   font-family: "Raleway";
   color:white;
-  font-size: 10px;
+  font-size: 18px;
   padding-top: 6px;
-  padding-left: 7px;
+  padding-left: 15px;
   transform: rotate(-90deg);
 /*  transform-origin: left top 0;*/
 
@@ -2579,7 +2579,7 @@ display: none;
 .intro-section{
   opacity: 1;
   width: 414px;
-  height: 670px;
+  height: 700px;
   min-height: 710px;
   margin-bottom: -487px;
   opacity: 1;
@@ -2725,7 +2725,7 @@ display: none;
   margin-top:0px;
   width: 100%;
   height: 280px;
-  top:190px;
+  top:240px;
   left: 0;
   opacity: 0.3;
 
@@ -2813,7 +2813,7 @@ display: none;
   margin-top:0px;
   width: 90%;
   height: 1470px;
-  top:200px;
+  top:250px;
   left: 20px;
   position: absolute;
   z-index: 2;
@@ -2830,7 +2830,7 @@ display: none;
   opacity: 1;
   margin-top:10px;
   width: 414px;
-  top:120px;
+  top:170px;
   left: 5px;
   position: absolute;
   z-index: 2;
