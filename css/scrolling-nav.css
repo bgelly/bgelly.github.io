@@ -2440,21 +2440,21 @@ width: 230px;
 
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 320px) {
 /*@media only screen and (max-width: 767px) {*/
 .intro-section{
   opacity: 1;
-  width: 350px;
-  height: 680px;
+  width: 320px;
+  height: 670px;
   min-height: 710px;
-  margin-bottom: -475px;
+  margin-bottom: -487px;
   opacity: 1;
 }
 
     .about-section {
-    width: 350px;
+    width: 320px;
     min-height: 340px;
-    height: 2802px;
+    height: 2822px;
     background-color: rgb(109,100,232);
 /*    text-shadow: 2px 2px 2px rgba(109, 100, 232, 1);*/
 
@@ -2472,22 +2472,22 @@ width: 230px;
   }
 
   #img3 {
-    left:-220%;
-    width: 506%;
+    left:-250%;
+    width: 572%;
   }
 
   #myCarousel {
     height: 143px;
     top: 64px;
     left: 32px;
-    width: 255px;
+    width: 235px;
     display: none;
   }
 
     .services-section {
-    width: 350px; 
-    min-height: 730px;
-    height: 1030px;
+    width: 320px; 
+    min-height: 1070px;
+    height: 1070px;
     background-color: white;
 /*    margin-bottom: -500px;*/
 
@@ -2538,9 +2538,9 @@ width: 230px;
 }
 #grad {
   position: absolute;
-  top: 1987px;
+  top: 2010px;
   left: 0px;
-  width: 350px;
+  width: 320px;
   height: 150px;
   z-index: 5;
 
@@ -2553,11 +2553,12 @@ width: 230px;
 
 #grad2 {
   position: absolute;
-  top: 215px;
+  top: 190px;
   left: 0px;
-  width: 350px;
+  width: 320px;
   height: 150px;
   z-index: 1;
+
 
     height: 80px;
     background: -webkit-linear-gradient(top, rgba(109,100,232,0), rgba(109,100,232,1)); /* For Safari 5.1 to 6.0 */
@@ -2567,9 +2568,9 @@ width: 230px;
 }
 #grad3 {
   position: absolute;
-  top: 3255px;
+  top: 3265px;
   left: 0px;
-  width: 350px;
+  width: 320px;
   height: 150px;
   z-index: 5;
 
@@ -2634,9 +2635,9 @@ width: 230px;
 }  
 
 #purple {
-  width: 350px;
+  width: 320px;
   height:1200px;
-  top: 2107px;
+  top: 2130px;
   background-color: rgb(224,27,132);
   position: absolute;
   left: 0px;
@@ -2644,9 +2645,9 @@ width: 230px;
 } 
 
 #purple2 {
-  width: 350px;
+  width: 320px;
   height:173px;
-  top: 295px;
+  top: 270px;
   background-color: rgb(109, 100,232);
   position: absolute;
   left: 0px;
@@ -2659,8 +2660,8 @@ width: 230px;
 /*  background-color: #31592a;*/
   background-color: rgb(109, 100,232);
   margin-top:40px;
-  width: 300px;
-  height: 905px;
+  width: 280px;
+  height: 945px;
   top:80px;
   left: 25px;
   opacity: .7;
@@ -2691,7 +2692,7 @@ width: 230px;
 #heading5 {
   opacity: 1;
   margin-top:10px;
-  width: 350px;
+  width: 320px;
   top:120px;
   left: 5px;
   position: absolute;
@@ -2710,7 +2711,7 @@ width: 230px;
 #heading6 {
   opacity: 1;
   margin-top:10px;
-  width: 350px;
+  width: 320px;
   top:1735px;
   left: 5px;
   position: absolute;
@@ -2761,7 +2762,7 @@ width: 230px;
   position:fixed;
   z-index: 30;
 
-  width: 160px;
+  width: 140px;
 
 }
 .navbar-collapse {
@@ -2780,8 +2781,8 @@ width: 230px;
 }
 
   .btn {
-  margin-top:320px;
-  margin-left: -413px;
+  margin-top:300px;
+  margin-left: -435px;
   font-size: 45px;
   z-index: 5;
 
@@ -2789,8 +2790,8 @@ width: 230px;
 }
 
 .menuarrow{
-  margin-top: 354px;
-  margin-left: -385px;
+  margin-top: 334px;
+  margin-left: -406px;
   z-index: 2;
   font-size: 38px;
 
@@ -2908,9 +2909,9 @@ width: 230px;
   }
 
   #slidestill {
-    width: 70%;
+    width: 72%;
     font-size: 19px;
-    margin-left: 10.5%;
+    margin-left: 9.2%;
     color: white;
     font-weight: 300;
     letter-spacing: .085vw;
@@ -2919,18 +2920,20 @@ width: 230px;
     /*font-style: "Raleway-Thin";*/
     opacity:.9999999;
     /*bottom: 100px;*/
-    margin-top: 67px;
+    margin-top: 61px;
     z-index: 3;
     position: absolute;
+    line-height: 24px;
+
   }
 
   #imggg{
     margin-top:-0px;
     z-index: 2;
-    height: 144px;
-    top: 64px;
-    left: 47px;
-    width: 255px;
+    height: 131px;
+    top: 59px;
+    left: 43px;
+    width: 233px;
     position: absolute;
     opacity: .8;
     display: block;
