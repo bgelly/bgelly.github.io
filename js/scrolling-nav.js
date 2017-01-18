@@ -57,8 +57,8 @@ $(".btn").click(function(){
 
 if (document.documentElement.clientWidth <= 767) {
     $(".btn").hover(function(){
-    $(this).css("font-size", "34px");
-    $('.menuarrow').css("font-size", "34px");
+    $(this).css("font-size", "47px");
+    $('.menuarrow').css("font-size", "40px");
     $(this).css("transition", ".5s");
     $('.menuarrow').css("transition", ".5s");
     $(this).css("color", "rgb(109, 100, 232)");
@@ -67,17 +67,17 @@ if (document.documentElement.clientWidth <= 767) {
     }, function(){
     $(this).css("color", 'rgb(224, 27,132)');
     $('.menuarrow').css("color",'rgb(224, 27,132)');
-    $(this).css("font-size", "28px");
-    $('.menuarrow').css("font-size", "30px");
+    $(this).css("font-size", "45px");
+    $('.menuarrow').css("font-size", "38px");
     // $(this).css("transition", ".5s");
     // $('.menuarrow').css("transition", ".5s");
 });
 
 $(".btn").click(function(){
   $(".btn").removeClass("active2");
-  $(this).addClass("active2");
+  // $(this).addClass("active3");
   $(".menuarrow").removeClass("active2");
-  $(".menuarrow").addClass("active2");
+  // $(".menuarrow").addClass("active3");
 
     // }, function(){
     // $(".btn").addClass("active3");

@@ -12,6 +12,9 @@ body {
 /*    height: 100%;*/
 
 }
+#imggg {
+  display: none;
+}
 
 .page-containerr {
 width: 100%;
@@ -23,6 +26,16 @@ z-index: 200;
 
 
 }
+  #hr{
+    
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(224, 27, 132);
+    margin: 1em 0;
+    padding: 0; 
+
+  }
 
 @font-face {
     font-family: 'Raleway', sans-serif;
@@ -247,6 +260,7 @@ of those sections to manage the look and feel of the site. */
 }
 .active2 {
   color:rgb(109, 100, 232) !important;
+
 
 
 }
@@ -615,7 +629,9 @@ opacity:.9;
 
 @media only screen and (min-width: 768px) {
 
-
+#imggg {
+  display: none;
+}
 
   .intro-section {
       width: 100%;
@@ -1039,6 +1055,7 @@ opacity:.9;
   .active2 {
       color:rgb(109, 100, 232) !important;
       background-color: transparent;
+
 
 
   }
@@ -2410,7 +2427,7 @@ width: 230px;
     .about-section {
     width: 350px;
     min-height: 340px;
-    height: 2502px;
+    height: 2802px;
     background-color: rgb(109,100,232);
 /*    text-shadow: 2px 2px 2px rgba(109, 100, 232, 1);*/
 
@@ -2494,7 +2511,7 @@ width: 230px;
 }
 #grad {
   position: absolute;
-  top: 1647px;
+  top: 1987px;
   left: 0px;
   width: 350px;
   height: 150px;
@@ -2523,7 +2540,7 @@ width: 230px;
 }
 #grad3 {
   position: absolute;
-  top: 2955px;
+  top: 3255px;
   left: 0px;
   width: 350px;
   height: 150px;
@@ -2559,7 +2576,7 @@ width: 230px;
   margin-top:180px;
   width: 100%;
   height: 270px;
-  top:1220px;
+  top:1630px;
   left: 0%;
   opacity: .3;
 
@@ -2573,8 +2590,8 @@ width: 230px;
   opacity: 1;
   margin-top:170px;
   width: 90%;
-  height: 1000px;
-  top:1250px;
+  height: 1600px;
+  top:1650px;
   left: 20px;
   position: absolute;
   z-index: 2;
@@ -2592,7 +2609,7 @@ width: 230px;
 #purple {
   width: 350px;
   height:1200px;
-  top: 1767px;
+  top: 2107px;
   background-color: rgb(224,27,132);
   position: absolute;
   left: 0px;
@@ -2630,7 +2647,7 @@ width: 230px;
   opacity: 1;
   margin-top:0px;
   width: 90%;
-  height: 1030px;
+  height: 1470px;
   top:200px;
   left: 20px;
   position: absolute;
@@ -2667,7 +2684,7 @@ width: 230px;
   opacity: 1;
   margin-top:10px;
   width: 350px;
-  top:1335px;
+  top:1735px;
   left: 5px;
   position: absolute;
   z-index: 6;
@@ -2746,7 +2763,7 @@ width: 230px;
 
 .menuarrow{
   margin-top: 354px;
-  margin-left: -392px;
+  margin-left: -385px;
   z-index: 2;
   font-size: 38px;
 
@@ -2771,7 +2788,7 @@ width: 230px;
     /*  color: rgb(109, 100,232);*/
     font-style: italic;
     font-weight: 400;
-    text-shadow: .2vw .2vw .2vw rgba(224, 27, 132, 1);
+    text-shadow: 1px 1px 1px rgba(224, 27, 132, 1);
 
 }
   
@@ -2883,12 +2900,13 @@ width: 230px;
   #imggg{
     margin-top:-0px;
     z-index: 2;
-    height: 148px;
+    height: 144px;
     top: 64px;
     left: 47px;
     width: 255px;
     position: absolute;
     opacity: .8;
+    display: block;
   }
 
   #hr{
