@@ -2,11 +2,11 @@ html,
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 a {
-    color: yellowgreen;
+    color: #44BBF2;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -14,7 +14,7 @@ a {
 
 a:hover,
 a:focus {
-    color: forestgreen;
+    color: #44BBF2;
 }
 
 p {
@@ -28,7 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/header.jpg');
+    background-image: url('../images/rideoheadrest.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -54,14 +54,13 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: #44BBF2;
 }
 
 @media(min-width:768px) {
     header {
         min-height: 100%;
     }
-
     header .header-content {
         position: absolute;
         top: 50%;
@@ -70,17 +69,14 @@ header .header-content .header-content-inner p {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
-
-	header .header-content .header-content-inner h1 {
-    	font-size: 100px;
-		}
-
+    header .header-content .header-content-inner h1 {
+        font-size: 100px;
+    }
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
@@ -95,24 +91,24 @@ header .header-content .header-content-inner p {
 }
 
 .intro {
-	color: #fff;
-    background-color: yellowgreen;
+    color: #fff;
+    background-color: #44BBF2;
     padding: 70px 0;
     text-align: center;
 }
 
 .content {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .content-2 {
-	color: #fff;
+    color: #fff;
     background-color: #222;
 }
 
 .content-3 {
-	padding: 20px 0 40px;
-	text-align: center;
+    padding: 20px 0 40px;
+    text-align: center;
 }
 
 .promo,
@@ -122,7 +118,7 @@ header .header-content .header-content-inner p {
 .promo a:hover,
 .promo a:active {
     color: white;
-	text-shadow: 0px 0px 40px black;
+    text-shadow: 0px 0px 40px black;
     text-decoration: none;
 }
 
@@ -132,12 +128,6 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
-.promo-item:hover {
-    background-size: 110%; 
-    border: 10px solid rgba(255,255,255,0.3);
-    line-height: 160px;
-}
-
 .promo-item h3 {
     font-size: 40px;
     display: inline-block;
@@ -145,56 +135,59 @@ header .header-content .header-content-inner p {
 }
 
 .item-1 {
-	background: url('../images/writing.jpg');
-	}
-	
+    background: url('../images/stocknyc.jpg');
+}
+
 .item-2 {
-	background: url('../images/concert.jpg');
-	}
-	
+    background: url('../images/concert.jpg');
+}
+
 .item-3 {
-	background: url('../images/pencil_sharpener.jpg');
-	}
-		
+    background: url('../images/fidibackground.jpg');
+}
+
 .item-1,
 .item-2,
 .item-3 {
-	background-size: cover;
-	background-position: 50% 50%;
-	}
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
 .page-footer {
-	text-align: center;
-	}
+    text-align: center;
+    background-color: white;
+    color: black;
+}
 
 .page-footer .contact {
-	padding: 100px 0;
-	background-color: yellowgreen;
-	color: #fff;
-	}
+    padding: 55px 0;
+    background-color: #44BBF2;
+    color: #fff;
+}
 
 .page-footer .contact p {
-	font-size: 22px;
-	font-weight: 300;
-	}
-	
-.content-3 .glyphicon,	
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.content-3 .glyphicon,
 .page-footer .contact .glyphicon {
-	font-size: 32px;
-	font-weight: 700;
-	}
-		
+    font-size: 32px;
+    font-weight: 700;
+}
+
 .page-footer .small-print {
-	padding: 50px 0 40px;
-	font-weight: 300;
-	}
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
 
 .text-light {
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
+    border-color: rgba(34, 34, 34, .05);
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -202,7 +195,7 @@ header .header-content .header-content-inner p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: yellowgreen;
+    color: #44BBF2;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -217,12 +210,12 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: yellowgreen;
+    color: #44BBF2;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: yellowgreen!important;
+    color: #44BBF2!important;
     background-color: transparent;
 }
 
@@ -233,54 +226,45 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: rgba(255, 255, 255, .3);
         background-color: transparent;
     }
-
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(255, 255, 255, .7);
         letter-spacing: 0.5em;
     }
-
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #44BBF2;
     }
-
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: rgba(255, 255, 255, .7);
     }
-
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: #fff;
     }
-
     .navbar-default.affix {
-        border-color: #fff;
-        background-color: #fff;
-        box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.1);
+        border-color: #a1a2a3;
+        background-color: #dedfe0;
+        box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
     }
-
     .navbar-default.affix .navbar-header .navbar-brand {
         letter-spacing: 0;
-        color: yellowgreen;
+        color: #44BBF2;
     }
-
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #44BBF2;
     }
-
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: black;
     }
-
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: yellowgreen;
+        color: #44BBF2;
     }
 }
 
@@ -338,9 +322,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: yellowgreen;
+    border-color: #44BBF2;
     color: #fff;
-    background-color: yellowgreen;
+    background-color: #44BBF2;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -381,15 +365,14 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: yellowgreen;
-    background-color: yellowgreen;
+    border-color: #44BBF2;
+    background-color: #44BBF2;
 }
 
 .btn-primary .badge {
-    color: yellowgreen;
+    color: #44BBF2;
     background-color: #fff;
 }
-
 
 .btn {
     border-radius: 300px;
@@ -423,9 +406,79 @@ img::-moz-selection {
 }
 
 .text-primary {
-    color: yellowgreen;
+    color: #44BBF2;
+}
+
+.centercontent {
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.centerbutton {
+    margin: 0 auto;
 }
 
 .bg-primary {
-    background-color: yellowgreen;
+    background-color: #44BBF2;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.getstarted {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#subheader {
+    font-size: 180%;
+}
+
+#advertiserimage {
+    margin-top: 18%;
+}
+
+#driverimage {
+    margin-top: 15%;
+}
+
+#driverbutton:hover {
+    background-color: #44BBF2;
+    border-color: #44BBF2;
+    color: white;
+}
+
+#driverlist {
+    padding-bottom: 10px;
+}
+
+#advertiserbutton:hover {
+    background-color: #329ed1;
+    border-color: #329ed1;
+    color: black;
+}
+
+#contactheader {
+    padding-bottom: 50px;
+}
+
+#contactrow {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#drivebuttondiv {
+    padding-bottom: 40px;
+}
+
+#aboutheader {
+    padding-bottom: 50px;
+}
+
+#aboutrow {
+    padding-bottom: 50px;
 }
