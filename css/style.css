@@ -12,8 +12,7 @@ a {
     transition: all .35s;
 }
 
-a:hover,
-a:focus {
+a:hover{
     color: #44BBF2;
 }
 
@@ -51,7 +50,7 @@ header .header-content .header-content-inner h1 {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 180px;
+    margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
     color: #44BBF2;
@@ -68,6 +67,7 @@ header .header-content .header-content-inner p {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+            bottom: -170px;
     }
     header .header-content .header-content-inner {
         margin-right: auto;
@@ -76,12 +76,14 @@ header .header-content .header-content-inner p {
     }
     header .header-content .header-content-inner h1 {
         font-size: 100px;
+        margin-bottom: 0px;
     }
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
         font-size: 18px;
+        margin-bottom: 20px;
     }
 }
 
@@ -112,52 +114,11 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
-.promo,
-.promo h3,
-.promo a:link,
-.promo a:visited,
-.promo a:hover,
-.promo a:active {
-    color: white;
-    text-shadow: 0px 0px 40px black;
-    text-decoration: none;
-}
-
-.promo-item {
-    height: 200px;
-    line-height: 180px;
-    text-align: center;
-}
-
-.promo-item h3 {
-    font-size: 40px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.item-1 {
-    background: url('../images/stocknyc.jpg');
-}
-
-.item-2 {
-    background: url('../images/concert.jpg');
-}
-
-.item-3 {
-    background: url('../images/fidibackground.jpg');
-}
-
-.item-1,
-.item-2,
-.item-3 {
-    background-size: cover;
-    background-position: 50% 50%;
-}
 
 .page-footer {
     text-align: center;
-    background-color: #dedfe0;
-    color: #222;
+    background-color: #222;
+    color: white;
 }
 
 .page-footer .contact {
@@ -202,11 +163,13 @@ header .header-content .header-content-inner p {
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
+    outline: none;
 }
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     color: #222;
+    outline:none;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -218,6 +181,7 @@ header .header-content .header-content-inner p {
 .navbar-default .nav>li.active>a:focus {
     color: #44BBF2!important;
     background-color: transparent;
+    outline:none;
 }
 
 .navbar-default .nav > li.active>a:hover,
@@ -231,7 +195,7 @@ header .header-content .header-content-inner p {
         background-color: transparent;
     }
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255, 255, 255, .7);
+        color: #44BBF2;
         letter-spacing: 0.5em;
     }
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -253,7 +217,7 @@ header .header-content .header-content-inner p {
     }
     .navbar-default.affix .navbar-header .navbar-brand {
         letter-spacing: 0;
-        color: #44BBF2;
+        color: #222;
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
@@ -418,6 +382,10 @@ img::-moz-selection {
     transform: translate(-50%, -50%);
 }
 
+.contactform {
+    display: block !important;
+}
+
 .centerbutton {
     margin: 0 auto;
 }
@@ -452,9 +420,10 @@ img::-moz-selection {
 }
 
 #driverbutton:hover {
-    background-color: #44BBF2;
-    border-color: #44BBF2;
-    color: white;
+    background-color: #329ed1;
+    border-color: #329ed1;
+    color: black;
+    text-decoration: none;
 }
 
 #driverlist {
@@ -469,14 +438,10 @@ img::-moz-selection {
     background-color: #329ed1;
     border-color: #329ed1;
     color: black;
+    text-decoration: none;
 }
 
 #contactheader {
-    padding-bottom: 50px;
-}
-
-#contactrow {
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -496,8 +461,22 @@ img::-moz-selection {
     background-color: #44BBF2;
 }
 
+#showadvertiser:hover {
+    background-color: #329ed1;
+    border-color: #329ed1;
+    color: black;
+    text-decoration: none;
+}
+
 #showdriver {
     background-color: #44BBF2;
+}
+
+#showdriver:hover {
+    background-color: #329ed1;
+    border-color: #329ed1;
+    color: black;
+    text-decoration: none;
 }
 
 #loginbutton {
