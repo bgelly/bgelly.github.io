@@ -2,7 +2,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -155,8 +155,8 @@ header .header-content .header-content-inner p {
 
 .page-footer {
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: #222;
+    color: white;
 }
 
 .page-footer .contact {
@@ -243,7 +243,7 @@ header .header-content .header-content-inner p {
     }
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: #44BBF2;
     }
     .navbar-default.affix {
         border-color: #a1a2a3;
@@ -444,7 +444,10 @@ img::-moz-selection {
 
 #driverimage {
     margin-top: 15%;
+}
 
+#driverbutton {
+    background-color: #44BBF2;
 }
 
 #driverbutton:hover {
@@ -455,6 +458,10 @@ img::-moz-selection {
 
 #driverlist {
     padding-bottom: 10px;
+}
+
+#advertiserbutton {
+    background-color: #44BBF2;
 }
 
 #advertiserbutton:hover {
@@ -482,4 +489,20 @@ img::-moz-selection {
 
 #aboutrow {
     padding-bottom: 50px;
+}
+
+#showadvertiser {
+    background-color: #44BBF2;
+}
+
+#showdriver {
+    background-color: #44BBF2;
+}
+
+#loginbutton {
+    background-color: #44BBF2;
+}
+
+#closebutton {
+    background-color: #dedfe0;
 }

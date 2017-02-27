@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Template by Quackit.com -->
-<html lang="en">
+<html lang="en" class="mdc-typography">
 
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,8 @@
     <title>Rideo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 
@@ -48,7 +49,7 @@
                         <!-- go down to about us -->
                     </li>
                     <li>
-                        <a href="#">Login</a>
+                        <a href="#" data-toggle="modal" data-target="#modal-login">Login</a>
                     </li>
                 </ul>
             </div>
@@ -62,7 +63,56 @@
             </div>
         </div>
     </header>
-    <!-- Intro Section -->
+
+    <!-- modal -->
+    <div class="modal fade modal-ext" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3 class="w-100"><i class="fa fa-user"></i> Login</h3>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class='row'>
+                        <div class="mdc-form-field col-sm-6 text-center">
+                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+                                <input id="Email" type="text" class="mdc-textfield__input">
+                                <label for="Email" class="mdc-textfield__label">
+                                    Email
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mdc-form-field col-sm-6 text-center">
+                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+                                <input id="Password" type="text" class="mdc-textfield__input">
+                                <label for="Password" class="mdc-textfield__label">
+                                    Password
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Login</button>
+                    </div>
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options text-right">
+                        <p>Not a member? <a href="#">Sign Up</a></p>
+                    </div>
+                    <button id='closebutton' class="mdc-button mdc-button--raised" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
     <section class="intro">
         <div class="container">
             <div class="row">
@@ -102,10 +152,10 @@
             <div class="row">
                 <div class='col-sm-3'></div>
                 <div class='col-sm-3'>
-                    <button id='showdriver' href="#" class="btn btn-primary btn-lg centerbutton">Drivers</button>
+                        <button id='showdriver' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Drivers</button>
                 </div>
                 <div class='col-sm-3'>
-                    <button id='showadvertiser' href="#" class="btn btn-primary btn-lg centerbutton">Advertisers</button>
+                    <button id='showadvertiser' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Advertisers</button>
                 </div>
                 <div class='col-sm-3'></div>
             </div>
@@ -120,7 +170,7 @@
                     <p><i class="glyphicon glyphicon-stats"></i> Tracking on customer engagement through special offers, discounts and loyalty points that are unique to Rideo's plaform.</p>
                     <p><i class="glyphicon glyphicon-envelope"></i> To join our 2017 launch or for more information, contact us at info@driverideo.com</p>
                     <div id='drivebuttondiv' class='text-center'>
-                        <a href="pages/advertisers.html" id='advertiserbutton' class="btn btn-primary btn-lg centerbutton">Learn More</a>
+                        <a href="pages/advertisers.html" id='advertiserbutton' class="mdc-button mdc-button--raised mdc-button--primary">Learn More</a>
                     </div>
                 </div>
                 <div id='driverinfo' class='col-sm-6'>
@@ -133,15 +183,14 @@
                     <p><i class="glyphicon glyphicon-thumbs-up"></i> As independent contractors, rideshare drivers and are free to make their own decisions as business owners.</p>
                     <p><i class="glyphicon glyphicon-envelope"></i> To join our 2017 launch or for more information, contact us at info@driverideo.com</p>
                     <div id='drivebuttondiv' class='text-center'>
-                        <a href="pages/drivers.html" id='driverbutton' class="btn btn-default btn-lg">Learn More</a>
+                        <a href="pages/drivers.html" id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary">Learn More</a>
                     </div>
                 </div>
                 <div class='col-sm-3'></div>
             </div>
         </div>
     </section>
-
-    <section class="content content-3 getstarted">
+    <section class="content content-2 getstarted">
         <div class="container">
             <h2 id='contactheader' class="section-header">Get Started Today.</h2>
             <div id='contactrow' class='row'>
@@ -162,7 +211,7 @@
             </div>
         </div>
     </section>
-    <section class="content content-2">
+    <section class="content content-3">
         <div class="container">
             <h2 id='aboutheader' class="section-header text-center">About Us</h2>
             <div id='aboutrow' class="row">
@@ -190,6 +239,10 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script>
+    mdc.autoInit()
+    </script>
 </body>
 
 </html>

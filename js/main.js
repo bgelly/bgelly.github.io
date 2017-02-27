@@ -10,4 +10,8 @@ $(document).ready(() => {
     $('#driverinfo').hide();
     $('#advertiserinfo').show();
   });
+
+  $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
 });
