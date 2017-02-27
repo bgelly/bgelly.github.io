@@ -83,7 +83,7 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 80%;
         font-size: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 
@@ -100,7 +100,7 @@ header .header-content .header-content-inner p {
 }
 
 .content {
-    padding: 50px 0;
+    padding: 40px 0;
     background-color: #dedfe0;
 }
 
@@ -111,7 +111,7 @@ header .header-content .header-content-inner p {
 
 .content-3 {
     padding: 20px 0 40px;
-    text-align: center;
+    background-color: #44BBF2;
 }
 
 
@@ -230,6 +230,23 @@ header .header-content .header-content-inner p {
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #44BBF2;
+    }
+}
+
+@media(max-width:768px) {
+    #showdriver {
+        margin: 0 auto;
+    }
+    #showadvertiser {
+        margin: 0 auto;
+    }
+    #advertiserinfo {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #driverinfo {
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
@@ -384,6 +401,15 @@ img::-moz-selection {
 
 .contactform {
     display: block !important;
+    width: 100%;
+}
+
+.formtext {
+    width: 100%;
+}
+
+#contactinput {
+    margin-top: 20px;
 }
 
 .centerbutton {
@@ -511,6 +537,20 @@ img::-moz-selection {
     text-decoration: none;
 }
 
+.carouselimage {
+    width: 400px;
+    height: 220px !important;
+    margin: 0 auto;
+}
+
+#carousel {
+    margin-top: 20px;
+}
+
+#indicators {
+    bottom: 0px;
+}
+
 .more-less {
     float: right;
     color: #212121;
@@ -522,4 +562,28 @@ img::-moz-selection {
 
 .collapse {
     color: #222;
+}
+
+#contactrow {
+    background-color: white;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.contactbutton {
+    padding-bottom: 15px;
+}
+
+#advertiserinfo {
+    background-color: #222;
+    color: #dedfe0;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+#driverinfo {
+    background-color: #222;
+    color: #dedfe0;
+    margin-top: 5px;
+    border: 1px solid black;
 }
