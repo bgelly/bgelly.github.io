@@ -51,7 +51,7 @@ header .header-content .header-content-inner h1 {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
+    margin-bottom: 180px;
     font-size: 16px;
     font-weight: 300;
     color: #44BBF2;
@@ -59,7 +59,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 100%;
+        min-height: 80%;
     }
     header .header-content {
         position: absolute;
@@ -99,6 +99,7 @@ header .header-content .header-content-inner p {
 
 .content {
     padding: 50px 0;
+    background-color: #dedfe0;
 }
 
 .content-2 {
@@ -155,8 +156,8 @@ header .header-content .header-content-inner p {
 
 .page-footer {
     text-align: center;
-    background-color: #222;
-    color: white;
+    background-color: #dedfe0;
+    color: #222;
 }
 
 .page-footer .contact {
@@ -505,4 +506,41 @@ img::-moz-selection {
 
 #closebutton {
     background-color: #dedfe0;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+.collapse {
+    color: #222;
 }
