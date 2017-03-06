@@ -6,11 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>Rideo</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/about.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="./material-components-web/dist/material-components-web.css">
+    <link rel="stylesheet" href="../js/material-components-web/dist/material-components-web.css">
 </head>
 
 <body>
@@ -33,16 +35,13 @@
                         <a class='page-scroll' href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="pages/advertisers.html">Advertisers</a>
+                        <a href="advertisers.html">Advertisers</a>
                     </li>
                     <li>
-                        <a href="pages/drivers.html">Drivers</a>
+                        <a href="drivers.html">Drivers</a>
                     </li>
                     <li>
                         <a href="#">Pricing</a>
-                    </li>
-                    <li>
-                        <a class='page-scroll' href="#support">Support</a>
                     </li>
                     <li>
                         <a class='page-scroll' href="#about">About</a>
@@ -57,72 +56,10 @@
     <header id='home'>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Rideo</h1>
-                <p id='subheader'>New York City's Rideshare Advertising Platform</p>
-                <button id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">JOIN TODAY</button>
+                <h1 id='abouttitle'>About Us</h1>
             </div>
         </div>
     </header>
-    <!-- modal FOR CALL TO ACTION -->
-    <div class="modal fade modal-ext" id="modal-join" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <!--Content-->
-            <div class="modal-content">
-                <!--Header-->
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h3 class="w-100"><i class="fa fa-user"></i>Rideshare Advertising for Everyone</h3>
-                </div>
-                <!--Body-->
-                <div class="modal-body">
-                    <div class='row'>
-                        <div class="mdc-form-field">
-                            <div class="mdc-radio" data-demo-no-js>
-                                <input class="mdc-radio__native-control" type="radio" id="ex1-radio2" name="ex1">
-                                <div class="mdc-radio__background">
-                                    <div class="mdc-radio__outer-circle"></div>
-                                    <div class="mdc-radio__inner-circle"></div>
-                                </div>
-                            </div>
-                            <label id="ex1-radio2-label" for="ex1-radio2">Driver</label>
-                        </div>
-                        <div class="mdc-form-field">
-                            <div class="mdc-radio" data-demo-no-js>
-                                <input class="mdc-radio__native-control" type="radio" id="ex1-radio2" name="ex1">
-                                <div class="mdc-radio__background">
-                                    <div class="mdc-radio__outer-circle"></div>
-                                    <div class="mdc-radio__inner-circle"></div>
-                                </div>
-                            </div>
-                            <label id="ex1-radio2-label" for="ex1-radio2">Advertiser</label>
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class="mdc-form-field col-sm-6 text-center">
-                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
-                                <input id="Email" type="text" class="mdc-textfield__input">
-                                <label for="Email" class="mdc-textfield__label">
-                                    Email
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Join</button>
-                    </div>
-                </div>
-                <!--Footer-->
-                <div class="modal-footer">
-                    <button id='closebutton' class="mdc-button mdc-button--raised" data-dismiss="modal">
-                        Close
-                    </button>
-                </div>
-            </div>
-            <!--/.Content-->
-        </div>
-    </div>
     <!-- modal FOR LOGIN -->
     <div class="modal fade modal-ext" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -174,168 +111,23 @@
     </div>
     <section class="content content-2">
         <div class="container">
-            <h2 class='text-center'>Why Choose Rideo?</h2>
-            <div class="row">
-                <div class='col-sm-3'></div>
-                <div class='col-sm-3'>
-                    <button id='showdriver' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Drivers</button>
+            <div id='aboutrow' class="row">
+                <div class='col-md-2'></div>
+                <div class='col-md-8'>
+                    <p>Rideo was founded in 2016 in Greenpoint, Brooklyn by three friends, Bennett, Dillon and Koji, with the goal of enabling small New York City businesses to show what is great about their product or service in a unique way. We created a platform that enables our partners to reach a previously untapped audience, passengers in rideshare vehicles, while generating extra income for drivers.</p>
+                    <br>
+                    <p>
+                        Rideo is launching its first round of businesses and drivers in Spring 2017. Our first group of advertising partners will be featured on our website and receive a discounted price. Message us at info@driverideo.com or call/text (414) 238 4746 to get more information!
+                    </p>
                 </div>
-                <div class='col-sm-3'>
-                    <button id='showadvertiser' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Advertisers</button>
-                </div>
-                <div class='col-sm-3'></div>
+                <div class='col-md-2'></div>
             </div>
             <div class="row">
-                <div class='col-sm-3'></div>
-                <div id='advertiserinfo' class='col-sm-6'>
-                    <h4><strong>Smart Advertising.</strong></h4>
-                    <p class='lead'>Rideo provides advertising partners with data and analytics to ensure every ad counts, including:
-                    </p>
-                    <p><i class="glyphicon glyphicon-eye-open"></i> The number of unique views your ad received.</p>
-                    <p><i class="glyphicon glyphicon-map-marker"></i> Data on the geographic location of passengers when presented with your ad, which are guaranteed to be within a radius of your business.</p>
-                    <p><i class="glyphicon glyphicon-stats"></i> Tracking on customer engagement through special offers, discounts and loyalty points that are unique to Rideo's plaform.</p>
-                    <p><i class="glyphicon glyphicon-envelope"></i> To join our 2017 launch or for more information, contact us at info@driverideo.com</p>
-                    <div id='drivebuttondiv' class='text-center'>
-                        <a href="pages/advertisers.html" id='advertiserbutton' class="mdc-button mdc-button--raised mdc-button--primary">Learn More</a>
-                    </div>
+                <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6">
+
                 </div>
-                <div id='driverinfo' class='col-sm-6'>
-                    <h4><strong>Smart Driving.</strong></h4>
-                    <p class="lead">
-                        Join the growing number of rideshare vehicle drivers earning extra income with no extra work.
-                    </p>
-                    <p><i class="glyphicon glyphicon-usd"></i> Drivers can expect to earn over $300 per month.</p>
-                    <p><i class="glyphicon glyphicon-road"></i> Uber has explicitly stated they will not penalize you or deactivate your account.</p>
-                    <p><i class="glyphicon glyphicon-thumbs-up"></i> As independent contractors, rideshare drivers and are free to make their own decisions as business owners.</p>
-                    <p><i class="glyphicon glyphicon-envelope"></i> To join our 2017 launch or for more information, contact us at info@driverideo.com</p>
-                    <div id='drivebuttondiv' class='text-center'>
-                        <a href="pages/drivers.html" id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary">Learn More</a>
-                    </div>
-                </div>
-                <div class='col-sm-3'></div>
-            </div>
-        </div>
-    </section>
-    <section id='support' class="content">
-        <div class="container">
-            <h2 class='text-center'>FAQ</h2>
-            <div class='row'>
-                <div class="container demo">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                How does Rideo advertising work?
-                            </a>
-                        </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                Is Rideo available in my city?
-                            </a>
-                        </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                Do I have to sign a contract and commit to using Rideo for a certain amount of time?
-                            </a>
-                        </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                What tablets does Rideo work with?
-                            </a>
-                        </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                What if I no longer want to use Rideo?
-                            </a>
-                        </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- panel-group -->
-                </div>
-                <h3 class='text-center'>CONTACT US</h3>
-                <div id='contactrow' class='row'>
-                    <div class='col-sm-3'></div>
-                    <div class='col-sm-6'>
-                        <div class="mdc-form-field contactform text-center">
-                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
-                                <input id="Email" type="text" class="mdc-textfield__input">
-                                <label for="Email" class="mdc-textfield__label">
-                                    Name (Required)
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mdc-form-field contactform text-center">
-                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
-                                <input id="Password" type="text" class="mdc-textfield__input">
-                                <label for="Password" class="mdc-textfield__label">
-                                    Email (required)
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mdc-form-field contactform text-center">
-                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
-                                <input id="Password" type="text" class="mdc-textfield__input">
-                                <label for="Password" class="mdc-textfield__label">
-                                    Subject
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mdc-textfield mdc-textfield--multiline contactform text-center" data-demo-no-auto-js>
-                            <textarea class="mdc-textfield__input" id="css-only-multiline" rows="8" cols="40" placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class='col-sm-3'></div>
-                </div>
-                <div class="text-center">
-                    <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Send</button>
+                <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6">
+
                 </div>
             </div>
         </div>
@@ -347,11 +139,11 @@
             </div>
         </div>
     </footer>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/main.js"></script>
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script>
     mdc.autoInit()

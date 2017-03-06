@@ -1,0 +1,36 @@
+header {
+    background-image: url('../images/aboutbackground.jpg');
+}
+
+.contactsrow {
+    margin-bottom: 10%;
+}
+
+.nametitle {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.rideodescription {
+  font-weight: 300;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.aboutcontent {
+    background-color: white;
+    color: black;
+}
+
+.description {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: grey;
+    font-weight: 300;
+}
+
+#abouttitle {
+    padding-top: 15%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
