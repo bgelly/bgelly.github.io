@@ -11,9 +11,12 @@ header {
     font-weight: 700;
 }
 
+.rideoteam {
+  margin-bottom: 20px;
+}
+
 .rideodescription {
   font-weight: 300;
-  margin-top: 5%;
   margin-bottom: 5%;
 }
 
