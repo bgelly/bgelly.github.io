@@ -196,7 +196,7 @@ header .header-content .header-content-inner p {
         background-color: transparent;
     }
     .navbar-default .navbar-header .navbar-brand {
-        color: #44BBF2;
+        color: white;
         letter-spacing: 0.5em;
     }
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -205,7 +205,8 @@ header .header-content .header-content-inner p {
     }
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255, 255, 255, .7);
+        /*color: rgba(255, 255, 255, .7);*/
+        color: white;
     }
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
@@ -407,6 +408,7 @@ img::-moz-selection {
 .contactform {
     display: block !important;
     width: 100%;
+    font-size: 200%;
 }
 
 .formtext {
@@ -415,6 +417,31 @@ img::-moz-selection {
 
 #contactinput {
     margin-top: 20px;
+    font-size: 100%;
+}
+
+#submitname {
+    font-size: 150%;
+}
+
+#submitemail {
+    font-size: 150%;
+}
+
+#submitsubject {
+    font-size: 150%;
+}
+
+#Name {
+    width: 100%;
+}
+
+#Email {
+    width: 100%;
+}
+
+#Subject {
+    width: 100%;
 }
 
 .centerbutton {
@@ -482,7 +509,7 @@ img::-moz-selection {
 }
 
 #drivebuttondiv {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 #aboutheader {
@@ -502,7 +529,7 @@ img::-moz-selection {
 }
 
 #showadvertiser:hover {
-    background-color: #222;
+    background-color: #44BBF2;
     border-color: #329ed1;
     color: white;
     text-decoration: none;
@@ -517,7 +544,7 @@ img::-moz-selection {
 }
 
 #showdriver:hover {
-    background-color: #222;
+    background-color: #44BBF2;
     border-color: #329ed1;
     color: white;
     text-decoration: none;
@@ -589,7 +616,6 @@ img::-moz-selection {
     background-color: white;
     margin-left: 1px;
     margin-right: 1px;
-    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -601,23 +627,71 @@ img::-moz-selection {
     background-color: #222;
     color: #dedfe0;
     margin-top: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1px solid #222;
+    border-radius: 10px;
 }
 
 #driverinfo {
     background-color: #222;
     color: #dedfe0;
     margin-top: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1px solid #222;
+    border-radius: 10px;
 }
 
 #getstartedheader {
     font-weight: bold;
+    color: white;
 }
 
 #contactus {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#emailfield {
+    width: 100%;
+    font-size: 200%;
+}
+
+#passwordfield {
+    width: 100%;
+    font-size: 200%;
+    margin-left: 0;
+}
+
+.contactformsizing {
+    font-size: 200%;
+}
+
+#faqtitle {
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+#signup {
+    margin-right: 22%;
+}
+
+.modal-header {
+    padding: 8px;
+}
+
+#callemailinput {
+    width: 100%;
+    margin-left: 5%;
+    font-size: 200%;
+}
+
+#ex1-radio2-label {
+    font-size: 200%;
+    font-weight: 200;
+}
+
+#infographic {
+    display: block;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
 }

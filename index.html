@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>Rideo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -60,24 +61,23 @@
                 <h1>Rideo</h1>
                 <p id='subheader'>New York City's Rideshare Advertising Platform</p>
                 <button id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary joinbutton" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">JOIN TODAY</button>
-
                 <div id='myCarousel' class="carousel slide" data-ride="carousel">
-                  <ol id='indicators' class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-                  <div id='carousel' class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <img class="d-block img-fluid carouselimage" src="./images/background.jpg" alt="First slide">
+                    <ol id='indicators' class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div id='carousel' class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img class="d-block img-fluid carouselimage" src="./images/demodiagram.png" alt="First slide">
+                        </div>
+                        <div class="item">
+                            <img class="d-block img-fluid carouselimage" src="./images/demodiagram.png" alt="Second slide">
+                        </div>
+                        <div class="item">
+                            <img class="d-block img-fluid carouselimage" src="./images/demodiagram.png" alt="Third slide">
+                        </div>
                     </div>
-                    <div class="item">
-                      <img class="d-block img-fluid carouselimage" src="./images/stocknyc.jpg" alt="Second slide">
-                    </div>
-                    <div class="item">
-                      <img class="d-block img-fluid carouselimage" src="./images/aboutbackground.jpg" alt="Third slide">
-                    </div>
-                  </div>
                 </div>
             </div>
         </div>
@@ -92,41 +92,49 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h3 class="w-100"><i class="fa fa-user"></i>Rideshare Advertising for Everyone</h3>
+                    <h3 class="w-100 text-center"><i class="fa fa-user"></i>Rideshare Advertising for Everyone!</h3>
                 </div>
                 <!--Body-->
                 <div class="modal-body">
                     <div class='row'>
-                        <div class="mdc-form-field">
-                            <div class="mdc-radio" data-demo-no-js>
-                                <input class="mdc-radio__native-control" type="radio" id="ex1-radio2" name="ex1">
-                                <div class="mdc-radio__background">
-                                    <div class="mdc-radio__outer-circle"></div>
-                                    <div class="mdc-radio__inner-circle"></div>
+                        <div class='col-sm-3 col-xs-3'></div>
+                        <div class='col-sm-3 col-xs-3'>
+                            <div class="mdc-form-field joinbuttons">
+                                <div class="mdc-radio" data-demo-no-js>
+                                    <input class="mdc-radio__native-control" type="radio" id="ex1-radio2" name="ex1">
+                                    <div class="mdc-radio__background">
+                                        <div class="mdc-radio__outer-circle"></div>
+                                        <div class="mdc-radio__inner-circle"></div>
+                                    </div>
                                 </div>
+                                <label id="ex1-radio2-label" for="ex1-radio2">Driver</label>
                             </div>
-                            <label id="ex1-radio2-label" for="ex1-radio2">Driver</label>
                         </div>
-                        <div class="mdc-form-field">
-                            <div class="mdc-radio" data-demo-no-js>
-                                <input class="mdc-radio__native-control" type="radio" id="ex1-radio2" name="ex1">
-                                <div class="mdc-radio__background">
-                                    <div class="mdc-radio__outer-circle"></div>
-                                    <div class="mdc-radio__inner-circle"></div>
+                        <div class='col-sm-3 col-xs-3'>
+                            <div class="mdc-form-field joinbuttons">
+                                <div class="mdc-radio" data-demo-no-js>
+                                    <input class="mdc-radio__native-control" type="radio" id="ex1-radio2" name="ex1">
+                                    <div class="mdc-radio__background">
+                                        <div class="mdc-radio__outer-circle"></div>
+                                        <div class="mdc-radio__inner-circle"></div>
+                                    </div>
                                 </div>
+                                <label id="ex1-radio2-label" for="ex1-radio2">Advertiser</label>
                             </div>
-                            <label id="ex1-radio2-label" for="ex1-radio2">Advertiser</label>
                         </div>
+                        <div class='col-sm-3 col-xs-3'></div>
                     </div>
                     <div class='row'>
-                        <div class="mdc-form-field col-sm-6 text-center">
-                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+                        <div class='col-sm-3 col-xs-3'></div>
+                        <div id='callemailform' class="mdc-form-field col-sm-6 col-xs-6">
+                            <div id='callemailinput' class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
                                 <input id="Email" type="text" class="mdc-textfield__input">
                                 <label for="Email" class="mdc-textfield__label">
                                     Email
                                 </label>
                             </div>
                         </div>
+                        <div class='col-sm-3 col-xs-3'></div>
                     </div>
                     <div class="text-center">
                         <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Join</button>
@@ -152,21 +160,21 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h3 class="w-100"><i class="fa fa-user"></i> Login</h3>
+                    <h3 class="w-100 text-center"><i class="fa fa-user"></i><strong>Login<strong></h3>
                 </div>
                 <!--Body-->
                 <div class="modal-body">
                     <div class='row'>
-                        <div class="mdc-form-field col-sm-6 text-center">
-                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+                        <div class="mdc-form-field col-sm-6 col-xs-6">
+                            <div id='emailfield' class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
                                 <input id="Email" type="text" class="mdc-textfield__input">
                                 <label for="Email" class="mdc-textfield__label">
                                     Email
                                 </label>
                             </div>
                         </div>
-                        <div class="mdc-form-field col-sm-6 text-center">
-                            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+                        <div class="mdc-form-field col-sm-6 col-xs-6">
+                            <div id='passwordfield' class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
                                 <input id="Password" type="text" class="mdc-textfield__input">
                                 <label for="Password" class="mdc-textfield__label">
                                     Password
@@ -181,11 +189,11 @@
                 <!--Footer-->
                 <div class="modal-footer">
                     <div class="options text-right">
-                        <p>Not a member? <a href="#">Sign Up</a></p>
+                        <span id='signup'>Not a member? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal-join">Sign Up</a></span>
+                        <button id='closebutton' class="mdc-button mdc-button--raised" data-dismiss="modal">
+                            Close
+                        </button>
                     </div>
-                    <button id='closebutton' class="mdc-button mdc-button--raised" data-dismiss="modal">
-                        Close
-                    </button>
                 </div>
             </div>
             <!--/.Content-->
@@ -194,12 +202,7 @@
     <section class="content content-2">
         <div class="container">
             <h2 id='getstartedheader' class='text-center'>Why Choose Rideo?</h2>
-            <div class="row">
-                <h2 class='text-center'>HERE'S</h2>
-                <h2 class='text-center'>AN</h2>
-                <h2 class='text-center'>INFO</h2>
-                <h2 class='text-center'>GRAPHIC</h2>
-            </div>
+            <img id="infographic" src="images/demodiagram.png" align="middle" height="300">
         </div>
     </section>
     <section class="content content-3">
@@ -248,7 +251,7 @@
     </section>
     <section id='support' class="content">
         <div class="container">
-            <h2 class='text-center'>FAQ</h2>
+            <h2 id='faqtitle' class='text-center'>FAQ</h2>
             <div class='row'>
                 <div class="container demo">
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -336,24 +339,24 @@
                         <div class='col-sm-2'></div>
                         <div class='col-sm-8'>
                             <div class="mdc-form-field contactform text-center">
-                                <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                                    <input id="Email" type="text" class="mdc-textfield__input">
+                                <div id='submitname' class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                                    <input id="Name" type="text" class="mdc-textfield__input">
                                     <label for="Email" class="mdc-textfield__label">
                                         Name (Required)
                                     </label>
                                 </div>
                             </div>
                             <div class="mdc-form-field contactform text-center">
-                                <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                                    <input id="Password" type="text" class="mdc-textfield__input">
+                                <div id='submitemail' class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                                    <input id="Email" type="text" class="mdc-textfield__input">
                                     <label for="Password" class="mdc-textfield__label">
                                         Email (required)
                                     </label>
                                 </div>
                             </div>
                             <div class="mdc-form-field contactform text-center">
-                                <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                                    <input id="Password" type="text" class="mdc-textfield__input">
+                                <div id='submitsubject' class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                                    <input id="Subject" type="text" class="mdc-textfield__input">
                                     <label for="Password" class="mdc-textfield__label">
                                         Subject
                                     </label>
