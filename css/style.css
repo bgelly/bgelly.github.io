@@ -671,7 +671,7 @@ img::-moz-selection {
 }
 
 #faqtitle {
-    margin-top: -20px;
+    margin-top: -5px;
     padding-bottom: 20px;
 }
 
@@ -742,9 +742,21 @@ img::-moz-selection {
     display: block;
     background-color: #dedfe0;
     color: #222;
+    margin-top: 2%;
 }
 
 #getstartedbutton:hover {
     color: white;
     background-color: #222;
+}
+
+@media(max-width:768px) {
+    .jointodaydiv {
+        width: 90%;
+        margin: 10px;
+    }
+    .joinselectordiv {
+        width: 90%;
+        margin: 10px;
+    }
 }
