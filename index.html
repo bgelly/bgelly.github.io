@@ -60,7 +60,7 @@
             <div class="header-content-inner">
                 <h1>Rideo</h1>
                 <p id='subheader'>New York City's Rideshare Advertising Platform</p>
-                <button id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary joinbutton" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">JOIN TODAY</button>
+                <button id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary joinbutton" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">Get Started</button>
                 <!--             <div id='myCarousel' class="carousel slide" data-ride="carousel">
                     <ol id='indicators' class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -249,6 +249,75 @@
             </div>
         </div>
     </section>
+    <section id="jointoday" class="content content-4">
+        <div class="container">
+            <h2 id="getstartedheader" class="text-center">Get Started Today!</h2>
+
+            <div class="row">
+                <div class='col-md-3 col-sm-3 hidden-xs'></div>
+                <div class="joinselectordiv col-md-6 col-sm-6 text-center col-xs-12">
+                    <select id="jointodayselector" class="mdc-select col-md-6 col-sm-6 col-xs-12 text-center">
+                        <option default selected>You are a:</option>
+                        <option value="driver">Driver</option>
+                        <option value="advertiser">Advertiser</option>
+                    </select>
+                </div>
+                <div class='col-md-3 col-sm-3 hidden-xs'></div>
+            </div>
+
+            <div class="row">
+                <div class='col-md-1 col-sm-1 hidden-xs'></div>
+                <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
+                    <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                        <input id="Name" type="text" class="mdc-textfield__input">
+                        <label for="Email" class="mdc-textfield__label">
+                            Full Name
+                        </label>
+                    </div>
+                </div>
+
+                <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
+                    <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                        <input id="Name" type="text" class="mdc-textfield__input">
+                        <label for="Email" class="mdc-textfield__label">
+                            Phone Number
+                        </label>
+                    </div>
+                </div>
+                <div class='col-md-1 col-sm-1 hidden-xs'></div>
+            </div>
+
+            <div id="getstartedrow" class='row'>
+                <div class='col-md-1 col-sm-1 hidden-xs'></div>
+                <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
+                    <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                        <input id="Name" type="text" class="mdc-textfield__input">
+                        <label for="Email" class="mdc-textfield__label">
+                            Zip Code
+                        </label>
+                    </div>
+                </div>
+
+                <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
+                    <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                        <input id="Name" type="text" class="mdc-textfield__input">
+                        <label for="Email" class="mdc-textfield__label">
+                            Email Address
+                        </label>
+                    </div>
+                </div>
+                <div class='col-md-1 col-sm-1 hidden-xs'></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <button id="getstartedbutton" class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section id='support' class="content">
         <div class="container">
             <h2 id='faqtitle' class='text-center'>FAQ</h2>

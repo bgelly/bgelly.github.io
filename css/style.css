@@ -116,6 +116,12 @@ header .header-content .header-content-inner p {
     background-size: 100%;
 }
 
+.content-4 {
+    padding: 20px 0 40px;
+    background-color: #44BBF2;
+    color: #2222;
+}
+
 .page-footer {
     text-align: center;
     background-color: #222;
@@ -641,7 +647,6 @@ img::-moz-selection {
 }
 
 #getstartedheader {
-    font-weight: bold;
     color: white;
 }
 
@@ -695,4 +700,51 @@ img::-moz-selection {
     margin-right: auto;
     margin-bottom: 40px;
     margin-left: auto;
+}
+
+#getstartedheader {
+    margin-bottom: 40px;
+}
+
+#getstartedrow {
+    margin-bottom: 10px;
+}
+
+.jointodayform {
+    font-size: 150% !important;
+}
+
+#jointodayselector {
+    font-size: 120% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    /*padding: 10px;*/
+}
+
+.jointodaydiv {
+    background-color: white;
+    border: 1px solid #dedfe0;
+    border-radius: 4px;
+    margin: 0.2%;
+}
+
+.joinselectordiv {
+    margin-bottom: 6px;
+    border: 1px solid #dedfe0;
+    border-radius: 4px;
+    background-color: white;
+    padding: 10px;
+}
+
+#getstartedbutton {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #dedfe0;
+    color: #222;
+}
+
+#getstartedbutton:hover {
+    color: white;
+    background-color: #222;
 }
