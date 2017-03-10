@@ -1,3 +1,69 @@
 header {
-    background-image: url('../images/stocknyc.jpg');
+    background-image: url('../images/bridgebackground.jpg');
+}
+
+#driverboxrow {
+    margin-top: 5%;
+}
+
+.drivercontainer {
+    width: 32%;
+}
+
+@media(max-width:991px) {
+    .drivercontainer {
+        width: 50%;
+        padding-top: 25px;
+    }
+}
+
+@media(max-width:768px) {
+    .drivercontainer {
+        width: 85%;
+        padding-top: 25px;
+    }
+}
+
+.driverboxes {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.driveicons {
+  font-size: 60px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  display: block;
+}
+
+#driverbox1 {
+    margin-left: 7%;
+}
+
+#driverbox2 {
+    margin-left: 7%;
+}
+
+#driverbox3 {
+    margin-left: 7%;
+}
+
+#driverstitle {
+    padding-top: 15%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.content-drive {
+    background-image: url(../images/backgrounddark.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px 0 40px;
+    color: #222;
+}
+
+.content-drive .glyphicon,
+.page-footer .contact .glyphicon {
+    font-size: 32px;
+    font-weight: 700;
 }

@@ -13,7 +13,7 @@ $(document).ready(() => {
 
   $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').focus()
-  })
+  });
 
   function toggleIcon(e) {
     $(e.target)
@@ -38,5 +38,28 @@ $(document).ready(() => {
   $('.carousel').carousel({
     interval: 5000
   })
-});
 
+  $('#driverbox1').mouseenter(() => {
+      $('#driveicon1, #drivetitle1').css('color', '#44BBF2');
+  });
+
+  $('#driverbox1').mouseleave(() => {
+    $('#driveicon1, #drivetitle1').css('color', 'black');
+  });
+
+  $('#driverbox2').mouseenter(() => {
+    $('#driveicon2, #drivetitle2').css('color', '#44BBF2');
+  });
+
+  $('#driverbox2').mouseleave(() => {
+    $('#driveicon2, #drivetitle2').css('color', 'black');
+  });
+
+  $('#driverbox3').mouseenter(() => {
+    $('#driveicon3, #drivetitle3').css('color', '#44BBF2');
+  });
+
+  $('#driverbox3').mouseleave(() => {
+    $('#driveicon3, #drivetitle3').css('color', 'black');
+  });
+});
