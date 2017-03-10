@@ -101,7 +101,7 @@ header .header-content .header-content-inner p {
 
 .content {
     padding: 40px 0;
-    background-color: #dedfe0;
+    background-color: #ededed;
 }
 
 .content-2 {
@@ -110,10 +110,11 @@ header .header-content .header-content-inner p {
 }
 
 .content-3 {
+    background-image: url(../images/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     padding: 20px 0 40px;
-    /*background-color: #44BBF2;*/
-    background-image: url('../images/aboutbackground.jpg');
-    background-size: 100%;
+    color: #222;
 }
 
 .content-4 {
@@ -220,7 +221,7 @@ header .header-content .header-content-inner p {
     }
     .navbar-default.affix {
         border-color: #a1a2a3;
-        background-color: #dedfe0;
+        background-color: #ededed;
         box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
     }
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -528,32 +529,32 @@ img::-moz-selection {
 }
 
 #showadvertiser {
-    background-color: #dedfe0;
-    color: #222;
+    background-color: #44BBF2;
+    color: #white;
     display: block;
     margin: 0 auto;
     width: 80%;
 }
 
 #showadvertiser:hover {
-    background-color: #44BBF2;
+    background-color: #329ed1;
     border-color: #329ed1;
-    color: white;
+    color: #222;
     text-decoration: none;
 }
 
 #showdriver {
-    background-color: #dedfe0;
-    color: #222;
+    background-color: #44BBF2;
+    color: white;
     display: block;
     margin: 0 auto;
     width: 80%;
 }
 
 #showdriver:hover {
-    background-color: #44BBF2;
+    background-color: #329ed1;
     border-color: #329ed1;
-    color: white;
+    color: #222;
     text-decoration: none;
 }
 
@@ -562,7 +563,7 @@ img::-moz-selection {
 }
 
 #closebutton {
-    background-color: #dedfe0;
+    background-color: #ededed;
 }
 
 .panel-group .panel {
@@ -632,7 +633,7 @@ img::-moz-selection {
 
 #advertiserinfo {
     background-color: #222;
-    color: #dedfe0;
+    color: #ededed;
     margin-top: 5px;
     border: 1px solid #222;
     border-radius: 10px;
@@ -640,7 +641,7 @@ img::-moz-selection {
 
 #driverinfo {
     background-color: #222;
-    color: #dedfe0;
+    color: #ededed;
     margin-top: 5px;
     border: 1px solid #222;
     border-radius: 10px;
@@ -648,6 +649,10 @@ img::-moz-selection {
 
 #getstartedheader {
     color: white;
+}
+
+#getstartedtoggleheader {
+    color: #222;
 }
 
 #contactus {
@@ -723,14 +728,14 @@ img::-moz-selection {
 
 .jointodaydiv {
     background-color: white;
-    border: 1px solid #dedfe0;
+    border: 1px solid #ededed;
     border-radius: 4px;
     margin: 0.2%;
 }
 
 .joinselectordiv {
     margin-bottom: 6px;
-    border: 1px solid #dedfe0;
+    border: 1px solid #ededed;
     border-radius: 4px;
     background-color: white;
     padding: 10px;
@@ -740,7 +745,7 @@ img::-moz-selection {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-color: #dedfe0;
+    background-color: #ededed;
     color: #222;
     margin-top: 2%;
 }
