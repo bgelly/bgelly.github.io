@@ -1,0 +1,9 @@
+header {
+    background-image: url('../images/fidibackground.jpg');
+}
+
+#advertisertitle {
+  font-size: 500%;
+  margin-top: 15%;
+  margin-bottom: 2%;
+}
