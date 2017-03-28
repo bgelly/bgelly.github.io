@@ -77,3 +77,13 @@ header {
     font-size: 32px;
     font-weight: 700;
 }
+
+#postalcodeform {
+  padding-left: 4px;
+}
+
+#agreementbutton {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
