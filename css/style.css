@@ -717,6 +717,7 @@ img::-moz-selection {
 
 .jointodayform {
     font-size: 150% !important;
+    margin-top: 0 !important;
 }
 
 #jointodayselector {
