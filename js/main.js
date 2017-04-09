@@ -40,26 +40,26 @@ $(document).ready(() => {
   })
 
   $('#driverbox1').mouseenter(() => {
-      $('#driveicon1, #drivetitle1').css('color', '#44BBF2');
+      $('#driveicon1, #drivetitle1').css('color', '#7CA689');
   });
 
   $('#driverbox1').mouseleave(() => {
-    $('#driveicon1, #drivetitle1').css('color', 'black');
+    $('#driveicon1, #drivetitle1').css('color', '#221e1f');
   });
 
   $('#driverbox2').mouseenter(() => {
-    $('#driveicon2, #drivetitle2').css('color', '#44BBF2');
+    $('#driveicon2, #drivetitle2').css('color', '#7CA689');
   });
 
   $('#driverbox2').mouseleave(() => {
-    $('#driveicon2, #drivetitle2').css('color', 'black');
+    $('#driveicon2, #drivetitle2').css('color', '#221e1f');
   });
 
   $('#driverbox3').mouseenter(() => {
-    $('#driveicon3, #drivetitle3').css('color', '#44BBF2');
+    $('#driveicon3, #drivetitle3').css('color', '#7CA689');
   });
 
   $('#driverbox3').mouseleave(() => {
-    $('#driveicon3, #drivetitle3').css('color', 'black');
+    $('#driveicon3, #drivetitle3').css('color', '#221e1f');
   });
 });
