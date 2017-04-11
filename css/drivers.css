@@ -4,6 +4,7 @@ header {
 
 #driverboxrow {
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .drivercontainer {
@@ -55,9 +56,7 @@ header {
 }
 
 .content-drive {
-    background-image: url(../images/backgrounddark.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color: #4f4e4e;
     padding: 20px 0 40px;
     color: #221e1f;
 }

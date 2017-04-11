@@ -3,16 +3,16 @@
     src: url(../fonts/Pier/pier-regular.otf);
 }
 
-@font-face {
+/*@font-face {
     font-family: eskell;
     src: url(../fonts/eksell/EksellDisplayWeb-Medium.otf);
-}
+}*/
 
 html,
 body {
     width: 100%;
     height: 100%;
-    font-family: eskell;
+    font-family: pierSans;
 }
 
 a {
@@ -95,19 +95,6 @@ header .header-content .header-content-inner p {
         font-size: 18px;
         margin-bottom: 10px;
     }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: pierSans;
-}
-
-#siteNav {
-    font-family: pierSans;
 }
 
 .section-heading {
@@ -392,6 +379,10 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
+#navlogo {
+    padding-top: 8px;
+}
+
 .btn {
     border-radius: 300px;
     text-transform: uppercase;
@@ -514,8 +505,8 @@ img::-moz-selection {
 }
 
 #driverbutton:hover {
-    background-color: #329ed1;
-    border-color: #329ed1;
+    background-color: #688e74;
+    border-color: #688e74;
     color: black;
     text-decoration: none;
 }
@@ -529,8 +520,8 @@ img::-moz-selection {
 }
 
 #advertiserbutton:hover {
-    background-color: #329ed1;
-    border-color: #329ed1;
+    background-color: #688e74;
+    border-color: #688e74;
     color: black;
     text-decoration: none;
 }
@@ -560,8 +551,8 @@ img::-moz-selection {
 }
 
 #showadvertiser:hover {
-    background-color: #329ed1;
-    border-color: #329ed1;
+    background-color: #688e74;
+    border-color: #688e74;
     color: #221e1f;
     text-decoration: none;
 }
@@ -575,8 +566,8 @@ img::-moz-selection {
 }
 
 #showdriver:hover {
-    background-color: #329ed1;
-    border-color: #329ed1;
+    background-color: #688e74;
+    border-color: #688e74;
     color: #221e1f;
     text-decoration: none;
 }
@@ -681,6 +672,7 @@ img::-moz-selection {
 #contactus {
     margin-top: 40px;
     margin-bottom: 30px;
+    color: #ffffff;
 }
 
 #emailfield {
@@ -701,6 +693,7 @@ img::-moz-selection {
 #faqtitle {
     margin-top: -5px;
     padding-bottom: 20px;
+    color: #ffffff;
 }
 
 #signup {
@@ -732,6 +725,7 @@ img::-moz-selection {
 
 #getstartedheader {
     margin-bottom: 40px;
+    color: #221e1f;
 }
 
 #getstartedrow {
@@ -787,4 +781,12 @@ img::-moz-selection {
         width: 90%;
         margin: 10px;
     }
+}
+
+#driverfaq {
+    color: #7ca689;
+}
+
+#advertiserfaq {
+    color: #7ca689;
 }

@@ -40,26 +40,32 @@ $(document).ready(() => {
   })
 
   $('#driverbox1').mouseenter(() => {
-      $('#driveicon1, #drivetitle1').css('color', '#7CA689');
+    $('#driveicon1, #drivetitle1').css('color', '#7CA689');
+    $('#driverbox1').animate({ 'marginTop' : '+=20px' });
   });
 
   $('#driverbox1').mouseleave(() => {
     $('#driveicon1, #drivetitle1').css('color', '#221e1f');
+    $('#driverbox1').animate({ 'marginTop' : '-=20px' });
   });
 
   $('#driverbox2').mouseenter(() => {
-    $('#driveicon2, #drivetitle2').css('color', '#7CA689');
+    $('#driveicon2, #drivetitle2').css('color', '#F2D585');
+    $('#driverbox2').animate({ 'marginTop' : '+=20px' });
   });
 
   $('#driverbox2').mouseleave(() => {
     $('#driveicon2, #drivetitle2').css('color', '#221e1f');
+    $('#driverbox2').animate({ 'marginTop' : '-=20px' });
   });
 
   $('#driverbox3').mouseenter(() => {
-    $('#driveicon3, #drivetitle3').css('color', '#7CA689');
+    $('#driveicon3, #drivetitle3').css('color', '#D98661');
+    $('#driverbox3').animate({ 'marginTop' : '+=20px' });
   });
 
   $('#driverbox3').mouseleave(() => {
     $('#driveicon3, #drivetitle3').css('color', '#221e1f');
+    $('#driverbox3').animate({ 'marginTop' : '-=20px' });
   });
 });
