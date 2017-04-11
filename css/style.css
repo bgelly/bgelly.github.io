@@ -271,6 +271,15 @@ header .header-content .header-content-inner p {
         width: 90%;
         margin: 0 auto;
     }
+    .navbar-header {
+        background-color: #7CA689;
+    }
+    .navbar-default,
+    .navbar-collapse,
+    .navbar-default,
+    .navbar-form {
+    border-color: #7CA689;
+}
 }
 
 .btn-default {
@@ -430,6 +439,7 @@ img::-moz-selection {
     display: block !important;
     width: 100%;
     font-size: 200%;
+    padding-top: 0px
 }
 
 .formtext {
@@ -441,7 +451,15 @@ img::-moz-selection {
     font-size: 100%;
 }
 
-#submitname {
+.submitindexform {
+    font-size: 150% !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/*#submitname {
     font-size: 150%;
 }
 
@@ -451,7 +469,7 @@ img::-moz-selection {
 
 #submitsubject {
     font-size: 150%;
-}
+}*/
 
 #Name {
     width: 100%;
@@ -789,4 +807,8 @@ img::-moz-selection {
 
 #advertiserfaq {
     color: #7ca689;
+}
+
+.mdc-textfield__label-float-above {
+    color: #7CA689 !important;
 }
