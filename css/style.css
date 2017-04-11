@@ -1,8 +1,18 @@
+@font-face {
+    font-family: pierSans;
+    src: url(../fonts/Pier/pier-regular.otf);
+}
+
+@font-face {
+    font-family: eskell;
+    src: url(../fonts/eksell/EksellDisplayWeb-Medium.otf);
+}
+
 html,
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: eskell;
 }
 
 a {
@@ -85,6 +95,19 @@ header .header-content .header-content-inner p {
         font-size: 18px;
         margin-bottom: 10px;
     }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: pierSans;
+}
+
+#siteNav {
+    font-family: pierSans;
 }
 
 .section-heading {
@@ -187,7 +210,7 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #7CA689!important;
+    color: #7CA689 !important;
     background-color: transparent;
     outline: none;
 }
@@ -220,8 +243,8 @@ header .header-content .header-content-inner p {
         color: #7CA689;
     }
     .navbar-default.affix {
-        border-color: #a1a2a3;
-        background-color: #4f4e4e;
+        border-color: #7CA689;
+        background-color: #7ca686;
         box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
     }
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -230,15 +253,15 @@ header .header-content .header-content-inner p {
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #7CA689;
+        color: #ffffff;
     }
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: black;
+        color: #221e1f;
     }
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #7CA689;
+        color: #ffffff;
     }
 }
 
