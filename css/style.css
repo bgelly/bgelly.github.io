@@ -478,12 +478,28 @@ img::-moz-selection {
 .mainformlabel {
     color: white !important;
     padding-left: 20px;
-    height:  34%;
+    height:  30%;
+}
+
+.joinformlabel {
+    height: 30%;
+}
+
+.joininput {
+    width: 100%;
 }
 
 .mainforminput {
     color: white !important;
     width: 100%;
+}
+
+.textinputmain {
+    font-size: 130% !important;
+}
+
+.inputcorrect {
+    font-size: 130% !important;
 }
 
 #messagetitle {
@@ -824,12 +840,13 @@ img::-moz-selection {
     }
 }
 
-#driverfaq {
+.faqtitle {
     color: #7ca689;
+    margin-bottom: 4%;
 }
 
-#advertiserfaq {
-    color: #7ca689;
+#faqrow {
+    margin-bottom: 7%;
 }
 
 .mdc-textfield__label-float-above {

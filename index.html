@@ -275,8 +275,8 @@
                 <div class='col-md-1 col-sm-1 hidden-xs'></div>
                 <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
                     <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input id="Name" type="text" class="mdc-textfield__input">
-                        <label for="Email" class="mdc-textfield__label">
+                        <input type="text" class="mdc-textfield__input joininput inputcorrect">
+                        <label for="Email" class="mdc-textfield__label joinformlabel">
                             Full Name
                         </label>
                     </div>
@@ -284,8 +284,8 @@
 
                 <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
                     <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input id="Name" type="text" class="mdc-textfield__input">
-                        <label for="Email" class="mdc-textfield__label">
+                        <input type="text" class="mdc-textfield__input joininput inputcorrect">
+                        <label for="Email" class="mdc-textfield__label joinformlabel">
                             Phone Number
                         </label>
                     </div>
@@ -297,8 +297,8 @@
                 <div class='col-md-1 col-sm-1 hidden-xs'></div>
                 <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
                     <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input id="Name" type="text" class="mdc-textfield__input">
-                        <label for="Email" class="mdc-textfield__label">
+                        <input type="text" class="mdc-textfield__input joininput inputcorrect">
+                        <label for="Email" class="mdc-textfield__label joinformlabel">
                             Zip Code
                         </label>
                     </div>
@@ -306,8 +306,8 @@
 
                 <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
                     <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input id="Name" type="text" class="mdc-textfield__input">
-                        <label for="Email" class="mdc-textfield__label">
+                        <input type="text" class="mdc-textfield__input joininput inputcorrect">
+                        <label for="Email" class="mdc-textfield__label joinformlabel">
                             Email Address
                         </label>
                     </div>
@@ -337,10 +337,10 @@
     <section id='support' class="content">
         <div class="container">
             <h2 id='faqtitle' class='text-center'>FAQ</h2>
-            <div class='row'>
+            <div id='faqrow' class='row'>
                 <div class='col-md-6 col-sm-6 col-xs-12 container demo'>
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <h3 id='driverfaq' class='text-center'><strong>Drivers</strong></h3>
+                        <h3 class='text-center faqtitle'><strong>Drivers</strong></h3>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingOne">
                                     <h4 class="panel-title">
@@ -427,7 +427,7 @@
 
                     <div class='col-md-6 col-sm-6 col-xs-12 container demo'>
                             <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
-                            <h3 id='advertiserfaq' class='text-center'><strong>Advertisers</strong></h3>
+                            <h3 class='faqtitle text-center'><strong>Advertisers</strong></h3>
                                 <div class="panel panel-default">
                                     <div class="panel-heading" role="tab" id="headingOne">
                                         <h4 class="panel-title">
@@ -521,7 +521,7 @@
                 <div class='col-sm-8'>
                     <div class="mdc-form-field contactform text-center">
                         <div id='topsubmitform' class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input mainforminput">
+                            <input type="text" class="mdc-textfield__input mainforminput inputcorrect">
                             <label for="Name" class="mdc-textfield__label mainformlabel">
                                 Name (Required)
                             </label>
@@ -529,7 +529,7 @@
                     </div>
                     <div class="mdc-form-field contactform text-center">
                         <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input mainforminput">
+                            <input type="text" class="mdc-textfield__input mainforminput inputcorrect">
                             <label for="Password" class="mdc-textfield__label mainformlabel">
                                 Email (required)
                             </label>
@@ -537,7 +537,7 @@
                     </div>
                     <div class="mdc-form-field contactform text-center">
                         <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input mainforminput">
+                            <input type="text" class="mdc-textfield__input mainforminput inputcorrect">
                             <label for="Password" class="mdc-textfield__label mainformlabel">
                                 Subject
                             </label>
@@ -545,7 +545,7 @@
                     </div>
                         <span id='messagetitle' class='text-center'>Message</span>
                     <div id='contactinput' class="mdc-textfield mdc-textfield--multiline contactform text-center" data-demo-no-auto-js>
-                        <textarea class="mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" rows="8" cols="40"></textarea>
+                        <textarea class="textinputmain mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" rows="8" cols="40"></textarea>
                     </div>
                     <div class="text-center contactbutton">
                         <button id='sendbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Send</button>
