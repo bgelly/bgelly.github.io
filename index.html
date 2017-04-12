@@ -48,9 +48,9 @@
                     <li>
                         <a class='page-scroll' href="pages/about.html">About</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#" data-toggle="modal" data-target="#modal-login">Login</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -85,19 +85,24 @@
             </div> -->
             </div>
     </header>
-    <!-- modal FOR CALL TO ACTION -->
-    <div class="modal fade modal-ext" id="modal-join" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+
+
+
+
+    <!-- MODALS call to action then login -->
+<!--     <div class="modal fade modal-ext" id="modal-join" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <!--Content-->
+
             <div class="modal-content">
-                <!--Header-->
+
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <h3 class="w-100 text-center"><i class="fa fa-user"></i>Rideshare Advertising for Everyone!</h3>
                 </div>
-                <!--Body-->
+
                 <div class="modal-body">
                     <div class='row'>
                         <div class='col-sm-3 col-xs-3'></div>
@@ -143,29 +148,29 @@
                         <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Join</button>
                     </div>
                 </div>
-                <!--Footer-->
+
                 <div class="modal-footer">
                     <button id='closebutton' class="mdc-button mdc-button--raised" data-dismiss="modal">
                         Close
                     </button>
                 </div>
             </div>
-            <!--/.Content-->
+
         </div>
     </div>
-    <!-- modal FOR LOGIN -->
+
     <div class="modal fade modal-ext" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <!--Content-->
+
             <div class="modal-content">
-                <!--Header-->
+
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <h3 class="w-100 text-center"><i class="fa fa-user"></i><strong>Login</strong></h3>
                 </div>
-                <!--Body-->
+
                 <div class="modal-body">
                     <div class='row'>
                         <div class="mdc-form-field col-sm-6 col-xs-6">
@@ -189,7 +194,7 @@
                         <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Login</button>
                     </div>
                 </div>
-                <!--Footer-->
+
                 <div class="modal-footer">
                     <div class="options text-right">
                         <span id='signup'>Not a member? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal-join">Sign Up</a></span>
@@ -199,9 +204,12 @@
                     </div>
                 </div>
             </div>
-            <!--/.Content-->
+
         </div>
-    </div>
+    </div> -->
+
+
+
     <section class="content content-3">
         <div class="container">
             <h2 id='getstartedtoggleheader' class='text-center'>Get started today.</h2>
@@ -246,14 +254,8 @@
             </div>
         </div>
     </section>
-    <section class="content content-2">
-        <div class="container">
-            <h2 id='getstartedheader' class='text-center'>Why Choose Rideo?</h2>
-            <img id="infographic" src="images/demodiagram.png" align="middle" height="300">
-            <span id="jointoday"></span>
-        </div>
-    </section>
-    <section class="content content-4">
+
+        <section class="content content-2">
         <div class="container">
             <h2 id="getstartedheader" class="text-center">Get Started Today!</h2>
 
@@ -322,13 +324,23 @@
     </section>
 
 
+    <section class="content content-4">
+        <div class="container">
+            <h2 id='getstartedheader' class='text-center'>Why Choose Rideo?</h2>
+            <img id="infographic" src="images/demodiagram.png" align="middle" height="300">
+            <span id="jointoday"></span>
+        </div>
+    </section>
+
+
+
     <section id='support' class="content">
         <div class="container">
             <h2 id='faqtitle' class='text-center'>FAQ</h2>
             <div class='row'>
                 <div class='col-md-6 col-sm-6 col-xs-12 container demo'>
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <h4 id='driverfaq' class='text-center'><strong>Drivers</strong></h4>
+                        <h3 id='driverfaq' class='text-center'><strong>Drivers</strong></h3>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingOne">
                                     <h4 class="panel-title">
@@ -415,7 +427,7 @@
 
                     <div class='col-md-6 col-sm-6 col-xs-12 container demo'>
                             <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
-                            <h4 id='advertiserfaq' class='text-center'><strong>Advertisers</strong></h4>
+                            <h3 id='advertiserfaq' class='text-center'><strong>Advertisers</strong></h3>
                                 <div class="panel panel-default">
                                     <div class="panel-heading" role="tab" id="headingOne">
                                         <h4 class="panel-title">
@@ -508,7 +520,7 @@
                 <div class='col-sm-2'></div>
                 <div class='col-sm-8'>
                     <div class="mdc-form-field contactform text-center">
-                        <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                        <div id='topsubmitform' class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
                             <input type="text" class="mdc-textfield__input mainforminput">
                             <label for="Name" class="mdc-textfield__label mainformlabel">
                                 Name (Required)
@@ -546,7 +558,7 @@
     <footer class="page-footer content-2">
         <div class="small-print">
             <div id='footer' class="container">
-                <p>© 2017 - Rideo</p>
+                <p id='footertext'>© 2017 - Rideo</p>
             </div>
         </div>
     </footer>

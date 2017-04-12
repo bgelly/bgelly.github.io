@@ -478,6 +478,7 @@ img::-moz-selection {
 .mainformlabel {
     color: white !important;
     padding-left: 20px;
+    height:  34%;
 }
 
 .mainforminput {
@@ -681,8 +682,8 @@ img::-moz-selection {
 }
 
 .contactbutton {
-    margin-top: 2%;
-    margin-bottom: 10%;
+    margin-top: 3.5%;
+    margin-bottom: 7%;
 }
 
 #advertiserinfo {
@@ -703,6 +704,8 @@ img::-moz-selection {
 
 #getstartedheader {
     color: white;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
 
 #getstartedtoggleheader {
@@ -710,10 +713,12 @@ img::-moz-selection {
 }
 
 #contactus {
-    margin-top: 6%;
-    margin-bottom: 1%;
-    /*font-size: 120%;*/
+    margin-top: 4%;
     color: #ffffff;
+}
+
+#topsubmitform {
+    margin-top: 2% !important;
 }
 
 #emailfield {
@@ -732,8 +737,8 @@ img::-moz-selection {
 }
 
 #faqtitle {
-    margin-top: -5px;
-    padding-bottom: 20px;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
     color: #ffffff;
 }
 
@@ -762,11 +767,6 @@ img::-moz-selection {
     margin-right: auto;
     margin-bottom: 40px;
     margin-left: auto;
-}
-
-#getstartedheader {
-    margin-bottom: 40px;
-    color: #221e1f;
 }
 
 #getstartedrow {
@@ -834,4 +834,10 @@ img::-moz-selection {
 
 .mdc-textfield__label-float-above {
     color: #7CA689 !important;
+}
+
+
+#footertext {
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
