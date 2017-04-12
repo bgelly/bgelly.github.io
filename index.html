@@ -60,7 +60,10 @@
             <div class="header-content-inner">
                 <h1>Rideo</h1>
                 <h4 id='subheader'>New York City's Rideshare Advertising Platform</h4>
-                <button id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary joinbutton" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">Get Started</button>
+                <a class='page-scroll' href="#jointoday">
+                    <button id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary joinbutton" data-mdc-auto-init="MDCRipple" >Get Started</button>
+                </a>
+
                 <!--             <div id='myCarousel' class="carousel slide" data-ride="carousel">
                     <ol id='indicators' class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -247,9 +250,10 @@
         <div class="container">
             <h2 id='getstartedheader' class='text-center'>Why Choose Rideo?</h2>
             <img id="infographic" src="images/demodiagram.png" align="middle" height="300">
+            <span id="jointoday"></span>
         </div>
     </section>
-    <section id="jointoday" class="content content-4">
+    <section class="content content-4">
         <div class="container">
             <h2 id="getstartedheader" class="text-center">Get Started Today!</h2>
 
@@ -491,50 +495,51 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-                    <!-- panel-group -->
                 </div>
-                <div class="container">
-                    <h3 id='contactus' class='text-center'>More questions? Contact us!</h3>
-                    <div id='contactrow' class='row'>
-                        <div class='col-sm-2'></div>
-                        <div class='col-sm-8'>
-                            <div class="mdc-form-field contactform text-center">
-                                <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                                    <input id="Name" type="text" class="mdc-textfield__input">
-                                    <label for="Email" class="mdc-textfield__label">
-                                        Name (Required)
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="mdc-form-field contactform text-center">
-                                <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                                    <input id="Email" type="text" class="mdc-textfield__input">
-                                    <label for="Password" class="mdc-textfield__label">
-                                        Email (required)
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="mdc-form-field contactform text-center">
-                                <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                                    <input id="Subject" type="text" class="mdc-textfield__input">
-                                    <label for="Password" class="mdc-textfield__label">
-                                        Subject
-                                    </label>
-                                </div>
-                            </div>
-                            <div id='contactinput' class="mdc-textfield mdc-textfield--multiline contactform text-center" data-demo-no-auto-js>
-                                <textarea class="mdc-textfield__input formtext" id="css-only-multiline" rows="8" cols="40" placeholder="Message"></textarea>
-                            </div>
-                            <div class="text-center contactbutton">
-                                <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Send</button>
-                            </div>
+            </div>
+        </div>
+    </section>
+    <section id='formsection'>
+        <div class="container">
+            <h2 id='contactus' class='text-center'>More questions? Contact us!</h2>
+            <div id='contactrow' class='row'>
+                <div class='col-sm-2'></div>
+                <div class='col-sm-8'>
+                    <div class="mdc-form-field contactform text-center">
+                        <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input mainforminput">
+                            <label for="Name" class="mdc-textfield__label mainformlabel">
+                                Name (Required)
+                            </label>
                         </div>
-                        <div class='col-sm-2'></div>
+                    </div>
+                    <div class="mdc-form-field contactform text-center">
+                        <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input mainforminput">
+                            <label for="Password" class="mdc-textfield__label mainformlabel">
+                                Email (required)
+                            </label>
+                        </div>
+                    </div>
+                    <div class="mdc-form-field contactform text-center">
+                        <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input mainforminput">
+                            <label for="Password" class="mdc-textfield__label mainformlabel">
+                                Subject
+                            </label>
+                        </div>
+                    </div>
+                        <span id='messagetitle' class='text-center'>Message</span>
+                    <div id='contactinput' class="mdc-textfield mdc-textfield--multiline contactform text-center" data-demo-no-auto-js>
+                        <textarea class="mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" rows="8" cols="40"></textarea>
+                    </div>
+                    <div class="text-center contactbutton">
+                        <button id='sendbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Send</button>
                     </div>
                 </div>
+                <div class='col-sm-2'></div>
             </div>
         </div>
     </section>

@@ -37,7 +37,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/seatbackNEWnormal.png');
+    background-image: url('../images/Rideo_background_edited.jpeg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -68,7 +68,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 80%;
+        min-height: 87%;
     }
     header .header-content {
         position: absolute;
@@ -85,15 +85,18 @@ header .header-content .header-content-inner p {
         max-width: 1000px;
     }
     header .header-content .header-content-inner h1 {
-        font-size: 100px;
+        font-size: 80px;
+        margin-top: 10px;
+        padding-bottom: 0px;
         margin-bottom: -10px;
     }
-    header .header-content .header-content-inner p {
+    header .header-content .header-content-inner h4 {
+        margin-top: 0px;
+        padding-top: 0px;
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 180%;
     }
 }
 
@@ -120,7 +123,8 @@ header .header-content .header-content-inner p {
 }
 
 .content-3 {
-    background-image: url(../images/background.png);
+    /*background-image: url(../images/background.png);*/
+    background-color: #ffffff;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 20px 0 40px;
@@ -447,40 +451,55 @@ img::-moz-selection {
 }
 
 #contactinput {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     font-size: 100%;
+    border: 1px solid rgba(255,255,255,0.6);
+}
+#contactinput:hover {
+    border: 1px solid white;
 }
 
 .submitindexform {
     font-size: 150% !important;
     padding-top: 0px !important;
-    margin-top: 0px !important;
+    margin-top: 5% !important;
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 3px;
 }
 
-/*#submitname {
-    font-size: 150%;
+.submitindexform:hover {
+    border: 1px solid white;
 }
 
-#submitemail {
-    font-size: 150%;
+.mainformlabel {
+    color: white !important;
+    padding-left: 20px;
 }
 
-#submitsubject {
-    font-size: 150%;
-}*/
-
-#Name {
+.mainforminput {
+    color: white !important;
     width: 100%;
 }
 
-#Email {
-    width: 100%;
+#messagetitle {
+    display: block;
+    font-size: 110%;
+    color: white;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
-#Subject {
-    width: 100%;
+#sendbutton {
+    background-color: #f2d585;
+}
+
+#sendbutton:hover {
+    color: black;
+    background-color: #ffcd42;
 }
 
 .centerbutton {
@@ -500,12 +519,6 @@ img::-moz-selection {
     padding-bottom: 50px;
 }
 
-#subheader {
-    font-size: 180%;
-    margin: 0 auto;
-    margin-top: 14px;
-}
-
 #advertiserimage {
     margin-top: 18%;
 }
@@ -523,8 +536,8 @@ img::-moz-selection {
 }
 
 #driverbutton:hover {
-    background-color: #688e74;
-    border-color: #688e74;
+    background-color: #45ad66;
+    border-color: #45ad66;
     color: black;
     text-decoration: none;
 }
@@ -538,8 +551,8 @@ img::-moz-selection {
 }
 
 #advertiserbutton:hover {
-    background-color: #688e74;
-    border-color: #688e74;
+    background-color: #45ad66;
+    border-color: #45ad66;
     color: black;
     text-decoration: none;
 }
@@ -561,7 +574,7 @@ img::-moz-selection {
 }
 
 #showadvertiser {
-    background-color: #7CA689;
+    background-color: #d98661;
     color: #white;
     display: block;
     margin: 0 auto;
@@ -569,14 +582,14 @@ img::-moz-selection {
 }
 
 #showadvertiser:hover {
-    background-color: #688e74;
-    border-color: #688e74;
+    background-color: #E06A33;
+    border-color: #E06A33;
     color: #221e1f;
     text-decoration: none;
 }
 
 #showdriver {
-    background-color: #7CA689;
+    background-color: #d98661;
     color: white;
     display: block;
     margin: 0 auto;
@@ -584,8 +597,8 @@ img::-moz-selection {
 }
 
 #showdriver:hover {
-    background-color: #688e74;
-    border-color: #688e74;
+    background-color: #E06A33;
+    border-color: #E06A33;
     color: #221e1f;
     text-decoration: none;
 }
@@ -653,21 +666,30 @@ img::-moz-selection {
 }
 
 #contactrow {
-    background-color: white;
     margin-left: 1px;
     margin-right: 1px;
     border-radius: 5px;
 }
 
+#formsection {
+    background-image: url('../images/fidibackground.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .contactbutton {
-    padding-bottom: 15px;
+    margin-top: 2%;
+    margin-bottom: 10%;
 }
 
 #advertiserinfo {
-    background-color: #221e1f;
-    color: #4f4e4e;
+    background-color: #4f4e4e;
+    color: #221e1f;
     margin-top: 5px;
-    border: 1px solid #221e1f;
+    border: 1px solid #4f4e4e;
     border-radius: 10px;
 }
 
@@ -688,8 +710,9 @@ img::-moz-selection {
 }
 
 #contactus {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    /*font-size: 120%;*/
     color: #ffffff;
 }
 
@@ -763,14 +786,14 @@ img::-moz-selection {
 
 .jointodaydiv {
     background-color: white;
-    border: 1px solid #4f4e4e;
+    border: 1px solid #9e9e9e;
     border-radius: 4px;
     margin: 0.2%;
 }
 
 .joinselectordiv {
     margin-bottom: 6px;
-    border: 1px solid #4f4e4e;
+    border: 1px solid #9e9e9e;
     border-radius: 4px;
     background-color: white;
     padding: 10px;
