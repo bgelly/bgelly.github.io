@@ -3,9 +3,9 @@ header {
 }
 
 #advertisertitle {
-  font-size: 500%;
-  margin-top: 15%;
-  margin-bottom: 2%;
+    font-size: 500%;
+    margin-top: 15%;
+    margin-bottom: 2%;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
 }
 
 #navcontainer {
-  padding-right: 0;
+    padding-right: 0;
 }
 
 #driverboxrow {
@@ -22,8 +22,8 @@ header {
 }
 
 #pricingheader {
-  color: #ffffff;
-  margin-bottom: 2%;
+    color: #ffffff;
+    margin-bottom: 2%;
 }
 
 .drivercontainer {
@@ -38,6 +38,18 @@ header {
     margin-left: 7%;
 }
 
+#box2p {
+    height: 43px;
+}
+
+#box3p {
+    height: 3px;
+}
+
+#box4p {
+    height: 62px;
+}
+
 #driverbox3 {
     margin-left: 7%;
 }
@@ -47,9 +59,9 @@ header {
 }
 
 #advertiserformheader {
-  margin-top: 8%;
-  margin-bottom: 4%;
-  color: #221E1F;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    color: #221E1F;
 }
 
 @media(max-width:991px) {
@@ -57,13 +69,20 @@ header {
         width: 50%;
         padding-top: 25px;
     }
-
     #driverbox1 {
         margin-left: 0;
     }
-
     #driverbox3 {
         margin-left: 0;
+    }
+    #box2p {
+        height: 12px;
+    }
+    #box3p {
+        height: 0px;
+    }
+    #box4p {
+        height: 30px;
     }
 }
 
@@ -75,25 +94,66 @@ header {
     #driverbox1 {
         margin-left: 7%;
     }
-
     #driverbox2 {
         margin-left: 7%;
     }
-
     #driverbox3 {
         margin-left: 7%;
     }
-
     #driverbox4 {
         margin-left: 7%;
+    }
+    #navcontainer {
+        padding-right: 15px;
+    }
+    #box2p {
+        height: 0px;
+    }
+    #box3p {
+        height: 0px;
+    }
+    #box4p {
+        height: 0px;
     }
 }
 
 @media(min-width:768px) {
-  .container {
-    padding-right: 3%;
-    padding-left: 0;
-  }
+    .container {
+        padding-right: 3%;
+        padding-left: 0;
+    }
+    #formbackground {
+        background-color: rgba(124, 166, 137, 0.64) ;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media(min-width:991px) {
+    #pricecontainer {
+        width: 95%;
+    }
+    #box2p {
+        height: 43px;
+    }
+    #box3p {
+        height: 3px;
+    }
+    #box4p {
+        height: 30px;
+    }
+}
+
+@media(min-width:1200px) {
+    #box2p {
+        height: 43px;
+    }
+    #box3p {
+        height: 3px;
+    }
+    #box4p {
+        height: 62px;
+    }
 }
 
 .driverboxes {
@@ -103,12 +163,11 @@ header {
 }
 
 .driveicons {
-  font-size: 60px;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  display: block;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
 }
-
 
 #driverstitle {
     padding-top: 15%;
@@ -128,11 +187,48 @@ header {
 }
 
 #postalcodeform {
-  padding-left: 4px;
+    padding-left: 4px;
 }
 
 #agreementbutton {
-  margin-top: 2%;
-  margin-bottom: 2%;
+    margin-bottom: 2%;
 }
 
+.signupbutton {
+    background-color: #f2d585 !important;
+}
+
+.signupbutton:hover {
+    color: black !important;
+    background-color: #ffcd42 !important;
+    text-decoration: none;
+}
+
+.adinputcorrect {
+    font-size: 150% !important;
+    width: 100%;
+}
+
+.adjoinformlabel {
+    color: #221e1f !important;
+    height: 30%;
+    font-size: 120%;
+}
+
+.adformtext {
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 2px !important;
+    padding-top: 0 !important;
+}
+
+#signbuttondiv {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pricinglist {
+    padding-left: 20px;
+    padding-right: 10px;
+}

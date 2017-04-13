@@ -484,10 +484,6 @@ img::-moz-selection {
     height: 30%;
 }
 
-.joininput {
-    width: 100%;
-}
-
 .mainforminput {
     color: white !important;
     width: 100%;
@@ -499,6 +495,7 @@ img::-moz-selection {
 
 .inputcorrect {
     font-size: 130% !important;
+    width: 100%;
 }
 
 #messagetitle {
