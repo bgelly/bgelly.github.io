@@ -12,19 +12,58 @@ header {
     background-image: url('../images/bridgebackground.jpg');
 }
 
+#navcontainer {
+  padding-right: 0;
+}
+
 #driverboxrow {
-    margin-top: 5%;
+    margin-top: .7%;
     margin-bottom: 5%;
 }
 
+#pricingheader {
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+
 .drivercontainer {
-    width: 32%;
+    height: 80%;
+}
+
+#driverbox1 {
+    margin-left: 7%;
+}
+
+#driverbox2 {
+    margin-left: 7%;
+}
+
+#driverbox3 {
+    margin-left: 7%;
+}
+
+#driverbox4 {
+    margin-left: 7%;
+}
+
+#advertiserformheader {
+  margin-top: 8%;
+  margin-bottom: 4%;
+  color: #221E1F;
 }
 
 @media(max-width:991px) {
     .drivercontainer {
         width: 50%;
         padding-top: 25px;
+    }
+
+    #driverbox1 {
+        margin-left: 0;
+    }
+
+    #driverbox3 {
+        margin-left: 0;
     }
 }
 
@@ -33,6 +72,28 @@ header {
         width: 85%;
         padding-top: 25px;
     }
+    #driverbox1 {
+        margin-left: 7%;
+    }
+
+    #driverbox2 {
+        margin-left: 7%;
+    }
+
+    #driverbox3 {
+        margin-left: 7%;
+    }
+
+    #driverbox4 {
+        margin-left: 7%;
+    }
+}
+
+@media(min-width:768px) {
+  .container {
+    padding-right: 3%;
+    padding-left: 0;
+  }
 }
 
 .driverboxes {
@@ -48,17 +109,6 @@ header {
   display: block;
 }
 
-#driverbox1 {
-    margin-left: 7%;
-}
-
-#driverbox2 {
-    margin-left: 7%;
-}
-
-#driverbox3 {
-    margin-left: 7%;
-}
 
 #driverstitle {
     padding-top: 15%;
@@ -66,9 +116,7 @@ header {
 }
 
 .content-drive {
-    background-image: url(../images/backgrounddark.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color: #4f4e4e;
     padding: 20px 0 40px;
     color: #221e1f;
 }
@@ -84,7 +132,7 @@ header {
 }
 
 #agreementbutton {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
