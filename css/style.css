@@ -3,15 +3,26 @@
     src: url(../fonts/Pier/pier-regular.otf);
 }
 
-/*@font-face {
+@font-face {
     font-family: eskell;
-    src: url(../fonts/eksell/EksellDisplayWeb-Medium.otf);
-}*/
+    src: url(../fonts/eksell/EksellDisplay-Small.otf);
+}
 
 html,
 body {
     width: 100%;
     height: 100%;
+    font-family: eskell;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+footer {
     font-family: pierSans;
 }
 
@@ -37,7 +48,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/Rideo_background_edited.jpeg');
+    background-image: url('../images/Rideo_background_2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -68,7 +79,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 87%;
+        min-height: 100%;
     }
     header .header-content {
         position: absolute;
@@ -248,11 +259,11 @@ header .header-content .header-content-inner p {
     }
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #221e1f;
+        color: #ffffff;
     }
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #ffffff;
+        color: #221e1f;
     }
 }
 
@@ -499,6 +510,7 @@ img::-moz-selection {
 }
 
 #messagetitle {
+    font-family: pierSans;
     display: block;
     font-size: 110%;
     color: white;
@@ -672,6 +684,7 @@ img::-moz-selection {
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
     border-top-color: #EEEEEE;
+    font-family: eskell;
 }
 
 .collapse {
@@ -685,7 +698,7 @@ img::-moz-selection {
 }
 
 #formsection {
-    background-image: url('../images/fidibackground.jpg');
+    background-image: url('../images/anthony-delanoix-14631.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -716,8 +729,8 @@ img::-moz-selection {
 
 #getstartedheader {
     color: white;
-    margin-top: 2%;
-    margin-bottom: 4%;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 #getstartedtoggleheader {
@@ -818,11 +831,12 @@ img::-moz-selection {
     background-color: #4f4e4e;
     color: #221e1f;
     margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 #getstartedbutton:hover {
     color: white;
-    background-color: #221e1f;
+    background-color: #969696;
 }
 
 @media(max-width:768px) {
