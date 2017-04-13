@@ -60,6 +60,7 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id='driverstitle'>Drive with Rideo Today</h1>
+                <button id='drivetitlebutton' class="mdc-button mdc-button--raised mdc-button--primary">Get Started</button>
             </div>
         </div>
     </header>
@@ -117,6 +118,7 @@
 
     <section class="content content-drive">
         <div class="container">
+            <h2 id='drivingtitle' class='text-center'>Driving</h2>
             <div id="driverboxrow" class="row">
                 <div class="drivercontainer col-md-4 col-sm-12 col-xs-12">
                     <div id="driverbox1" class="driverboxes">
@@ -170,26 +172,28 @@
             </div>
         </div>
     </section>
-        <section id="joinform">
-        <div class="container">
-            <h3 id='contactus' class='text-center'>Join Today!</h3>
 
+
+    <section id="joinform">
+        <div class="container">
+            <h2 id='advertiserformheader' class='text-center'>Want to advertise with Rideo? Fill out this form!</h2>
+            <div id='formbackground'>
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
-                        <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input id="Name" type="text" class="mdc-textfield__input">
-                            <label for="Email" class="mdc-textfield__label">
+                        <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="adinputcorrect mdc-textfield__input">
+                            <label for="Email" class="adjoinformlabel mdc-textfield__label formlabel">
                                 First Name
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
-                    <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input id="Email" type="text" class="mdc-textfield__input">
-                        <label for="Password" class="mdc-textfield__label">
+                    <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                        <input type="text" class="mdc-textfield__input adinputcorrect">
+                        <label for="Password" class="adjoinformlabel mdc-textfield__label">
                             Last Name
                         </label>
                     </div>
@@ -201,9 +205,9 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 singleform'>
                     <div class="mdc-form-field contactform text-center">
-                        <div class="joinformsingle mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input id="Subject" type="text" class="mdc-textfield__input">
-                            <label for="Password" class="mdc-textfield__label">
+                        <div class="joinformsingle mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input adinputcorrect">
+                            <label for="Password" class="adjoinformlabel mdc-textfield__label">
                                 Street Address
                             </label>
                         </div>
@@ -216,9 +220,9 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
-                        <div class="joinformsingle mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input id="Subject" type="text" class="mdc-textfield__input">
-                            <label for="Password" class="mdc-textfield__label">
+                        <div class="joinformsingle mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input adinputcorrect">
+                            <label for="Password" class="adjoinformlabel mdc-textfield__label">
                                 Street Address Line 2
                             </label>
                         </div>
@@ -231,18 +235,18 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
-                        <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input id="Name" type="text" class="mdc-textfield__input">
-                            <label for="Email" class="mdc-textfield__label">
+                        <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input adinputcorrect">
+                            <label for="Email" class="adjoinformlabel mdc-textfield__label">
                                 City
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
-                    <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input id="Email" type="text" class="mdc-textfield__input">
-                        <label for="Password" class="mdc-textfield__label">
+                    <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                        <input type="text" class="mdc-textfield__input adinputcorrect">
+                        <label for="Password" class="adjoinformlabel mdc-textfield__label">
                             State/Province
                         </label>
                     </div>
@@ -254,9 +258,9 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
-                        <div id='postalcodeform' class="joinformsingle mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input id="Name" type="text" class="mdc-textfield__input">
-                            <label for="Email" class="mdc-textfield__label">
+                        <div id='postalcodeform' class="joinformsingle mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input adinputcorrect">
+                            <label for="Email" class="adjoinformlabel mdc-textfield__label">
                                 Postal / Zip Code
                             </label>
                         </div>
@@ -270,9 +274,9 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
-                        <div class="joinformsingle mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input id="Subject" type="text" class="mdc-textfield__input">
-                            <label for="Password" class="mdc-textfield__label">
+                        <div class="joinformsingle mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input adinputcorrect">
+                            <label for="Password" class="adjoinformlabel mdc-textfield__label">
                                 Email
                             </label>
                         </div>
@@ -285,18 +289,18 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
-                        <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input id="Name" type="text" class="mdc-textfield__input">
-                            <label for="Email" class="mdc-textfield__label">
+                        <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input adinputcorrect">
+                            <label for="Email" class="adjoinformlabel mdc-textfield__label">
                                 Cell Number
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
-                    <div class="mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input id="Email" type="text" class="mdc-textfield__input">
-                        <label for="Password" class="mdc-textfield__label">
+                    <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                        <input type="text" class="mdc-textfield__input adinputcorrect">
+                        <label for="Password" class="adjoinformlabel mdc-textfield__label">
                             Work Number
                         </label>
                     </div>
@@ -308,9 +312,9 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
-                        <div class="joinformsingle mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input id="Subject" type="text" class="mdc-textfield__input">
-                            <label for="Password" class="mdc-textfield__label">
+                        <div class="joinformsingle mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                            <input type="text" class="mdc-textfield__input adinputcorrect">
+                            <label for="Password" class="adjoinformlabel mdc-textfield__label">
                                 Website URL
                             </label>
                         </div>
@@ -321,14 +325,14 @@
 
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
-                <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
+                <div class='formselectors mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <select id="jointodayselector" class="mdc-select">
                         <option default selected>Membership Type:</option>
                         <option value="driver">Launch Partner (1000 views / $30)</option>
                         <option value="advertiser">Free Trial (1000 views / $49.99)</option>
                     </select>
                 </div>
-                <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
+                <div class='formselectors mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <select id="jointodayselector" class="mdc-select">
                         <option default selected>Total Views:</option>
                         <option value="driver">1000</option>
@@ -346,13 +350,15 @@
             </div>
 
             <div id="agreementbutton" class="row">
-                <div class="text-center contactbutton">
-                    <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Submit Agreement</button>
+                <div id='signbuttondiv' class="text-center">
+                    <button class="signupbutton mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Submit Agreement</button>
                 </div>
             </div>
-
+            </div>
         </div>
     </section>
+
+
     <footer class="page-footer content-2">
         <div class="small-print">
             <div id='footer' class="container">

@@ -120,6 +120,7 @@ header {
         background-color: rgba(255, 255, 255, 0.9);
         margin-right: 100px;
         margin-left: 100px;
+        margin-bottom: 8%;
     }
 }
 
@@ -239,6 +240,8 @@ header {
 }
 
 .formselectors {
-  padding-top: 10px;
+  padding-top: 12px;
   font-size: 75% !important;
 }
+
+

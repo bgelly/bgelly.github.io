@@ -1,5 +1,5 @@
 header {
-    background-image: url('../images/bridgebackground.jpg');
+    background-image: url('../images/patrick-tomasso-234612.jpg');
 }
 
 #driverboxrow {
@@ -65,4 +65,94 @@ header {
 .page-footer .contact .glyphicon {
     font-size: 32px;
     font-weight: 700;
+}
+
+.content-drive {
+    background-color: #4f4e4e;
+    padding: 20px 0 40px;
+    color: #221e1f;
+}
+
+.content-drive .glyphicon,
+.page-footer .contact .glyphicon {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#postalcodeform {
+    padding-left: 4px;
+}
+
+#agreementbutton {
+    margin-bottom: 2%;
+}
+
+.signupbutton {
+    background-color: #f2d585 !important;
+}
+
+.signupbutton:hover {
+    color: black !important;
+    background-color: #ffcd42 !important;
+    text-decoration: none;
+}
+
+.adinputcorrect {
+    font-size: 150% !important;
+    width: 100%;
+}
+
+.adjoinformlabel {
+    color: #221e1f !important;
+    height: 30%;
+    font-size: 120%;
+}
+
+.adformtext {
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 2px !important;
+    padding-top: 0 !important;
+}
+
+#signbuttondiv {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pricinglist {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#joinform {
+    background-image: url('../images/joshua-newton-13935.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formselectors {
+  padding-top: 12px;
+  font-size: 75% !important;
+}
+
+#drivetitlebutton {
+    background-color: #7CA689;
+    margin-top: 2%;
+}
+
+#drivetitlebutton:hover {
+    background-color: #45ad66;
+    border-color: #45ad66;
+    color: black;
+    text-decoration: none;
+}
+
+#drivingtitle {
+    color: #FFFFFF;
 }
