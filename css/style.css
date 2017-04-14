@@ -577,7 +577,7 @@ img::-moz-selection {
     font-weight: bold;
     margin-top: 0;
     padding-top: 0;
-    padding-bottom: 7px
+    padding-bottom: 5px
 }
 
 .joinbutton {
@@ -752,9 +752,10 @@ img::-moz-selection {
 }
 
 #getstartedheader {
-    color: white;
+    color: #221e1f;
     margin-top: 6%;
     margin-bottom: 6%;
+    font-weight: bold;
 }
 
 #getstartedtoggleheader {
@@ -833,6 +834,15 @@ img::-moz-selection {
     max-width: 100% !important;
 }
 
+#jointoday {
+    background-image: url('../images/jon-flobrant-4056.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .jointodaydiv {
     background-color: white;
     border: 1px solid #9e9e9e;
@@ -852,15 +862,16 @@ img::-moz-selection {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-color: #4f4e4e;
-    color: #221e1f;
+    background-color: #7ca689;
+    color: #ffffff;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 #getstartedbutton:hover {
     color: white;
-    background-color: #969696;
+    background-color: #45ad66;
+    color: #221e15;
 }
 
 @media(max-width:768px) {
