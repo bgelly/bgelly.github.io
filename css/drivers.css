@@ -34,6 +34,12 @@ header {
         margin-right: 0;
         margin-left: 0;
     }
+    .driverjoinformlabel {
+        padding-left: 10px;
+    }
+    .driverinputcorrect {
+        padding-left: 10px;
+    }
 }
 
 .driverboxes {
@@ -108,12 +114,12 @@ header {
     text-decoration: none;
 }
 
-.adinputcorrect {
+.driverinputcorrect {
     font-size: 150% !important;
     width: 100%;
 }
 
-.adjoinformlabel {
+.driverjoinformlabel {
     color: #221e1f !important;
     height: 30%;
     font-size: 120%;
@@ -166,4 +172,8 @@ header {
 
 #drivingtitle {
     color: #FFFFFF;
+}
+
+.drivertextfields {
+    color: #221e1f !important;
 }
