@@ -407,6 +407,11 @@ fieldset[disabled] .btn-primary.active {
     padding-top: 8px;
 }
 
+#subheader {
+    font-family: eskell;
+    line-height: 120%;
+}
+
 .btn {
     border-radius: 300px;
     text-transform: uppercase;
@@ -554,6 +559,25 @@ img::-moz-selection {
 
 #driverbutton {
     background-color: #7CA689;
+}
+
+#mainbutton {
+    background-color: #7CA689;
+    margin-top: 35%;
+}
+
+#mainbutton:hover {
+    background-color: #45ad66;
+    border-color: #45ad66;
+    color: black;
+    text-decoration: none;
+}
+
+#mainheader {
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 7px
 }
 
 .joinbutton {
