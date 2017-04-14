@@ -11,6 +11,13 @@ header {
     width: 32%;
 }
 
+#formbackground {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 8%;
+}
+
 @media(max-width:991px) {
     .drivercontainer {
         width: 50%;
@@ -22,6 +29,10 @@ header {
     .drivercontainer {
         width: 85%;
         padding-top: 25px;
+    }
+    #formbackground {
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
@@ -127,7 +138,7 @@ header {
 }
 
 #joinform {
-    background-image: url('../images/joshua-newton-13935.jpg');
+    background-image: url('../images/daryan-shamkhali-52938.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;

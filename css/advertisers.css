@@ -37,9 +37,11 @@ header {
 #box1p {
     height: 10px;
 }
+
 #box2p {
     height: 30px;
 }
+
 #box4p {
     height: 50px;
 }
@@ -56,6 +58,13 @@ header {
     margin-top: 5%;
     margin-bottom: 2.5%;
     color: #ffffff;
+}
+
+#formbackground {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 8%;
 }
 
 @media(max-width:991px) {
@@ -109,18 +118,18 @@ header {
     #box4p {
         height: 0px;
     }
+    #formbackground {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
+
+
 
 @media(min-width:768px) {
     .container {
         padding-right: 3%;
         padding-left: 0;
-    }
-    #formbackground {
-        background-color: rgba(255, 255, 255, 0.9);
-        margin-right: 100px;
-        margin-left: 100px;
-        margin-bottom: 8%;
     }
 }
 
@@ -240,8 +249,6 @@ header {
 }
 
 .formselectors {
-  padding-top: 12px;
-  font-size: 75% !important;
+    padding-top: 12px;
+    font-size: 75% !important;
 }
-
-
