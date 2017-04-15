@@ -1,14 +1,18 @@
 $(document).ready(() => {
-  // $('#driverinfo').hide();
+  $('.driverinfo').hide();
 
   $('#showdriver').click(() => {
-    $('#advertiserinfo').hide();
-    $('#driverinfo').show();
+    $('.advertiserinfo').hide();
+    $('.driverinfo').show();
+    $('#showdriver').toggleClass('activebutton');
+    $('#showadvertiser').toggleClass('activebutton');
   });
 
   $('#showadvertiser').click(() => {
-    $('#driverinfo').hide();
-    $('#advertiserinfo').show();
+    $('.driverinfo').hide();
+    $('.advertiserinfo').show();
+    $('#showdriver').toggleClass('activebutton');
+    $('#showadvertiser').toggleClass('activebutton');
   });
 
   $('#myModal').on('shown.bs.modal', function() {

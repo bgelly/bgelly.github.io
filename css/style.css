@@ -278,7 +278,7 @@ header .header-content .header-content-inner p {
         display: block;
         width: 150px;
     }
-    #advertiserinfo {
+    .advertiserinfo {
         width: 90%;
         margin: 0 auto;
     }
@@ -735,21 +735,29 @@ img::-moz-selection {
     margin-bottom: 7%;
 }
 
-#advertiserinfo {
-    background-color: #4f4e4e;
-    color: #221e1f;
-    margin-top: 5px;
-    border: 1px solid #4f4e4e;
+.advertiserinfo {
+    background-color: #DADADA;
+    color: #221E1F;
+    margin-top: 50px;
+    border: 1px solid #DADADA;
     border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 .driverinfo {
-    background-color: #7CA689;
+    background-color: #DADADA;
     color: #221E1F;
     margin-top: 50px;
-    border: 1px solid #7CA689;
+    border: 1px solid #DADADA;
     border-radius: 10px;
     padding: 5px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.activebutton {
+    color: #221E1F !important;
+    background-color: #E06A33 !important;
 }
 
 .infopar {
