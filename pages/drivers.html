@@ -179,12 +179,14 @@
         <div class="container">
             <h2 id='advertiserformheader' class='text-center'>Want to drive with Rideo?</h2>
             <div id='formbackground'>
+            <form  action="https://formspree.io/swheeler111@gmail.com"
+            method="POST">
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
                         <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="driverinputcorrect mdc-textfield__input">
+                            <input type="text" name="First Name" class="driverinputcorrect mdc-textfield__input">
                             <label for="Email" class="driverjoinformlabel mdc-textfield__label formlabel">
                                 First Name
                             </label>
@@ -193,7 +195,7 @@
                 </div>
                 <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
                     <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
-                        <input type="text" class="mdc-textfield__input driverinputcorrect">
+                        <input type="text" name="Last Name" class="mdc-textfield__input driverinputcorrect">
                         <label for="Password" class="driverjoinformlabel mdc-textfield__label">
                             Last Name
                         </label>
@@ -207,7 +209,7 @@
                 <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
                         <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input driverinputcorrect">
+                            <input type="text" name="Email" class="mdc-textfield__input driverinputcorrect">
                             <label for="Email" class="driverjoinformlabel mdc-textfield__label">
                                 Email
                             </label>
@@ -216,7 +218,7 @@
                 </div>
                 <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
                     <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
-                        <input type="text" class="mdc-textfield__input driverinputcorrect">
+                        <input type="text" name="License Plate Number" class="mdc-textfield__input driverinputcorrect">
                         <label for="Password" class="driverjoinformlabel mdc-textfield__label">
                             License Plate Number
                         </label>
@@ -230,7 +232,7 @@
                 <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
                         <div id='postalcodeform' class="joinformsingle mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input driverinputcorrect">
+                            <input type="text" name="Cell Number" class="mdc-textfield__input driverinputcorrect">
                             <label for="Email" class="driverjoinformlabel mdc-textfield__label">
                                 Cell Number
                             </label>
@@ -246,7 +248,7 @@
                 <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
                     <div class="mdc-form-field contactform text-center">
                         <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input driverinputcorrect">
+                            <input type="text" name="Average Ride Length (Minutes)" class="mdc-textfield__input driverinputcorrect">
                             <label for="Email" class="driverjoinformlabel mdc-textfield__label">
                                 Average Ride Length (Minutes)
                             </label>
@@ -255,7 +257,7 @@
                 </div>
                 <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
                     <div class="mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
-                        <input type="text" class="mdc-textfield__input driverinputcorrect">
+                        <input type="text" name="Average Number of Trips per Day" class="mdc-textfield__input driverinputcorrect">
                         <label for="Password" class="driverjoinformlabel mdc-textfield__label">
                             Average Number of Trips per Day
                         </label>
@@ -267,7 +269,7 @@
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="Estimate of average daily driving hours" id="jointodayselector" class="mdc-select">
                         <option default selected>Please estimate how many hours you drive per day on average:</option>
                         <option value="driver">1</option>
                         <option value="advertiser">2</option>
@@ -287,7 +289,7 @@
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="What percentage of passengers generally offer tips" id="jointodayselector" class="mdc-select">
                         <option default selected>What percentage of passengers generally offer tips?</option>
                         <option value="driver">10%</option>
                         <option value="advertiser">20%</option>
@@ -307,7 +309,7 @@
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="On average, how many passengers do you have in your car while giving a ride" id="jointodayselector" class="mdc-select">
                         <option default selected>On average, how many passengers do you have in your car while giving a ride?</option>
                         <option value="driver">1</option>
                         <option value="advertiser">2</option>
@@ -322,7 +324,7 @@
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="Have you heard of advertising in rideshare cars before (other than Rideo)?" id="jointodayselector" class="mdc-select">
                         <option default selected>Have you heard of advertising in rideshare cars before (other than Rideo)?</option>
                         <option value="driver">Yes</option>
                         <option value="advertiser">No</option>
@@ -334,7 +336,7 @@
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="Do you own a tablet (other than an iPad)?" id="jointodayselector" class="mdc-select">
                         <option default selected>Do you own a tablet (other than an iPad)?</option>
                         <option value="driver">Yes</option>
                         <option value="advertiser">No</option>
@@ -346,7 +348,7 @@
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="Are you able to plug in (charge) a tablet in your car?" id="jointodayselector" class="mdc-select">
                         <option default selected>Are you able to plug in (charge) a tablet in your car?</option>
                         <option value="driver">Yes</option>
                         <option value="advertiser">No</option>
@@ -359,7 +361,7 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
                     <div class="mdc-textfield mdc-textfield--multiline contactform text-center" data-demo-no-auto-js>
-                            <textarea class="drivertextfields textinputmain mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" placeholder='Rideo pays drivers $150 for each business that they refer to us that signs up for our advertising service, do you have have any businesses you would like to refer?' rows="8" cols="40"></textarea>
+                            <textarea name="Other businesses to refer" class="drivertextfields textinputmain mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" placeholder='Rideo pays drivers $150 for each business that they refer to us that signs up for our advertising service, do you have have any businesses you would like to refer?' rows="8" cols="40"></textarea>
                     </div>
                 </div>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
@@ -368,7 +370,7 @@
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="Do you have any friends who might be a good fit to drive for Rideo?" id="jointodayselector" class="mdc-select">
                         <option default selected>Do you have any friends who might be a good fit to drive for Rideo?</option>
                         <option value="driver">Yes</option>
                         <option value="advertiser">No</option>
@@ -380,7 +382,7 @@
             <div class='row'>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="Do you drive for Uber, Lyft or another service?" id="jointodayselector" class="mdc-select">
                         <option default selected>Do you drive for Uber, Lyft or another service?</option>
                         <option value="driver">Only Uber</option>
                         <option value="advertiser">Only Lyft</option>
@@ -395,7 +397,7 @@
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
                 <div class='mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
                     <div class="mdc-textfield mdc-textfield--multiline contactform text-center" data-demo-no-auto-js>
-                            <textarea class="drivertextfields textinputmain mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" placeholder='Anything else we should know or that you would like to mention?' rows="8" cols="40"></textarea>
+                            <textarea name="Anything else we should know" class="drivertextfields textinputmain mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" placeholder='Anything else we should know or that you would like to mention?' rows="8" cols="40"></textarea>
                     </div>
                 </div>
                 <div class='col-md-2 col-sm-2 hidden-xs'></div>
@@ -407,9 +409,10 @@
 
             <div id="agreementbutton" class="row">
                 <div id='signbuttondiv' class="text-center">
-                    <button class="signupbutton mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Submit Agreement</button>
+                    <button type="submit" class="signupbutton mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Submit Agreement</button>
                 </div>
             </div>
+            </form>
             </div>
         </div>
 
