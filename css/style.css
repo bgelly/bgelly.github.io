@@ -447,6 +447,11 @@ fieldset[disabled] .btn-primary.active {
     line-height: 120%;
 }
 
+#infosubheader {
+    color: #4F4E4E;
+    font-family: eskell;
+}
+
 .btn {
     border-radius: 300px;
     text-transform: uppercase;
@@ -610,7 +615,7 @@ img::-moz-selection {
 
 #mainheader {
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 20px;
     padding-top: 0;
     padding-bottom: 5px
 }

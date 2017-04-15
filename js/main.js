@@ -2,17 +2,21 @@ $(document).ready(() => {
   $('.driverinfo').hide();
 
   $('#showdriver').click(() => {
-    $('.advertiserinfo').hide();
-    $('.driverinfo').show();
-    $('#showdriver').toggleClass('activebutton');
-    $('#showadvertiser').toggleClass('activebutton');
+    if (!$('#showdriver').hasClass('activebutton')) {
+      $('.advertiserinfo').hide();
+      $('.driverinfo').show();
+      $('#showdriver').toggleClass('activebutton');
+      $('#showadvertiser').toggleClass('activebutton');
+    }
   });
 
   $('#showadvertiser').click(() => {
-    $('.driverinfo').hide();
-    $('.advertiserinfo').show();
-    $('#showdriver').toggleClass('activebutton');
-    $('#showadvertiser').toggleClass('activebutton');
+    if (!$('#showadvertiser').hasClass('activebutton')) {
+      $('.driverinfo').hide();
+      $('.advertiserinfo').show();
+      $('#showdriver').toggleClass('activebutton');
+      $('#showadvertiser').toggleClass('activebutton');
+    }
   });
 
   $('#myModal').on('shown.bs.modal', function() {
