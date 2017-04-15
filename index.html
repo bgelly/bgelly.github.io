@@ -301,14 +301,16 @@
         <section id='jointoday' class="content content-2">
         <div class="container">
             <h2 id="getstartedheader" class="text-center">Get Started Today!</h2>
+            <form  action="https://formspree.io/swheeler111@gmail.com"
+            method="POST">
 
             <div class="row">
                 <div class='col-md-3 col-sm-3 hidden-xs'></div>
                 <div class="joinselectordiv col-md-6 col-sm-6 text-center col-xs-12">
-                    <select id="jointodayselector" class="mdc-select">
+                    <select name="You are a" id="jointodayselector" class="mdc-select">
                         <option default selected>You are a:</option>
-                        <option value="driver">Driver</option>
-                        <option value="advertiser">Advertiser</option>
+                        <option value="Driver">Driver</option>
+                        <option value="Advertiser">Advertiser</option>
                     </select>
                 </div>
                 <div class='col-md-3 col-sm-3 hidden-xs'></div>
@@ -318,7 +320,7 @@
                 <div class='col-md-1 col-sm-1 hidden-xs'></div>
                 <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
                     <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input type="text" class="mdc-textfield__input inputcorrect">
+                        <input name="Full Name" type="text" class="mdc-textfield__input inputcorrect">
                         <label for="Email" class="mdc-textfield__label joinformlabel">
                             Full Name
                         </label>
@@ -327,7 +329,7 @@
 
                 <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
                     <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input type="text" class="mdc-textfield__input inputcorrect">
+                        <input name="Phone Number" type="text" class="mdc-textfield__input inputcorrect">
                         <label for="Email" class="mdc-textfield__label joinformlabel">
                             Phone Number
                         </label>
@@ -340,7 +342,7 @@
                 <div class='col-md-1 col-sm-1 hidden-xs'></div>
                 <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
                     <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input type="text" class="mdc-textfield__input inputcorrect">
+                        <input name="Zip Code" type="text" class="mdc-textfield__input inputcorrect">
                         <label for="Email" class="mdc-textfield__label joinformlabel">
                             Zip Code
                         </label>
@@ -349,9 +351,9 @@
 
                 <div class="jointodaydiv mdc-form-field text-center col-md-5 col-sm-5 col-xs-12">
                     <div class="jointodayform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                        <input type="text" class="mdc-textfield__input inputcorrect">
+                        <input name="Email" type="text" class="mdc-textfield__input inputcorrect">
                         <label for="Email" class="mdc-textfield__label joinformlabel">
-                            Email Address
+                            Email
                         </label>
                     </div>
                 </div>
@@ -360,9 +362,10 @@
 
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <button id="getstartedbutton" class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">Get Started</button>
+                    <button type="submit" id="getstartedbutton" class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">Get Started</button>
                 </div>
             </div>
+            </form>
         </div>
     </section>
 
