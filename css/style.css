@@ -282,7 +282,7 @@ header .header-content .header-content-inner p {
         width: 90%;
         margin: 0 auto;
     }
-    #driverinfo {
+    .driverinfo {
         width: 90%;
         margin: 0 auto;
     }
@@ -743,12 +743,21 @@ img::-moz-selection {
     border-radius: 10px;
 }
 
-#driverinfo {
-    background-color: #221e1f;
-    color: #4f4e4e;
-    margin-top: 5px;
-    border: 1px solid #221e1f;
+.driverinfo {
+    background-color: #7CA689;
+    color: #221E1F;
+    margin-top: 50px;
+    border: 1px solid #7CA689;
     border-radius: 10px;
+    padding: 5px;
+}
+
+.infopar {
+    font-size: 95%;
+}
+
+#infographicrow {
+    margin-bottom: 50px;
 }
 
 #getstartedheader {
@@ -760,6 +769,7 @@ img::-moz-selection {
 
 #getstartedtoggleheader {
     color: #221e1f;
+    font-weight: bold;
 }
 
 #contactus {
@@ -902,4 +912,16 @@ img::-moz-selection {
 #footertext {
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+#rideolist {
+    font-family: pierSans;
+    font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#tabletimage {
+    width: 100%;
+    margin-top: 20px;
 }

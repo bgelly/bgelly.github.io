@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  $('#driverinfo').hide();
+  // $('#driverinfo').hide();
 
   $('#showdriver').click(() => {
     $('#advertiserinfo').hide();

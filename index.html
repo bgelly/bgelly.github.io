@@ -211,7 +211,21 @@
 
     <section class="content content-3">
         <div class="container">
-            <h2 id='getstartedtoggleheader' class='text-center'>Get started today.</h2>
+            <h2 id='getstartedtoggleheader' class='text-center'>Why Choose Rideo?</h2>
+
+            <div class="row">
+                <div class='col-lg-3 col-md-3 col-sm-3 hidden-xs'></div>
+                <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+                    <ul id='rideolist'>
+                        <li>Here are some reason to choose Rideo right now</li>
+                        <li>Here are some reason to choose Rideo right now</li>
+                        <li>Here are some reason to choose Rideo right now</li>
+                    </ul>
+                </div>
+                <div class='col-lg-3 col-md-3 col-sm-3 hidden-xs'></div>
+            </div>
+
+
             <div class="row">
                 <div class='col-sm-3'></div>
                 <div class='col-sm-3 col-xs-6'>
@@ -222,10 +236,39 @@
                 </div>
                 <div class='col-sm-3'></div>
             </div>
-            <div class="row">
-                <div class='col-sm-3'></div>
-                <div id='advertiserinfo' class='col-sm-6'>
-                    <h4><strong>Smart Advertising.</strong></h4>
+
+            <div id='infographicrow' class='row'>
+                <div class='col-lg-3 col-md-3 col-sm-3 xs-12'>
+                <div class='driverinfo' >
+                    <h4 class='text-center'>Smart Driving.</h4>
+                    <p class='infopar'>Join the growing number of rideshare vehicle drivers earning extra income with no extra work.</p>
+                </div>
+                <div class='driverinfo' >
+                    <h4 class='text-center'>Smart Driving.</h4>
+                    <p class='infopar'>Drivers can expect to earn over $300 per month.</p>
+                    <p class='infopar'>Uber has explicitly stated they will not penalize you or deactivate your account.</p>
+                </div>
+                </div>
+
+                <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+                    <img id='tabletimage' src="images/RideoTablet.png">
+                </div>
+
+                <div class='col-lg-3 col-md-3 col-sm-3 xs-12'>
+                    <div class='driverinfo' >
+                        <h4 class='text-center'>Smart Driving.</h4>
+                        <p class='infopar'> As independent contractors, rideshare drivers and are free to make their own decisions as business owners.</p>
+                    </div>
+                    <div class='driverinfo' >
+                        <h4 class='text-center'>Smart Driving.</h4>
+                        <p class='infopar'> To join our 2017 launch or for more information, contact us at info@driverideo.com</p>
+                        <a href="pages/drivers.html" id='driverbutton' class="text-center mdc-button mdc-button--raised mdc-button--primary">Learn More</a>
+                    </div>
+                    <!-- <div id='drivebuttondiv' class='text-center'>
+
+                    </div> -->
+
+<!--                     <h4><strong>Smart Advertising.</strong></h4>
                     <p class='lead'>Rideo provides advertising partners with data and analytics to ensure every ad counts, including:
                     </p>
                     <p><i class="glyphicon glyphicon-eye-open"></i> The number of unique views your ad received.</p>
@@ -234,24 +277,10 @@
                     <p><i class="glyphicon glyphicon-envelope"></i> To join our 2017 launch or for more information, contact us at info@driverideo.com</p>
                     <div id='drivebuttondiv' class='text-center'>
                         <a href="pages/advertisers.html" id='advertiserbutton' class="mdc-button mdc-button--raised mdc-button--primary">Learn More</a>
-                    </div>
+                    </div> -->
                 </div>
-                <div id='driverinfo' class='col-sm-6'>
-                    <h4><strong>Smart Driving.</strong></h4>
-                    <p class="lead">
-                        Join the growing number of rideshare vehicle drivers earning extra income with no extra work.
-                    </p>
-                    <p><i class="glyphicon glyphicon-usd"></i> Drivers can expect to earn over $300 per month.</p>
-                    <p><i class="glyphicon glyphicon-road"></i> Uber has explicitly stated they will not penalize you or deactivate your account.</p>
-                    <p><i class="glyphicon glyphicon-thumbs-up"></i> As independent contractors, rideshare drivers and are free to make their own decisions as business owners.</p>
-                    <p><i class="glyphicon glyphicon-envelope"></i> To join our 2017 launch or for more information, contact us at info@driverideo.com</p>
-                    <div id='drivebuttondiv' class='text-center'>
-                        <a href="pages/drivers.html" id='driverbutton' class="mdc-button mdc-button--raised mdc-button--primary">Learn More</a>
-                    </div>
-                </div>
-                <div class='col-sm-3'></div>
+
             </div>
-        </div>
     </section>
 
         <section id='jointoday' class="content content-2">
@@ -516,27 +545,28 @@
         <div class="container">
             <h2 id='contactus' class='text-center'>More questions? Contact us!</h2>
             <div id='contactrow' class='row'>
+            <form action="mailto:swheeler111@gmail.com">
                 <div class='col-sm-2'></div>
                 <div class='col-sm-8'>
                     <div class="mdc-form-field contactform text-center">
                         <div id='topsubmitform' class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input mainforminput inputcorrect">
-                            <label for="Name" class="mdc-textfield__label mainformlabel">
+                            <input type="text" name="Name" class="mdc-textfield__input mainforminput inputcorrect">
+                            <label for="name" class="mdc-textfield__label mainformlabel">
                                 Name (Required)
                             </label>
                         </div>
                     </div>
                     <div class="mdc-form-field contactform text-center">
                         <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input mainforminput inputcorrect">
-                            <label for="Password" class="mdc-textfield__label mainformlabel">
+                            <input type="text" name="Email" class="mdc-textfield__input mainforminput inputcorrect">
+                            <label for="email" class="mdc-textfield__label mainformlabel">
                                 Email (required)
                             </label>
                         </div>
                     </div>
                     <div class="mdc-form-field contactform text-center">
                         <div class="submitindexform mdc-textfield formtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" class="mdc-textfield__input mainforminput inputcorrect">
+                            <input type="text" name="Subject" class="mdc-textfield__input mainforminput inputcorrect">
                             <label for="Password" class="mdc-textfield__label mainformlabel">
                                 Subject
                             </label>
@@ -544,13 +574,14 @@
                     </div>
                         <span id='messagetitle' class='text-center'>Message</span>
                     <div id='contactinput' class="mdc-textfield mdc-textfield--multiline contactform text-center" data-demo-no-auto-js>
-                        <textarea class="textinputmain `mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" rows="8" cols="40"></textarea>
+                        <textarea name="Message" class="textinputmain mainforminput mdc-textfield__input formtext mainformlabel" id="css-only-multiline" rows="8" cols="40"></textarea>
                     </div>
                     <div class="text-center contactbutton">
-                        <button id='sendbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Send</button>
+                        <button type="submit" id='sendbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Send</button>
                     </div>
                 </div>
                 <div class='col-sm-2'></div>
+                </form>
             </div>
         </div>
     </section>
