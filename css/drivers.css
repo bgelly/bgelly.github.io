@@ -172,3 +172,11 @@ header {
 .drivertextfields {
     color: #221e1f !important;
 }
+
+#box2 {
+    height: 38px;
+}
+
+#box3 {
+    height: 62px;
+}
