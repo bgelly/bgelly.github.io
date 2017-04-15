@@ -18,7 +18,7 @@ header {
 }
 
 #pricingheader {
-    color: #ffffff;
+    color: #221E1F;
     margin-bottom: 2%;
 }
 
@@ -168,6 +168,7 @@ header {
     background-color: white;
     width: 100%;
     padding: 10px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 .driveicons {
@@ -184,7 +185,7 @@ header {
 }
 
 .content-drive {
-    background-color: #4f4e4e;
+    background-color: #DADADA;
     padding: 20px 0 40px;
     color: #221e1f;
 }
