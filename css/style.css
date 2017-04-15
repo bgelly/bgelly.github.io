@@ -189,6 +189,40 @@ header .header-content .header-content-inner p {
     transition: all .35s;
 }
 
+.infographic {
+    background-color: #DADADA;
+    color: #221E1F;
+    margin-top: 45px;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.infoheader {
+    font-weight: bold;
+}
+
+#tabletimage {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media(max-width:1200px) {
+    .infographic {
+        margin-top: 18px;
+    }
+}
+
+@media(max-width:991px) {
+    .infographic {
+        margin-top: 8px;
+    }
+
+    #tabletimage {
+        margin-top: 70px;
+    }
+}
 .navbar-default .navbar-header .navbar-brand {
     color: #7CA689;
 }
@@ -278,13 +312,14 @@ header .header-content .header-content-inner p {
         display: block;
         width: 150px;
     }
-    .advertiserinfo {
+    .infographic {
         width: 90%;
         margin: 0 auto;
+        margin-top: 20px;
     }
-    .driverinfo {
-        width: 90%;
-        margin: 0 auto;
+    #tabletimage {
+        width: 66%;
+        margin-top: 20px;
     }
     .navbar-header {
         background-color: #7CA689;
@@ -294,7 +329,7 @@ header .header-content .header-content-inner p {
     .navbar-default,
     .navbar-form {
     border-color: #7CA689;
-}
+    }
 }
 
 .btn-default {
@@ -735,26 +770,6 @@ img::-moz-selection {
     margin-bottom: 7%;
 }
 
-.advertiserinfo {
-    background-color: #DADADA;
-    color: #221E1F;
-    margin-top: 50px;
-    border: 1px solid #DADADA;
-    border-radius: 10px;
-    padding: 5px;
-    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
-}
-
-.driverinfo {
-    background-color: #DADADA;
-    color: #221E1F;
-    margin-top: 50px;
-    border: 1px solid #DADADA;
-    border-radius: 10px;
-    padding: 5px;
-    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
-}
-
 .activebutton {
     color: #221E1F !important;
     background-color: #E06A33 !important;
@@ -927,9 +942,4 @@ img::-moz-selection {
     font-size: 150%;
     margin-top: 10px;
     margin-bottom: 20px;
-}
-
-#tabletimage {
-    width: 100%;
-    margin-top: 20px;
 }
