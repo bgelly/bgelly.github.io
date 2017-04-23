@@ -36,3 +36,30 @@ header {
     margin-top: 15%;
     margin-bottom: 2%;
 }
+
+.btn-green {
+    background-color: #7CA689 !important;
+}
+
+.btn-green:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-yellow {
+    background-color: #f2d585 !important;
+}
+
+.btn-yellow:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-red {
+    background-color: #d98661 !important;
+}
+
+.btn-red:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}

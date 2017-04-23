@@ -135,7 +135,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .content-3 {
-    background-image: url('../images/jose-murillo-22951.jpg');
+    background-color: #DADADA;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 20px 0 40px;
@@ -549,14 +549,14 @@ img::-moz-selection {
     padding-top: 2%;
 }
 
-#sendbutton {
+/*#sendbutton {
     background-color: #f2d585;
 }
 
 #sendbutton:hover {
     color: black;
     background-color: #ffcd42;
-}
+}*/
 
 /*.centerbutton {
     margin: 0 auto;
@@ -583,20 +583,37 @@ img::-moz-selection {
     margin-top: 15%;
 }*/
 
-#driverbutton {
+/*#driverbutton {
     background-color: #7CA689;
+}*/
+
+.btn-green {
+    background-color: #7CA689 !important;
 }
 
-#mainbutton {
-    background-color: #7CA689;
-}
-
-#mainbutton:hover {
-/*    background-color: #45ad66;
-    border-color: #45ad66;*/
+.btn-green:hover {
     text-decoration: none;
-    opacity: 0.6;
+    opacity: 0.7;
 }
+
+.btn-yellow {
+    background-color: #f2d585 !important;
+}
+
+.btn-yellow:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-red {
+    background-color: #d98661 !important;
+}
+
+.btn-red:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
 
 #mainheader {
     font-weight: bold;
@@ -609,18 +626,18 @@ img::-moz-selection {
     margin-bottom: 17px;
 }
 
-#driverbutton:hover {
+/*#driverbutton:hover {
     background-color: #45ad66;
     border-color: #45ad66;
     color: black;
     text-decoration: none;
-}
+}*/
 
 /*#driverlist {
     padding-bottom: 10px;
 }*/
 
-#advertiserbutton {
+/*#advertiserbutton {
     background-color: #7CA689;
 }
 
@@ -629,7 +646,7 @@ img::-moz-selection {
     border-color: #45ad66;
     color: black;
     text-decoration: none;
-}
+}*/
 
 /*#contactheader {
     padding-bottom: 50px;
@@ -648,34 +665,18 @@ img::-moz-selection {
 }*/
 
 #showadvertiser {
-    background-color: #d98661;
-    color: #white;
     display: block;
     margin: 0 auto;
     width: 80%;
-}
-
-#showadvertiser:hover {
-    background-color: #E06A33;
-    border-color: #E06A33;
-    color: #221e1f;
-    text-decoration: none;
 }
 
 #showdriver {
-    background-color: #d98661;
-    color: white;
     display: block;
     margin: 0 auto;
     width: 80%;
 }
 
-#showdriver:hover {
-    background-color: #E06A33;
-    border-color: #E06A33;
-    color: #221e1f;
-    text-decoration: none;
-}
+
 
 /*#loginbutton {
     background-color: #7CA689;
@@ -868,17 +869,9 @@ img::-moz-selection {
 #getstartedbutton {
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    background-color: #7ca689;
-    color: #ffffff;
     margin-top: 2%;
     margin-bottom: 8%;
-}
-
-#getstartedbutton:hover {
-    color: white;
-    background-color: #45ad66;
-    color: #221e15;
+    display: block;
 }
 
 @media(max-width:768px) {

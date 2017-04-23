@@ -204,16 +204,6 @@ header {
     margin-bottom: 2%;
 }
 
-.signupbutton {
-    background-color: #f2d585 !important;
-}
-
-.signupbutton:hover {
-    color: black !important;
-    background-color: #ffcd42 !important;
-    text-decoration: none;
-}
-
 .adinputcorrect {
     font-size: 150% !important;
     width: 100%;
@@ -256,4 +246,32 @@ header {
 .formselectors {
     padding-top: 12px;
     font-size: 75% !important;
+}
+
+
+.btn-green {
+    background-color: #7CA689 !important;
+}
+
+.btn-green:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-yellow {
+    background-color: #f2d585 !important;
+}
+
+.btn-yellow:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-red {
+    background-color: #d98661 !important;
+}
+
+.btn-red:hover {
+    text-decoration: none;
+    opacity: 0.7;
 }

@@ -99,16 +99,6 @@ header {
     margin-bottom: 2%;
 }
 
-.signupbutton {
-    background-color: #f2d585 !important;
-}
-
-.signupbutton:hover {
-    color: black !important;
-    background-color: #ffcd42 !important;
-    text-decoration: none;
-}
-
 .driverinputcorrect {
     font-size: 150% !important;
     width: 100%;
@@ -154,15 +144,7 @@ header {
 }
 
 #drivetitlebutton {
-    background-color: #7CA689;
     margin-top: 2%;
-}
-
-#drivetitlebutton:hover {
-    background-color: #45ad66;
-    border-color: #45ad66;
-    color: black;
-    text-decoration: none;
 }
 
 #drivingtitle {
@@ -179,4 +161,32 @@ header {
 
 #box3 {
     height: 62px;
+}
+
+
+.btn-green {
+    background-color: #7CA689 !important;
+}
+
+.btn-green:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-yellow {
+    background-color: #f2d585 !important;
+}
+
+.btn-yellow:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-red {
+    background-color: #d98661 !important;
+}
+
+.btn-red:hover {
+    text-decoration: none;
+    opacity: 0.7;
 }
