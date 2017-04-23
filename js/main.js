@@ -1,5 +1,7 @@
 $(document).ready(() => {
 
+  mdc.autoInit();
+
   $('#siteNav').affix({
     offset: {
       top: 100

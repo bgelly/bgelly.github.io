@@ -1,11 +1,280 @@
+@font-face {
+    font-family: pierSans;
+    src: url(../fonts/Pier/pier-regular.otf);
+}
+
+@font-face {
+    font-family: eskell;
+    src: url(../fonts/eksell/EksellDisplay-Small.otf);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: eskell;
+    text-align:justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+footer {
+    font-family: pierSans;
+}
+
+a {
+    color: #7CA689;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover {
+    color: #7CA689;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url('../images/cedric-dhaenens-178258.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+@media(min-width:768px) {
+    header {
+        min-height: 100%;
+    }
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        bottom: -170px;
+    }
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 60px;
+        margin-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: -10px;
+    }
+}
+
+.content {
+    padding: 40px 0;
+    background-color: #4f4e4e;
+}
+
+.content-2 {
+    color: #fff;
+    background-color: #221e1f;
+}
+
+.page-footer .small-print {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+
+.navbar-default {
+    border-color: rgba(34, 34, 34, .05);
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: #7CA689;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+    outline: none;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(255, 255, 255, .3);
+        background-color: transparent;
+    }
+    .navbar-default .navbar-header .navbar-brand {
+        color: white;
+        letter-spacing: 0.5em;
+    }
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #7CA689;
+    }
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: white;
+    }
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #7CA689;
+    }
+    .navbar-default.affix {
+        border-color: #7CA689;
+        background-color: #7ca686;
+        box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media(max-width:768px) {
+    .navbar-header {
+        background-color: #7CA689;
+    }
+    .navbar-default,
+    .navbar-collapse,
+    .navbar-default,
+    .navbar-form {
+    border-color: #7CA689;
+    }
+}
+
+.contactform {
+    display: block !important;
+    width: 100%;
+    font-size: 200%;
+    padding-top: 0px
+}
+
+.btn-green {
+    background-color: #7CA689 !important;
+}
+
+.btn-green:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-yellow {
+    background-color: #f2d585 !important;
+}
+
+.btn-yellow:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.collapse {
+    color: #221e1f;
+}
+
+.drivercontainer {
+    height: 80%;
+}
+
+.formselectors {
+    padding-top: 12px;
+    font-size: 75% !important;
+}
+
+.driverboxes {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.driveicons {
+    font-family: pierSans;
+    font-size: 200%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.pricinglist {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.content-drive {
+    background-color: #DADADA;
+    padding: 20px 0 40px;
+    color: #221e1f;
+}
+
+.adinputcorrect {
+    font-size: 150% !important;
+    width: 100%;
+}
+
+.adjoinformlabel {
+    color: #221e1f !important;
+    height: 30%;
+    font-size: 120%;
+}
+
+.adformtext {
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 2px !important;
+    padding-top: 0 !important;
+}
+
+#signbuttondiv {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#joinform {
+    background-image: url('../images/joshua-newton-13935.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #advertisertitle {
     font-size: 500%;
     margin-top: 15%;
     margin-bottom: 2%;
-}
-
-header {
-    background-image: url('../images/cedric-dhaenens-178258.jpg');
 }
 
 #navcontainer {
@@ -20,10 +289,6 @@ header {
 #pricingheader {
     color: #221E1F;
     margin-bottom: 2%;
-}
-
-.drivercontainer {
-    height: 80%;
 }
 
 #driverbox1 {
@@ -54,6 +319,14 @@ header {
     margin-left: 7%;
 }
 
+#postalcodeform {
+    padding-left: 4px;
+}
+
+#agreementbutton {
+    margin-bottom: 2%;
+}
+
 #advertiserformheader {
     margin-top: 5%;
     margin-bottom: 2.5%;
@@ -80,9 +353,6 @@ header {
     }
     #box2p {
         height: 12px;
-    }
-    #box3p {
-        height: 0px;
     }
     #box4p {
         height: 30px;
@@ -112,9 +382,6 @@ header {
     #box2p {
         height: 0px;
     }
-    #box3p {
-        height: 0px;
-    }
     #box4p {
         height: 0px;
     }
@@ -141,15 +408,6 @@ header {
     #pricecontainer {
         width: 95%;
     }
-    /*    #box2p {
-        height: 43px;
-    }
-    #box3p {
-        height: 3px;
-    }
-    #box4p {
-        height: 30px;
-    }*/
 }
 
 @media(min-width:1200px) {
@@ -164,114 +422,13 @@ header {
     }
 }
 
-.driverboxes {
-    background-color: white;
-    width: 100%;
-    padding: 10px;
-    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+
+#jointodayselector {
+    font-size: 120% !important;
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
-.driveicons {
-    font-family: pierSans;
-    font-size: 200%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-}
-
-#driverstitle {
-    padding-top: 15%;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-.content-drive {
-    background-color: #DADADA;
-    padding: 20px 0 40px;
-    color: #221e1f;
-}
-
-.content-drive .glyphicon,
-.page-footer .contact .glyphicon {
-    font-size: 32px;
-    font-weight: 700;
-}
-
-#postalcodeform {
-    padding-left: 4px;
-}
-
-#agreementbutton {
-    margin-bottom: 2%;
-}
-
-.adinputcorrect {
-    font-size: 150% !important;
-    width: 100%;
-}
-
-.adjoinformlabel {
-    color: #221e1f !important;
-    height: 30%;
-    font-size: 120%;
-}
-
-.adformtext {
-    width: 100%;
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-    margin-top: 2px !important;
-    padding-top: 0 !important;
-}
-
-#signbuttondiv {
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.pricinglist {
-    padding-left: 20px;
-    padding-right: 10px;
-}
-
-#joinform {
-    background-image: url('../images/joshua-newton-13935.jpg');
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.formselectors {
-    padding-top: 12px;
-    font-size: 75% !important;
-}
-
-
-.btn-green {
-    background-color: #7CA689 !important;
-}
-
-.btn-green:hover {
-    text-decoration: none;
-    opacity: 0.7;
-}
-
-.btn-yellow {
-    background-color: #f2d585 !important;
-}
-
-.btn-yellow:hover {
-    text-decoration: none;
-    opacity: 0.7;
-}
-
-.btn-red {
-    background-color: #d98661 !important;
-}
-
-.btn-red:hover {
-    text-decoration: none;
-    opacity: 0.7;
+#navlogo {
+    padding-top: 8px;
 }
