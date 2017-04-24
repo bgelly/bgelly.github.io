@@ -178,6 +178,15 @@ header .header-content .header-content-inner h1 {
     padding-top: 0px
 }
 
+.mainforminput {
+    color: white !important;
+    width: 100%;
+}
+
+.textinputmain {
+    font-size: 130% !important;
+}
+
 .collapse {
     color: #221e1f;
 }

@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: eskell;
-    text-align:justify;
+    text-align: justify;
 }
 
 h1,
@@ -97,6 +97,15 @@ header .header-content .header-content-inner h1 {
     }
 }
 
+.btn-green {
+    background-color: #7CA689 !important;
+}
+
+.btn-green:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
 .content {
     padding: 40px 0;
     background-color: #4f4e4e;
@@ -167,8 +176,12 @@ header .header-content .header-content-inner h1 {
     .navbar-collapse,
     .navbar-default,
     .navbar-form {
-    border-color: #7CA689;
+        border-color: #7CA689;
     }
+}
+
+#navlogo {
+    padding-top: 8px;
 }
 
 .collapse {
@@ -184,12 +197,12 @@ header .header-content .header-content-inner h1 {
 }
 
 .rideoteam {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .rideodescription {
-  font-weight: 300;
-  margin-bottom: 5%;
+    font-weight: 300;
+    margin-bottom: 5%;
 }
 
 .aboutcontent {
