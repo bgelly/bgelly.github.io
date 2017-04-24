@@ -16,6 +16,8 @@ $(document).ready(() => {
       $('.driverinfo').show();
       $('#showdriver').toggleClass('activebutton');
       $('#showadvertiser').toggleClass('activebutton');
+      $('#showdriver').toggleClass('inactivebutton');
+      $('#showadvertiser').toggleClass('inactivebutton');
     }
   });
 
@@ -25,6 +27,8 @@ $(document).ready(() => {
       $('.advertiserinfo').show();
       $('#showdriver').toggleClass('activebutton');
       $('#showadvertiser').toggleClass('activebutton');
+      $('#showdriver').toggleClass('inactivebutton');
+      $('#showadvertiser').toggleClass('inactivebutton');
     }
   });
 
