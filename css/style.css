@@ -549,3 +549,12 @@ header .header-content .header-content-inner h1 {
 #faqrow {
     margin-bottom: 7%;
 }
+
+.morelink {
+    color: #ffffff;
+}
+
+.morelink:hover {
+    color: #7ca689;
+    text-decoration: none;
+}
