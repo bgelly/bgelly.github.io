@@ -215,6 +215,23 @@ header .header-content .header-content-inner h1 {
     font-size: 75% !important;
 }
 
+.mainforminput {
+    color: white !important;
+    width: 100%;
+}
+
+.submitindexform {
+    font-size: 150% !important;
+    padding-top: 0px !important;
+    margin-top: 2% !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
 .btn-green {
     background-color: #7CA689 !important;
     padding-top: 2px !important;
@@ -278,7 +295,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .driverjoinformlabel {
-    color: #221e1f !important;
+    color: white !important;
     height: 30%;
     font-size: 120%;
 }
@@ -292,7 +309,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #formbackground {
-    background-color: rgba(255, 255, 255, 0.9);
+    /*background-color: rgba(255, 255, 255, 0.9);*/
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 8%;
