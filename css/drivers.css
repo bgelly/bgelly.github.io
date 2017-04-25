@@ -190,12 +190,7 @@ header .header-content .header-content-inner h1 {
     display: block !important;
     width: 100%;
     font-size: 200%;
-    padding-top: 0px
-}
-
-.mainforminput {
-    color: white !important;
-    width: 100%;
+    padding-top: 10px
 }
 
 .textinputmain {
@@ -210,26 +205,32 @@ header .header-content .header-content-inner h1 {
     width: 32%;
 }
 
-.formselectors {
-    padding-top: 12px;
-    font-size: 75% !important;
-}
-
 .mainforminput {
     color: white !important;
     width: 100%;
 }
 
 .submitindexform {
-    font-size: 150% !important;
+    font-size: 120% !important;
     padding-top: 0px !important;
     margin-top: 2% !important;
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
     padding-right: 20px;
     padding-left: 20px;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 3px;
+}
+
+.submitindexform:hover {
+    border: 1px solid white;
+}
+
+.formselectors {
+    padding-top: 12px;
+    font-size: 90% !important;
+    margin-left: 15px;
+    width: 64%;
 }
 
 .btn-green {
@@ -292,12 +293,14 @@ header .header-content .header-content-inner h1 {
 .driverinputcorrect {
     font-size: 150% !important;
     width: 100%;
+    text-shadow: 0px 7px 20px rgba(0, 0, 0, 0.9);
 }
 
 .driverjoinformlabel {
     color: white !important;
     height: 30%;
     font-size: 120%;
+    padding-left: 10px;
 }
 
 .adformtext {
@@ -309,7 +312,6 @@ header .header-content .header-content-inner h1 {
 }
 
 #formbackground {
-    /*background-color: rgba(255, 255, 255, 0.9);*/
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 8%;
@@ -319,6 +321,9 @@ header .header-content .header-content-inner h1 {
     .drivercontainer {
         width: 50%;
         padding-top: 25px;
+    }
+    .formselectors {
+        width: 61%;
     }
 }
 
@@ -337,6 +342,9 @@ header .header-content .header-content-inner h1 {
     .driverinputcorrect {
         padding-left: 10px;
     }
+    .formselectors {
+        width: 92%;
+    }
 }
 
 #postalcodeform {
@@ -348,7 +356,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #joinform {
-    background-image: url('../images/daryan-shamkhali-52938.jpg');
+    background-image: url('../images/frak-lopez-89996.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -408,4 +416,8 @@ header .header-content .header-content-inner h1 {
     font-size: 120% !important;
     width: 100% !important;
     max-width: 100% !important;
+}
+
+#driverformheader {
+    color: #FFFFFF;
 }
