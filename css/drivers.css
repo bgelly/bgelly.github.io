@@ -231,6 +231,8 @@ header .header-content .header-content-inner h1 {
     font-size: 90% !important;
     margin-left: 15px;
     width: 64%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .btn-green {
@@ -314,7 +316,7 @@ header .header-content .header-content-inner h1 {
 #formbackground {
     margin-right: 100px;
     margin-left: 100px;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
 
 @media(max-width:991px) {
@@ -349,10 +351,6 @@ header .header-content .header-content-inner h1 {
 
 #postalcodeform {
     padding-left: 4px;
-}
-
-#agreementbutton {
-    margin-bottom: 2%;
 }
 
 #joinform {
@@ -404,8 +402,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #signbuttondiv {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 3%;
 }
 
 #navlogo {
@@ -419,5 +416,6 @@ header .header-content .header-content-inner h1 {
 }
 
 #driverformheader {
+    margin-top: 5%;
     color: #FFFFFF;
 }
