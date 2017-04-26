@@ -462,3 +462,9 @@ header .header-content .header-content-inner h1 {
 #navlogo {
     padding-top: 8px;
 }
+
+@media(min-width:768px) {
+    #pricingheader {
+        padding-left: 40px;
+    }
+}
