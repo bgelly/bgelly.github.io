@@ -1,0 +1,236 @@
+@font-face {
+    font-family: pierSans;
+    src: url(../fonts/Pier/pier-regular.otf);
+}
+
+@font-face {
+    font-family: eskell;
+    src: url(../fonts/eksell/EksellDisplay-Small.otf);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: eskell;
+    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+footer {
+    font-family: pierSans;
+}
+
+a {
+    color: #7CA689;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover {
+    color: #7CA689;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/*changing material components color scheme*/
+
+:root {
+    --mdc-theme-primary: #7CA689 !important;
+}
+
+.mdc-button {
+    font-family: pierSans !important;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url('../images/justin-leibow-615.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+@media(min-width:768px) {
+    header {
+        min-height: 100%;
+    }
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        bottom: -170px;
+    }
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 60px;
+        margin-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: -10px;
+    }
+}
+
+.btn-green {
+    background-color: #7CA689 !important;
+    padding-top: 2px !important;
+}
+
+.btn-green:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.content {
+    padding: 40px 0;
+    background-color: #4f4e4e;
+}
+
+.content-2 {
+    color: #fff;
+    background-color: #221e1f;
+}
+
+.page-footer .small-print {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.navbar-default {
+    border-color: rgba(34, 34, 34, .05);
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: #7CA689;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+    outline: none;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(255, 255, 255, .3);
+        background-color: transparent;
+    }
+    .navbar-default .navbar-header .navbar-brand {
+        color: white;
+        letter-spacing: 0.5em;
+    }
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #7CA689;
+    }
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: white;
+    }
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #7CA689;
+    }
+    .navbar-default.affix {
+        border-color: #7CA689;
+        background-color: #7CA689;
+        box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #221E1F;
+    }
+}
+
+@media(max-width:768px) {
+    .navbar-header {
+        background-color: #7CA689;
+    }
+    .navbar-default,
+    .navbar-collapse,
+    .navbar-default,
+    .navbar-form {
+        border-color: #7CA689;
+    }
+}
+
+#navlogo {
+    padding-top: 8px;
+}
+
+.collapse {
+    color: #221e1f;
+}
+
+.contactsrow {
+    margin-bottom: 10%;
+}
+
+.nametitle {
+    margin-top: 20px;
+}
+
+.rideoteam {
+    margin-bottom: 20px;
+}
+
+.rideodescription {
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.aboutcontent {
+    background-color: white;
+    color: black;
+}
+
+#abouttitle {
+    margin-top: 15%;
+    margin-bottom: 2%;
+}
+
+#navlogo {
+    padding-top: 8px;
+}

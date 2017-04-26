@@ -583,3 +583,11 @@ header .header-content .header-content-inner h1 {
     color: #7ca689;
     text-decoration: none;
 }
+
+#faqlink {
+    color: #7ca689;
+}
+
+#faqlink:hover {
+    color: white;
+}
