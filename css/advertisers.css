@@ -233,14 +233,40 @@ header .header-content .header-content-inner h1 {
     width: 100%;
     padding: 10px;
     box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
+}
+
+.driverboxes:hover {
+    border: 2px solid #7CA689;
+}
+
+.driverboxes:hover>h3 {
+    font-weight: 600;
+}
+
+.drivetitle {
 }
 
 .driveicons {
     font-family: pierSans;
     font-size: 200%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #7CA689;
+}
+
+.drivesubtitle {
+    font-family: pierSans;
+    font-size: 120%;
+    color: #7CA689;
+}
+
+.drivesubheader {
+    font-family: pierSans;
+    font-weight: bold;
+    color: #7CA689;
+    margin-top: 12px;
+    margin-bottom: 0;
 }
 
 .pricinglist {
@@ -327,7 +353,6 @@ header .header-content .header-content-inner h1 {
 
 #pricingheader {
     color: #221E1F;
-    margin-bottom: 2%;
 }
 
 #driverbox1 {
@@ -336,18 +361,6 @@ header .header-content .header-content-inner h1 {
 
 #driverbox2 {
     margin-left: 7%;
-}
-
-#box1p {
-    height: 10px;
-}
-
-#box2p {
-    height: 30px;
-}
-
-#box4p {
-    height: 50px;
 }
 
 #driverbox3 {
@@ -390,12 +403,6 @@ header .header-content .header-content-inner h1 {
     #driverbox3 {
         margin-left: 0;
     }
-    #box2p {
-        height: 12px;
-    }
-    #box4p {
-        height: 30px;
-    }
 }
 
 @media(max-width:768px) {
@@ -417,12 +424,6 @@ header .header-content .header-content-inner h1 {
     }
     #navcontainer {
         padding-right: 15px;
-    }
-    #box2p {
-        height: 0px;
-    }
-    #box4p {
-        height: 0px;
     }
     #formbackground {
         margin-right: 0;
@@ -449,18 +450,6 @@ header .header-content .header-content-inner h1 {
 @media(min-width:991px) {
     #pricecontainer {
         width: 95%;
-    }
-}
-
-@media(min-width:1200px) {
-    #box1p {
-        height: 10px;
-    }
-    #box2p {
-        height: 30px;
-    }
-    #box4p {
-        height: 50px;
     }
 }
 
