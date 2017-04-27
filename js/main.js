@@ -32,6 +32,23 @@ $(document).ready(() => {
     }
   });
 
+  $('#bannerbutton').click(() => {
+    console.log('text')
+    $("#membershipselect select").val("Banner Ad Package (1000 views / $24.95)");
+  })
+
+  $('#starterbutton').click(() => {
+    $("#membershipselect select").val("Starter Plan (1000 views / $39.95)");
+  })
+
+  $('#advancedbutton').click(() => {
+    $("#membershipselect select").val("Advanced Plan (3000 views / $99.95)");
+  })
+
+  $('#commercialbutton').click(() => {
+    $("#membershipselect select").val("Commercial Plan (19,200 views / $399.95)");
+  })
+
   $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').focus()
   });

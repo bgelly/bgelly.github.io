@@ -129,7 +129,13 @@ header .header-content .header-content-inner h1 {
 }
 
 .content-3 {
-    background-color: #DADADA;
+    background-image: url('../images/jose-murillo-22951.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /*background-color: #DADADA;*/
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 20px 0 40px;
@@ -167,7 +173,6 @@ header .header-content .header-content-inner h1 {
 
 #tabletimage {
     width: 100%;
-    margin-top: 20px;
 }
 
 @media(max-width:1200px) {
@@ -524,12 +529,13 @@ header .header-content .header-content-inner h1 {
 }
 
 #jointoday {
-    background-image: url('../images/jon-flobrant-4056.jpg');
+    /*background-image: url('../images/jon-flobrant-4056.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
+    background-color: #DADADA;
 }
 
 .jointodaydiv {
