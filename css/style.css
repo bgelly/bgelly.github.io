@@ -116,6 +116,9 @@ header .header-content .header-content-inner h1 {
         line-height: 75%;
         text-shadow: 0px 7px 20px rgba(0, 0, 0, 0.9);
     }
+    #jointodaybutton {
+        margin-top: -10px;
+    }
 }
 
 .content {
@@ -157,7 +160,7 @@ header .header-content .header-content-inner h1 {
 .infographic {
     background-color: rgba(255,255,255, 0.75);
     color: #221E1F;
-    margin-top: 20px;
+    margin-bottom: 20px;
     /*border: 1px solid #b2b1b1;*/
     border-radius: 10px;
     padding: 13px;
@@ -260,6 +263,9 @@ header .header-content .header-content-inner h1 {
     .navbar-default,
     .navbar-form {
         border-color: #7CA689;
+    }
+    #jointodaybutton {
+        margin-top: 20px;
     }
 }
 
@@ -486,7 +492,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #infographicrow {
-    margin-bottom: 50px;
+    /*margin-bottom: 20px;*/
 }
 
 #getstartedheader {
@@ -499,6 +505,7 @@ header .header-content .header-content-inner h1 {
 #getstartedtoggleheader {
     color: #221e1f;
     font-weight: bold;
+    margin-bottom: 1%;
 }
 
 #contactus {
@@ -602,9 +609,30 @@ header .header-content .header-content-inner h1 {
 }
 
 #buttonrow {
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 #infoparagraphrow {
     margin-bottom: 0;
 }
+
+#footertext {
+    padding-top: 2px;
+    margin: 0;
+}
+
+.descriptionpar {
+    margin-bottom: -15px;
+}
+
+.joinlinktext {
+    color: #FFFFFF;
+}
+
+.joinlinktext:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+

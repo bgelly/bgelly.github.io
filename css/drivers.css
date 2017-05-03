@@ -425,3 +425,8 @@ header .header-content .header-content-inner h1 {
 #box2p {
     margin-bottom: 14px;
 }
+
+#footertext {
+    padding-top: 2px;
+    margin: 0;
+}

@@ -236,3 +236,8 @@ header .header-content .header-content-inner h1 {
 #navlogo {
     padding-top: 8px;
 }
+
+#footertext {
+    padding-top: 2px;
+    margin: 0;
+}

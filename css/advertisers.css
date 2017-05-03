@@ -481,3 +481,8 @@ header .header-content .header-content-inner h1 {
 #signupbutton {
     color: #FFFFFF !important;
 }
+
+#footertext {
+    padding-top: 2px;
+    margin: 0;
+}
