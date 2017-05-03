@@ -55,7 +55,7 @@ p {
 }
 
 header {
-    background-image: url('../images/patrick-tomasso-234612.jpg');
+    background-image: url('../images/frak-lopez-89996.jpg');
     position: relative;
     width: 100%;
     min-height: auto;
@@ -144,7 +144,7 @@ header .header-content .header-content-inner h1 {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255, 255, 255, .3);
+        /*border-color: rgba(255, 255, 255, .3);*/
         background-color: transparent;
     }
     .navbar-default .navbar-header .navbar-brand {
@@ -158,6 +158,7 @@ header .header-content .header-content-inner h1 {
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: white;
+        font-size: 120%;
     }
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
@@ -399,6 +400,7 @@ header .header-content .header-content-inner h1 {
 #driverstitle {
     padding-top: 15%;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
 }
 
 #signbuttondiv {

@@ -56,10 +56,10 @@
     <header id='home'>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id='mainheader'>Drive your business.</h1>
-                <h4 id='subheader'>Rideshare Advertising</h4>
-                <h4 id='subheader2'>Passenger Entertainment</h4>
-                <h4 id='subheader3'>Supplement Driver Earnings</h4>
+                <h1 id='mainheader'>Drive Your Business.</h1>
+                <h4 class='subheader' >Rideshare Advertising. Passenger Entertainment.</h4>
+                <!-- <h4 id='subheader2'>Passenger Entertainment</h4> -->
+                <h4 class='subheader'>Supplement Driver Earnings.</h4>
                 <a class='page-scroll' href="#jointoday">
                     <button id='mainbutton' class="btn-green mdc-button mdc-button--raised mdc-button--primary joinbutton" data-mdc-auto-init="MDCRipple" >Get Started</button>
                 </a>
@@ -72,9 +72,20 @@
 
     <section class="content content-3">
         <div class="container">
-            <h2 id='getstartedtoggleheader' class='text-center'>Drive Your Business.</h2>
+            <h2 id='getstartedtoggleheader' class='text-center'>You are a...</h2>
+            <!-- <h2 id='getstartedtoggleheader' class='advertiserinfo text-center'>You are an Advertiser.</h2> -->
+            <div id="buttonrow" class="row">
+                <div class='col-sm-3'></div>
+                <div class='col-sm-3 col-xs-6'>
+                    <button id='showadvertiser' class="activebutton btn-red mdc-button mdc-button--raised mdc-button--accent" data-mdc-auto-init="MDCRipple">Advertiser</button>
+                </div>
+                <div class='col-sm-3 col-xs-6'>
+                    <button id='showdriver' class="inactivebutton btn-red mdc-button mdc-button--raised mdc-button--accent" data-mdc-auto-init="MDCRipple">Driver</button>
+                </div>
+                <div class='col-sm-3'></div>
+            </div>
 
-            <div class="row">
+            <div id='infoparagraphrow' class="row">
                 <div class='col-lg-3 col-md-3 col-sm-3 hidden-xs'></div>
                 <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
                         <!-- mission statement paragraph here -->
@@ -89,16 +100,6 @@
             </div>
 
 
-            <div class="row">
-                <div class='col-sm-3'></div>
-                <div class='col-sm-3 col-xs-6'>
-                    <button id='showadvertiser' class="activebutton btn-red mdc-button mdc-button--raised mdc-button--accent" data-mdc-auto-init="MDCRipple">Advertisers</button>
-                </div>
-                <div class='col-sm-3 col-xs-6'>
-                    <button id='showdriver' class="inactivebutton btn-red mdc-button mdc-button--raised mdc-button--accent" data-mdc-auto-init="MDCRipple">Drivers</button>
-                </div>
-                <div class='col-sm-3'></div>
-            </div>
 
             <div id='infographicrow' class='row'>
                 <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>
@@ -221,12 +222,13 @@
 
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <button type="submit" id="getstartedbutton" class="btn-green mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">Get Started</button>
+                    <button type="submit" id="getstartedbutton" class="btn-green mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple" data-toggle="modal" data-target="#modal-join">Submit</button>
                 </div>
             </div>
             </form>
         </div>
     </section>
+
     <section id='formsection'>
         <div class="container">
             <h2 id='contactus' class='text-center'>More questions? Contact us! Or check out our <a id="faqlink" href="pages/support.html#support">FAQ</a></h2>

@@ -144,7 +144,7 @@ header .header-content .header-content-inner h1 {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255, 255, 255, .3);
+        /*border-color: rgba(255, 255, 255, .3);*/
         background-color: transparent;
     }
     .navbar-default .navbar-header .navbar-brand {
@@ -158,6 +158,7 @@ header .header-content .header-content-inner h1 {
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: white;
+        font-size: 120%;
     }
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
@@ -230,9 +231,11 @@ header .header-content .header-content-inner h1 {
 
 .driverboxes {
     background-color: white;
+    /*background-color: rgba(255,255,255, 0.9);*/
     width: 100%;
     padding: 10px;
     box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+    /*border: 2px solid rgba(255,255,255, 0.9);*/
     border: 2px solid white;
 }
 
@@ -340,6 +343,7 @@ header .header-content .header-content-inner h1 {
     font-size: 500%;
     margin-top: 15%;
     margin-bottom: 2%;
+    font-weight: bold;
 }
 
 #navcontainer {
@@ -352,7 +356,8 @@ header .header-content .header-content-inner h1 {
 }
 
 #pricingheader {
-    color: #221E1F;
+    color: #ffffff;
+    padding-bottom: 20px;
 }
 
 #driverbox1 {
@@ -467,4 +472,12 @@ header .header-content .header-content-inner h1 {
     #pricingheader {
         padding-left: 40px;
     }
+}
+
+#price {
+    background-color: #221e1f;
+}
+
+#signupbutton {
+    color: #FFFFFF !important;
 }

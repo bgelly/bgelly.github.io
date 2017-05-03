@@ -135,8 +135,6 @@ header .header-content .header-content-inner h1 {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    /*background-color: #DADADA;*/
-    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 20px 0 40px;
     color: #221e1f;
@@ -157,18 +155,19 @@ header .header-content .header-content-inner h1 {
 }
 
 .infographic {
-    background-color: #b2b1b1;
+    background-color: rgba(255,255,255, 0.75);
     color: #221E1F;
     margin-top: 20px;
-    border: 1px solid #b2b1b1;
+    /*border: 1px solid #b2b1b1;*/
     border-radius: 10px;
-    padding: 10px;
+    padding: 13px;
     box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 .infoheader {
     font-weight: bold;
     margin-bottom: 0;
+    padding-bottom: 10px;
 }
 
 #tabletimage {
@@ -186,7 +185,7 @@ header .header-content .header-content-inner h1 {
         margin-top: 8px;
     }
     #tabletimage {
-        margin-top: 70px;
+        /*margin-top: 70px;*/
     }
 }
 
@@ -202,7 +201,7 @@ header .header-content .header-content-inner h1 {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255, 255, 255, .3);
+        /*border-color: rgba(255, 255, 255, .3);*/
         background-color: transparent;
     }
     .navbar-default .navbar-header .navbar-brand {
@@ -216,6 +215,7 @@ header .header-content .header-content-inner h1 {
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: white;
+        font-size: 120%;
     }
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
@@ -267,13 +267,14 @@ header .header-content .header-content-inner h1 {
     padding-top: 8px;
 }
 
-#subheader {
-    padding-top: 10px;
-    letter-spacing: 2px;
+.subheader {
+    margin-top: 15px !important;
+    /*padding-top: 30px;*/
+    /*letter-spacing: 2px;*/
     font-family: eskell;
 }
 
-#subheader2 {
+/*#subheader2 {
     letter-spacing: 0.5px;
     font-family: eskell;
 }
@@ -281,7 +282,7 @@ header .header-content .header-content-inner h1 {
 #subheader3 {
     letter-spacing: -0.75px;
     font-family: eskell;
-}
+}*/
 
 #mainbutton {
     margin-top: 7px;
@@ -368,7 +369,7 @@ header .header-content .header-content-inner h1 {
 
 .btn-yellow {
     background-color: #f2d585 !important;
-    color: #221e1f !important;
+    /*color: #221e1f !important;*/
     padding-top: 2px !important;
 }
 
@@ -402,12 +403,14 @@ header .header-content .header-content-inner h1 {
     display: block;
     margin: 0 auto;
     width: 80%;
+    margin-right: 10px;
 }
 
 #showdriver {
     display: block;
     margin: 0 auto;
     width: 80%;
+    margin-left: 10px;
 }
 
 .panel-group .panel {
@@ -469,12 +472,12 @@ header .header-content .header-content-inner h1 {
 }
 
 .activebutton {
-    color: black !important;
+    /*color: black !important;*/
 }
 
 .inactivebutton {
     text-decoration: none;
-    opacity: 0.7;
+    opacity: 0.4;
 }
 
 .infopar {
@@ -487,7 +490,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #getstartedheader {
-    color: #221e1f;
+    color: #FFFFFF;
     margin-top: 6%;
     margin-bottom: 6%;
     font-weight: bold;
@@ -535,7 +538,7 @@ header .header-content .header-content-inner h1 {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;*/
-    background-color: #DADADA;
+    background-color: #221E1F;
 }
 
 .jointodaydiv {
@@ -596,4 +599,12 @@ header .header-content .header-content-inner h1 {
 
 #faqlink:hover {
     color: white;
+}
+
+#buttonrow {
+    margin-bottom: 2%;
+}
+
+#infoparagraphrow {
+    margin-bottom: 0;
 }

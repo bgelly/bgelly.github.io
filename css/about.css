@@ -154,7 +154,7 @@ header .header-content .header-content-inner h1 {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255, 255, 255, .3);
+        /*border-color: rgba(255, 255, 255, .3);*/
         background-color: transparent;
     }
     .navbar-default .navbar-header .navbar-brand {
@@ -168,6 +168,7 @@ header .header-content .header-content-inner h1 {
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: white;
+        font-size: 120%;
     }
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
@@ -229,6 +230,7 @@ header .header-content .header-content-inner h1 {
 #abouttitle {
     margin-top: 15%;
     margin-bottom: 2%;
+    font-weight: bold;
 }
 
 #navlogo {
