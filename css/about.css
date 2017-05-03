@@ -119,7 +119,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .content {
-    padding: 40px 0;
+    padding: 25px 0;
     background-color: #4f4e4e;
 }
 
@@ -135,7 +135,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .navbar-default {
-    border-color: rgba(34, 34, 34, .05);
+    border-color: transparent;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -214,7 +214,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .rideoteam {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .rideodescription {

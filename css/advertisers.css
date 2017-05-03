@@ -125,7 +125,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .navbar-default {
-    border-color: rgba(34, 34, 34, .05);
+    border-color: transparent;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -326,7 +326,6 @@ header .header-content .header-content-inner h1 {
 
 #signbuttondiv {
     margin-top: 2%;
-    margin-bottom: 2%;
 }
 
 #joinform {
@@ -357,7 +356,7 @@ header .header-content .header-content-inner h1 {
 
 #pricingheader {
     color: #ffffff;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 #driverbox1 {
@@ -380,13 +379,13 @@ header .header-content .header-content-inner h1 {
     padding-left: 4px;
 }
 
-#agreementbutton {
+/*#agreementbutton {
     margin-bottom: 2%;
-}
+}*/
 
 #advertiserformheader {
-    margin-top: 5%;
-    margin-bottom: 2.5%;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
     color: #ffffff;
 }
 
@@ -394,7 +393,7 @@ header .header-content .header-content-inner h1 {
     /*background-color: rgba(255, 255, 255, 0.9);*/
     margin-right: 100px;
     margin-left: 100px;
-    margin-bottom: 8%;
+    margin-bottom: 3%;
 }
 
 @media(max-width:991px) {
@@ -485,4 +484,8 @@ header .header-content .header-content-inner h1 {
 #footertext {
     padding-top: 2px;
     margin: 0;
+}
+
+.paddingcorrect {
+    padding-top: 7px;
 }

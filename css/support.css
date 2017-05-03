@@ -60,7 +60,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/ellie-pritts-189237.jpg');
+    background-image: url('../images/luke-chesser-2347.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -135,7 +135,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .navbar-default {
-    border-color: rgba(34, 34, 34, .05);
+    border-color: transparent;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;

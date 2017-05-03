@@ -55,7 +55,7 @@ p {
 }
 
 header {
-    background-image: url('../images/frak-lopez-89996.jpg');
+    background-image: url('../images/nick-jeffway-141187.jpg');
     position: relative;
     width: 100%;
     min-height: auto;
@@ -125,7 +125,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .navbar-default {
-    border-color: rgba(34, 34, 34, .05);
+    border-color: transparent;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -273,6 +273,10 @@ header .header-content .header-content-inner h1 {
     font-weight: 600;
 }
 
+.driverboxes > span {
+    color: #7CA689;
+}
+
 .driveicons {
     font-size: 60px;
     margin-top: 20%;
@@ -285,9 +289,8 @@ header .header-content .header-content-inner h1 {
 }
 
 .content-drive {
-    background-color: #DADADA;
+    background-color: #221e1f;
     padding: 20px 0 40px;
-    color: #221e1f;
 }
 
 .content-drive .glyphicon,
@@ -378,7 +381,8 @@ header .header-content .header-content-inner h1 {
 }
 
 #drivingtitle {
-    color: #221E1F;
+    color: #FFFFFF;
+    padding-bottom: 25px;
 }
 
 #driverboxrow {
@@ -418,7 +422,8 @@ header .header-content .header-content-inner h1 {
 }
 
 #driverformheader {
-    margin-top: 5%;
+    margin-top: 3.5%;
+    margin-bottom: 1%;
     color: #FFFFFF;
 }
 
@@ -429,4 +434,8 @@ header .header-content .header-content-inner h1 {
 #footertext {
     padding-top: 2px;
     margin: 0;
+}
+
+#signupbutton {
+    color: #FFFFFF !important;
 }
