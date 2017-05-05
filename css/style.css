@@ -143,6 +143,11 @@ header .header-content .header-content-inner h1 {
     color: #221e1f;
 }
 
+.content-4 {
+    color: #FFFFFF;
+    background-color: #221e1f;;
+}
+
 .page-footer .small-print {
     padding-top: 20px;
     padding-bottom: 20px;
