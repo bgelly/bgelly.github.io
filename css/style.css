@@ -127,8 +127,8 @@ header .header-content .header-content-inner h1 {
 }
 
 .content-2 {
-    color: #fff;
-    background-color: #221e1f;
+    color: #221e1f;
+    background-color: #FFFFFF;
 }
 
 .content-3 {
@@ -455,6 +455,25 @@ header .header-content .header-content-inner h1 {
 
 .collapse {
     color: #221e1f;
+}
+
+#logostitle {
+    margin-bottom: 2%;
+}
+
+#logossection {
+    margin-bottom: 5%;
+}
+
+.logosdiv {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logoimages {
+    width: 22%;
+    float: left;
+    margin-left: 20px;
 }
 
 #contactrow {
