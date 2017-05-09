@@ -27,6 +27,15 @@ footer {
     font-family: pierSans;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
 a {
     color: #7CA689;
     -webkit-transition: all .35s;
@@ -84,7 +93,7 @@ header .header-content .header-content-inner h1 {
 
 @media(min-width:768px) {
     header {
-        min-height: 100%;
+        min-height: 110%;
     }
     header .header-content {
         position: absolute;
@@ -382,7 +391,9 @@ header .header-content .header-content-inner h1 {
 
 #drivingtitle {
     color: #FFFFFF;
-    padding-bottom: 25px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 40px;
 }
 
 #driverboxrow {
@@ -422,8 +433,8 @@ header .header-content .header-content-inner h1 {
 }
 
 #driverformheader {
-    margin-top: 3.5%;
-    margin-bottom: 1%;
+    margin-top: 5.5%;
+    margin-bottom: 4.5%;
     color: #FFFFFF;
 }
 

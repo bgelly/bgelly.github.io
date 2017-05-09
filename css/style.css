@@ -27,6 +27,15 @@ footer {
     font-family: pierSans;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
 a {
     color: #7CA689;
     -webkit-transition: all .35s;
@@ -84,7 +93,7 @@ header .header-content .header-content-inner h1 {
 
 @media(min-width:768px) {
     header {
-        min-height: 100%;
+        min-height: 110%;
     }
     header .header-content {
         position: absolute;
@@ -280,20 +289,9 @@ header .header-content .header-content-inner h1 {
 
 .subheader {
     margin-top: 15px !important;
-    /*padding-top: 30px;*/
-    /*letter-spacing: 2px;*/
+    font-weight: normal;
     font-family: eskell;
 }
-
-/*#subheader2 {
-    letter-spacing: 0.5px;
-    font-family: eskell;
-}
-
-#subheader3 {
-    letter-spacing: -0.75px;
-    font-family: eskell;
-}*/
 
 #mainbutton {
     margin-top: 7px;
@@ -415,6 +413,7 @@ header .header-content .header-content-inner h1 {
     margin: 0 auto;
     width: 80%;
     margin-right: 10px;
+    color: #221e1f;
 }
 
 #showdriver {
@@ -422,6 +421,7 @@ header .header-content .header-content-inner h1 {
     margin: 0 auto;
     width: 80%;
     margin-left: 10px;
+    color: #221e1f;
 }
 
 .panel-group .panel {
@@ -463,7 +463,8 @@ header .header-content .header-content-inner h1 {
 }
 
 #logostitle {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+    margin-top: 4%;
 }
 
 #logossection {
@@ -503,6 +504,7 @@ header .header-content .header-content-inner h1 {
 
 .activebutton {
     /*color: black !important;*/
+    /*text-decoration: underline !important;*/
 }
 
 .inactivebutton {
@@ -511,7 +513,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .infopar {
-    font-size: 95%;
+    font-size: 110%;
     margin-bottom: 0;
 }
 
@@ -529,12 +531,13 @@ header .header-content .header-content-inner h1 {
 #getstartedtoggleheader {
     color: #221e1f;
     font-weight: bold;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+    margin-top: 5%;
 }
 
 #contactus {
-    margin-top: 4%;
-    margin-bottom: 2%;
+    margin-top: 6%;
+    margin-bottom: 4%;
     color: #ffffff;
 }
 
@@ -617,12 +620,12 @@ header .header-content .header-content-inner h1 {
 }
 
 .morelink {
-    color: #ffffff;
+    color: #7ca689;
 }
 
 .morelink:hover {
     color: #7ca689;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 #faqlink {
@@ -648,6 +651,7 @@ header .header-content .header-content-inner h1 {
 
 .descriptionpar {
     margin-bottom: -15px;
+    font-size: 120%;
 }
 
 .joinlinktext {
@@ -660,4 +664,6 @@ header .header-content .header-content-inner h1 {
 }
 
 
-
+#jointodaybutton {
+    margin-bottom: 3%;
+}

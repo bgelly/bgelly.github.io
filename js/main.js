@@ -33,7 +33,6 @@ $(document).ready(() => {
   });
 
   $('#bannerbutton').click(() => {
-    console.log('text')
     $("#membershipselect select").val("Banner Ad Package (1000 views / $24.95)");
   })
 
@@ -62,6 +61,10 @@ $(document).ready(() => {
 
   $('.panel-group').on('hidden.bs.collapse', toggleIcon);
   $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+  $('#sendbutton, #signupbutton').click(() => {
+    alert('Thanks! We will be in touch within 12 hours.');
+  });
 
   $(function() {
     $('a.page-scroll').bind('click', function(event) {
