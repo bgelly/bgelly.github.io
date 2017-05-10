@@ -154,7 +154,14 @@ header .header-content .header-content-inner h1 {
 
 .content-4 {
     color: #FFFFFF;
-    background-color: #221e1f;;
+    background-image: url('../images/RideoDemographics_V2.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .page-footer .small-print {
@@ -480,6 +487,17 @@ header .header-content .header-content-inner h1 {
     width: 22%;
     float: left;
     margin-left: 20px;
+}
+
+#demographicsimage {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+
+#demographicstitle {
+    margin-bottom: 5%;
+    /*margin-top: 4%;*/
 }
 
 #contactrow {
