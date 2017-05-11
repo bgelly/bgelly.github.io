@@ -153,6 +153,11 @@ header .header-content .header-content-inner h1 {
 }
 
 .content-4 {
+    color: #fff;
+    background-color: #221e1f;
+}
+
+.content-5 {
     color: #FFFFFF;
     background-image: url('../images/RideoDemographics_V2.png');
     background-position: center;
