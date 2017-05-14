@@ -201,6 +201,7 @@ header .header-content .header-content-inner h1 {
     font-weight: bold;
     margin-bottom: 0;
     padding-bottom: 10px;
+    font-size: 19px;
 }
 
 #tabletimage {
@@ -550,7 +551,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .infopar {
-    font-size: 110%;
+    font-size: 107%;
     margin-bottom: 0;
 }
 
