@@ -45,6 +45,7 @@ a {
 
 a:hover {
     color: #7CA689;
+    text-decoration: none;
 }
 
 p {
@@ -304,12 +305,44 @@ header .header-content .header-content-inner h1 {
     margin-left: 10px;
 }
 
+.downarrows {
+    margin: 0 auto;
+    width: 60px;
+    display: block;
+}
+
+.panel > a:focus {
+    color: #7CA689;
+    text-decoration: none;
+}
+
+.panel {
+    -webkit-box-shadow: none !important;
+}
+
 .adformtext {
     width: 100%;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
     margin-top: 2px !important;
     padding-top: 0 !important;
+}
+
+.content-5 {
+    color: #FFFFFF;
+    background-image: url('../images/RideoDemographics_V2.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#demographicstitle {
+    margin-bottom: 5%;
+    /*margin-top: 4%;*/
 }
 
 .submitindexform {

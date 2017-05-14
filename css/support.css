@@ -36,6 +36,10 @@ h6 {
     font-weight: bold;
 }
 
+h4 {
+    font-weight: normal;
+}
+
 a {
     color: #7CA689;
     -webkit-transition: all .35s;
@@ -244,4 +248,18 @@ header .header-content .header-content-inner h1 {
 
 #navlogo {
     padding-top: 8px;
+}
+
+#support {
+    background-image: url('../images/RideoDemographics_map.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 200%;
+}
+
+#faqtitle {
+    margin-top: 5%;
 }

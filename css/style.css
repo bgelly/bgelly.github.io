@@ -489,9 +489,9 @@ header .header-content .header-content-inner h1 {
 }
 
 .logoimages {
-    width: 22%;
+    width: 200px;
     float: left;
-    margin-left: 20px;
+    margin: 5px;
 }
 
 #demographicsimage {
