@@ -69,13 +69,20 @@
 
     <section id='price' class="content content-drive">
         <div id='pricecontainer' class="container">
-            <div id="driverboxrow" class="row">
+            <div id="driverboxrow" class="row panel-group" id="accordion" role="tablist">
                 <h1 id='pricingheader' class='text-center' >Pricing Plans</h1>
-                <div class="drivercontainer col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="panel panel-default drivercontainer col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div id="driverbox1" class="driverboxes">
+                        <div class="panel title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
                         <h3 class="drivetitle text-center">Banner Ad Package</h3>
                         <p class='text-center driveicons'>$24.95</p>
                         <p class='text-center drivesubtitle'>/ month</p>
+
+                        </a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                         <hr>
                         <ul class='pricinglist'>
                             <p class='drivesubheader'>Content</p>
@@ -92,13 +99,22 @@
                         <div id='drivebuttondiv' class='text-center'>
                             <a id='bannerbutton' href="#joinform" class="btn-yellow mdc-button mdc-button--raised mdc-button--primary page-scroll">SIGN UP</a>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="drivercontainer col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div id="driverbox2" class="driverboxes">
+                     <div class="panel title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                         <h3 class="drivetitle text-center">Starter Plan</h3>
                         <p class='text-center driveicons'>$39.95</p>
                         <p class='text-center drivesubtitle'>/ month</p>
+
+                        </a>
+                        </div>
+
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+
                         <hr>
                         <ul class='pricinglist'>
                             <p class='drivesubheader'>Content</p>
@@ -116,13 +132,21 @@
                         <div id='drivebuttondiv' class='text-center'>
                             <a id='starterbutton' href="#joinform" class="btn-yellow mdc-button mdc-button--raised mdc-button--primary page-scroll">SIGN UP</a>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="drivercontainer col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div id="driverbox3" class="driverboxes">
+                    <div class="panel title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseTwo">
                         <h3 class="text-center drivetitle">Advanced Plan</h3>
                         <p class='text-center driveicons'>$99.95</p>
                         <p class='text-center drivesubtitle'>/ month</p>
+
+                        </a>
+                        </div>
+
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                         <hr>
                         <ul class='pricinglist'>
                             <p class='drivesubheader'>Content</p>
@@ -140,13 +164,21 @@
                         <div id='drivebuttondiv' class='text-center'>
                             <a id='advancedbutton' href="#joinform" class="btn-yellow mdc-button mdc-button--raised mdc-button--primary page-scroll">SIGN UP</a>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="drivercontainer col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div id="driverbox4" class="driverboxes">
+                    <div class="panel title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseTwo">
                         <h3 class="text-center drivetitle">Commercial Plan</h3>
                         <p class='text-center driveicons'>$399.95</p>
                         <p class='text-center drivesubtitle'>/ month</p>
+
+                        </a>
+                        </div>
+
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                         <hr>
                         <ul class='pricinglist'>
                             <p class='drivesubheader'>Content</p>
@@ -163,6 +195,7 @@
                         </ul>
                         <div id='drivebuttondiv' class='text-center'>
                         <a id='commercialbutton' href="#joinform" class="btn-yellow mdc-button mdc-button--raised mdc-button--primary page-scroll">SIGN UP</a>
+                        </div>
                         </div>
                     </div>
                 </div>

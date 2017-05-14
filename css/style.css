@@ -69,7 +69,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/Rideo_background_2b.jpg');
+    background-image: url('../images/Rideo_background_2c.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -390,7 +390,7 @@ header .header-content .header-content-inner h1 {
 
 .btn-yellow {
     background-color: #f2d585 !important;
-    /*color: #221e1f !important;*/
+    color: #FFFFFF !important;
     padding-top: 2px !important;
 }
 
@@ -544,20 +544,6 @@ header .header-content .header-content-inner h1 {
     /*margin-bottom: 20px;*/
 }
 
-#getstartedheader {
-    color: #FFFFFF;
-    margin-top: 6%;
-    margin-bottom: 6%;
-    font-weight: bold;
-}
-
-#getstartedtoggleheader {
-    color: #221e1f;
-    font-weight: bold;
-    margin-bottom: 2%;
-    margin-top: 5%;
-}
-
 #contactus {
     margin-top: 6%;
     margin-bottom: 4%;
@@ -660,7 +646,8 @@ header .header-content .header-content-inner h1 {
 }
 
 #buttonrow {
-    margin-bottom: 1%;
+    margin-top: 6%;
+    margin-bottom: 2%;
 }
 
 #infoparagraphrow {

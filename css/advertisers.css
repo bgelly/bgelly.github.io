@@ -484,7 +484,13 @@ header .header-content .header-content-inner h1 {
 }
 
 #price {
-    background-color: #221e1f;
+    background-image: url('../images/RideoDemographics_map.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 125%;
 }
 
 #signupbutton {
