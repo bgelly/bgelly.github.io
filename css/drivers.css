@@ -291,6 +291,18 @@ header .header-content .header-content-inner h1 {
     margin-top: 20%;
     margin-bottom: 20%;
     display: block;
+    color: #221e1f !important;
+}
+
+.subtitles {
+    font-family: eskell;
+    font-weight: normal;
+}
+
+.downarrows {
+    margin: 0 auto;
+    width: 60px;
+    display: block;
 }
 
 .drivertextfields {
@@ -330,6 +342,10 @@ header .header-content .header-content-inner h1 {
     height: 30%;
     font-size: 120%;
     padding-left: 10px;
+}
+
+.driveboxtitle {
+    color: #7CA689;
 }
 
 .adformtext {

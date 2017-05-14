@@ -130,6 +130,10 @@ header .header-content .header-content-inner h1 {
     }
 }
 
+.logoimage {
+    content: url('../images/RideoLogo.png')
+}
+
 .content {
     padding: 40px 0;
     background-color: #4f4e4e;
@@ -259,6 +263,10 @@ header .header-content .header-content-inner h1 {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #221E1F;
     }
+    .navbar-default.affix > div > div a > img {
+        content: url('../images/rideo_logo_v2.png')
+    }
+
 }
 
 @media(max-width:768px) {
@@ -474,6 +482,12 @@ header .header-content .header-content-inner h1 {
     color: #221e1f;
 }
 
+.infoicons {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+}
+
 #logostitle {
     margin-bottom: 5%;
     margin-top: 4%;
@@ -489,9 +503,9 @@ header .header-content .header-content-inner h1 {
 }
 
 .logoimages {
-    width: 200px;
+    height: 180px;
     float: left;
-    margin: 5px;
+    margin: 10px;
 }
 
 #demographicsimage {
