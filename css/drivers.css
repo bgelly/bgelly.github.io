@@ -45,6 +45,7 @@ a {
 
 a:hover {
     color: #7CA689;
+    text-decoration: none;
 }
 
 p {
@@ -117,6 +118,10 @@ header .header-content .header-content-inner h1 {
     }
 }
 
+.logoimage {
+    content: url('../images/RideoLogo.png')
+}
+
 .content {
     padding: 40px 0;
     background-color: #4f4e4e;
@@ -181,6 +186,9 @@ header .header-content .header-content-inner h1 {
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #221E1F;
+    }
+    .navbar-default.affix > div > div a > img {
+        content: url('../images/rideo_logo_v2.png')
     }
 }
 
@@ -278,8 +286,8 @@ header .header-content .header-content-inner h1 {
     border: 2px solid #7CA689;
 }
 
-.driverboxes:hover>h3 {
-    font-weight: 600;
+.driverboxes:hover > div > a > h3 {
+    color: #221E1F;
 }
 
 .driverboxes > span {
@@ -299,14 +307,37 @@ header .header-content .header-content-inner h1 {
     font-weight: normal;
 }
 
+.subsubtitles {
+    color: #7CA689;
+    font-weight: bold;
+}
+
+.panel {
+    -webkit-box-shadow: none !important;
+}
+
 .downarrows {
     margin: 0 auto;
     width: 60px;
+    display: block;
+    margin-top: 30px;
+}
+
+.drivericons {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 50px;
     display: block;
 }
 
 .drivertextfields {
     color: #221e1f !important;
+}
+
+.drivelist {
+    margin-left: -10px;
 }
 
 .content-drive {
@@ -417,8 +448,17 @@ header .header-content .header-content-inner h1 {
     font-size: 40px;
 }
 
-#driverboxrow {
-    margin-bottom: 5%;
+.driverboxrow {
+    margin-bottom: 10%;
+}
+
+/*.panel:hover > img {
+    text-decoration: none;
+}*/
+
+.panel > a:focus {
+    color: #7CA689;
+    text-decoration: none;
 }
 
 #driverbox1 {

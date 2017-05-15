@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a id='navlogo' class="navbar-brand page-scroll" href="../index.html">
-                    <img width='72px' src='../images/RideoLogo.png'></img>
+                    <img class="logoimage" width='72px'></img>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -63,191 +63,229 @@
             </div>
         </div>
     </header>
-
-
-
     <section id='drivepricing' class="content content-drive">
         <div class="container">
             <h1 id='drivingtitle' class='text-center'>Driving with Rideo</h1>
-            <div id="driverboxrow" class="row">
+            <div id="accordion" class="driverboxrow row panel-group" role="tablist">
                 <div class="drivercontainer col-md-4 col-sm-12 col-xs-12">
                     <div id="driverbox1" class="driverboxes">
-                    <span id='driveicon1' class="driveicons glyphicon glyphicon-usd text-center"></span>
-                    <h3 class="text-center driveboxtitle">Earn More</h3>
-                    <h4 class='subtitles'>Join the growing network of Rideo drivers who are earning more with no extra work.</h4>
-                    <img class='downarrows' width="60px" src="../images/downarrow.png">
-                    <hr>
-                    <p>Drivers who partner with Rideo earn up to $150 in additional income per month with no extra work. Drivers also receive tips through our tablet, supplementing the income they earn while driving. In addition, Rideo offers drivers $150 for every business and $10 for every driver they refer that signs up. Drivers are paid weekly via cash, Venmo or Paypal.</p>
-                    <div id='drivebuttondiv' class='text-center'>
-                        <a href="#joinform" class="page-scroll btn-yellow mdc-button mdc-button--raised mdc-button--primary">Sign Up</a>
-                    </div>
+                        <div class="panel title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <img class="drivericons" src="../images/DriverIcon_2.png">
+                                <h3 class="text-center driveboxtitle">Earn More</h3>
+                                <h4 class='subtitles'>Join the growing network of Rideo drivers who are earning more with no extra work.</h4>
+                                <img class='downarrows' width="60px" src="../images/downarrow.png">
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <hr>
+                            <h4 class='subsubtitles text-center'>Earnings</h4>
+                            <ul class='drivelist'>
+                                <li>Our drivers make up to $200 extra per month</li>
+                                <li>Drivers receive passengers tips through our tablet</li>
+                                <li>Earn $10 cash for referring a driver</li>
+                                <li>Earn $150 cash for referring a business</li>
+                            </ul>
+                            <h4 class='subsubtitles text-center'>Features</h4>
+                            <ul class='drivelist'>
+                                <li>Drivers paid via Paypal or Venmo weekly</li>
+                                <li>Receive bonuses for hitting weekly ride count goals</li>
+                                <li>Drive with us for longer and get a pay boost</li>
+                            </ul>
+                            <div id='drivebuttondiv' class='text-center'>
+                                <a href="#joinform" class="page-scroll btn-yellow mdc-button mdc-button--raised mdc-button--primary">Sign Up</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="drivercontainer col-md-4 col-sm-12 col-xs-12">
                     <div id="driverbox2" class="driverboxes">
-                    <span id='driveicon2' class="driveicons glyphicon glyphicon-hdd text-center"></span>
-                    <h3 class="text-center driveboxtitle">No Installation Required</h3>
-                    <h4 class='subtitles'>Just strap the tablet to your passenger’s side headrest, drive your routes, and earn more.</h4>
-                    <img class='downarrows' width="60px" src="../images/downarrow.png">
-                    <hr>
-                    <p id='box2p'>Drivers can provide their own tablet or lease the tablet, headrest, charger and all other equipment from Rideo. Just strap the tablet to your passenger side headrest, drive your routes, and earn extra income. Drivers can use a portion of their Rideo earnings to reimburse us for the cost of the gear over a three-month payment plan.</p>
-                    <br>
-                    <div id='drivebuttondiv' class='text-center'>
-                        <a href="support.html#support" class="page-scroll btn-yellow mdc-button mdc-button--raised mdc-button--primary">FAQ</a>
-                    </div>
+                        <div class="panel title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <img class="drivericons" src="../images/DriverIcon_3.png">
+                                <h3 class="text-center driveboxtitle">No Installation Required</h3>
+                                <h4 class='subtitles'>Just strap the tablet to your passenger side headrest, drive your routes, and earn more.</h4>
+                                <img class='downarrows' width="60px" src="../images/downarrow.png">
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <hr>
+                            <h4 class='subsubtitles text-center'>Equipment</h4>
+                            <ul class='drivelist'>
+                                <li>Brand new 10-inch tablet</li>
+                                <li>Rideo provides drivers with tablets, headrest holders and more</li>
+                                <li>Reimburse us for gear via a fraction of earnings</li>
+                            </ul>
+                            <h4 class='subsubtitles text-center'>Features</h4>
+                            <ul class='drivelist'>
+                                <li>Use our app to log each ride you make</li>
+                                <li>Rideo repurchases all equipment from drivers</li>
+                                <li>Entertain passengers with our tablet</li>
+                            </ul>
+                            <br>
+
+                            <div id='drivebuttondiv' class='text-center'>
+                                <a href="support.html#support" class="page-scroll btn-yellow mdc-button mdc-button--raised mdc-button--primary">FAQ</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="drivercontainer col-md-4 col-sm-12 col-xs-12">
                     <div id="driverbox3" class="driverboxes">
-                    <span id='driveicon3' class="driveicons glyphicon glyphicon-question-sign text-center"></span>
-                    <h3 class="text-center driveboxtitle">Driver Support</h3>
-                    <h4 class='subtitles'>The Rideo team is dedicated to providing fulltime support for our driving partners.</h4>
-                    <img class='downarrows' width="60px" src="../images/downarrow.png">
-                    <hr>
-                    <p>The Rideo team is dedicated to providing full time support for our driving partners. We’re here to ensure your tablets runs smoothly, your payments are received on time, and answer any other questions you may have. Join the growing network of Rideo drivers who are increasing their earning potential and improving passenger experience.</p>
-                    <div id='drivebuttondiv' class='text-center'>
-                        <a href="about.html#about" class="page-scroll btn-yellow mdc-button mdc-button--raised mdc-button--primary">Learn more</a>
-                    </div>
+                        <div class="panel title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <img class="drivericons" src="../images/DriverIcon_4.png">
+                                <h3 class="text-center driveboxtitle">Driver Support</h3>
+                                <h4 class='subtitles'>The Rideo team is dedicated to providing fulltime support for our driving partners.</h4>
+                                <img class='downarrows' width="60px" src="../images/downarrow.png">
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <hr>
+                            <h4 class='subsubtitles text-center'>Let Us Help</h4>
+                            <ul class='drivelist'>
+                                <li>Our team is here to ensure your tablet runs smoothly</li>
+                                <li>Guaranteed payments each week</li>
+                                <li>Reach out to us with questions, anytime</li>
+                            </ul>
+                            <h4 class='subsubtitles text-center'>Features</h4>
+                            <ul class='drivelist'>
+                                <li>Drivers can quit anytime</li>
+                                <li>We guarantee a response within 12 hours</li>
+                                <li>Sign up here and start today</li>
+                            </ul>
+                            <br>
+
+                            <div id='drivebuttondiv' class='text-center'>
+                                <a href="about.html#about" class="page-scroll btn-yellow mdc-button mdc-button--raised mdc-button--primary">Learn more</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-
-
     <section id="joinform">
         <div class="container">
             <h1 id='driverformheader' class='text-center'>Sign up and drive with Rideo today!</h1>
             <div id='formbackground'>
-            <form  action="https://formspree.io/info@rideomedia.com"
-            method="POST">
-            <div class='row'>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-                <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
-                    <div class="mdc-form-field contactform text-center">
-                        <div class="mdc-textfield adformtext submitindexform " data-mdc-auto-init="MDCTextfield">
-                            <input type="text" name="First Name" class="mainforminput driverinputcorrect mdc-textfield__input">
-                            <label for="Email" class="driverjoinformlabel mdc-textfield__label formlabel">
-                                First Name
-                            </label>
+                <form action="https://formspree.io/info@rideomedia.com" method="POST">
+                    <div class='row'>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                        <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
+                            <div class="mdc-form-field contactform text-center">
+                                <div class="mdc-textfield adformtext submitindexform " data-mdc-auto-init="MDCTextfield">
+                                    <input type="text" name="First Name" class="mainforminput driverinputcorrect mdc-textfield__input">
+                                    <label for="Email" class="driverjoinformlabel mdc-textfield__label formlabel">
+                                        First Name
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
+                            <div class="mdc-form-field contactform text-center">
+                                <div class="mdc-textfield adformtext submitindexform " data-mdc-auto-init="MDCTextfield">
+                                    <input type="text" name="Last Name" class="mainforminput mdc-textfield__input driverinputcorrect">
+                                    <label for="Password" class="driverjoinformlabel mdc-textfield__label">
+                                        Last Name
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                        <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
+                            <div class="mdc-form-field contactform text-center">
+                                <div class="mdc-textfield adformtext submitindexform " data-mdc-auto-init="MDCTextfield">
+                                    <input type="text" name="Email" class="mainforminput mdc-textfield__input driverinputcorrect">
+                                    <label for="Email" class="driverjoinformlabel mdc-textfield__label">
+                                        Email
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
+                            <div class="mdc-form-field contactform text-center">
+                                <div class="mdc-textfield adformtext submitindexform " data-mdc-auto-init="MDCTextfield">
+                                    <input type="text" name="License Plate Number" class="mainforminput mdc-textfield__input driverinputcorrect">
+                                    <label for="Password" class="driverjoinformlabel mdc-textfield__label">
+                                        License Plate Number
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                        <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
+                            <div class="mdc-form-field contactform text-center">
+                                <div id='postalcodeform' class="submitindexform joinformsingle mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
+                                    <input type="text" name="Cell Number" class="mainforminput mdc-textfield__input driverinputcorrect">
+                                    <label for="Email" class="driverjoinformlabel mdc-textfield__label">
+                                        Cell Number
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mdc-form-field text-center col-md-4 col-sm-4 hidden-xs"></div>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                        <div class='submitindexform mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
+                            <select name="Do you own a tablet?" id="jointodayselector" class="mainforminput mdc-select">
+                                <option default selected>Do you own a tablet?</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                        <div class='submitindexform mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
+                            <select name="Are you able to plug in (charge) a tablet in your car?" id="jointodayselector" class="mdc-select mainforminput">
+                                <option default selected>Are you able to plug in (charge) a tablet in your car?</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                        <div class='submitindexform mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
+                            <select name="Do you have any businesses you'd like to refer to Rideo for a referral bonus?" id="jointodayselector" class="mdc-select mainforminput">
+                                <option default selected>Do you have any businesses you'd like to refer to Rideo for a referral bonus?</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                        <div class='submitindexform mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
+                            <select name="Do you know any drivers you'd like to refer to Rideo for a referral bonus?" id="jointodayselector" class="mdc-select mainforminput">
+                                <option default selected>Do you know any drivers you'd like to refer to Rideo for a referral bonus?</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class='col-md-2 col-sm-2 hidden-xs'></div>
+                    </div>
+                    <div id="agreementbutton" class="row">
+                        <div id='signbuttondiv' class="text-center">
+                            <button id='signupbutton' type="submit" class="btn-yellow mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Submit</button>
                         </div>
                     </div>
-                </div>
-                <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
-                    <div class="mdc-form-field contactform text-center">
-                        <div class="mdc-textfield adformtext submitindexform " data-mdc-auto-init="MDCTextfield">
-                            <input type="text" name="Last Name" class="mainforminput mdc-textfield__input driverinputcorrect">
-                            <label for="Password" class="driverjoinformlabel mdc-textfield__label">
-                                Last Name
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-            </div>
-
-            <div class='row'>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-                <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
-                    <div class="mdc-form-field contactform text-center">
-                        <div class="mdc-textfield adformtext submitindexform " data-mdc-auto-init="MDCTextfield">
-                            <input type="text" name="Email" class="mainforminput mdc-textfield__input driverinputcorrect">
-                            <label for="Email" class="driverjoinformlabel mdc-textfield__label">
-                                Email
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdc-form-field text-center col-md-4 col-sm-4 col-xs-12">
-                    <div class="mdc-form-field contactform text-center">
-                        <div class="mdc-textfield adformtext submitindexform " data-mdc-auto-init="MDCTextfield">
-                            <input type="text" name="License Plate Number" class="mainforminput mdc-textfield__input driverinputcorrect">
-                            <label for="Password" class="driverjoinformlabel mdc-textfield__label">
-                                License Plate Number
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-            </div>
-
-            <div class='row'>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-                <div class='mdc-form-field text-center col-md-4 col-sm-4 col-xs-12'>
-                    <div class="mdc-form-field contactform text-center">
-                        <div id='postalcodeform' class="submitindexform joinformsingle mdc-textfield adformtext" data-mdc-auto-init="MDCTextfield">
-                            <input type="text" name="Cell Number" class="mainforminput mdc-textfield__input driverinputcorrect">
-                            <label for="Email" class="driverjoinformlabel mdc-textfield__label">
-                                Cell Number
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdc-form-field text-center col-md-4 col-sm-4 hidden-xs"></div>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-            </div>
-
-            <div class='row'>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-                <div class='submitindexform mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select name="Do you own a tablet?" id="jointodayselector" class="mainforminput mdc-select">
-                        <option default selected>Do you own a tablet?</option>
-                        <option value="Yes">Yes</option>
-                        <option value="No">No</option>
-                    </select>
-                </div>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-            </div>
-
-            <div class='row'>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-                <div class='submitindexform mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select name="Are you able to plug in (charge) a tablet in your car?" id="jointodayselector" class="mdc-select mainforminput">
-                        <option default selected>Are you able to plug in (charge) a tablet in your car?</option>
-                        <option value="Yes">Yes</option>
-                        <option value="No">No</option>
-                    </select>
-                </div>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-            </div>
-
-            <div class='row'>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-                <div class='submitindexform mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select name="Do you have any businesses you'd like to refer to Rideo for a referral bonus?" id="jointodayselector" class="mdc-select mainforminput">
-                        <option default selected>Do you have any businesses you'd like to refer to Rideo for a referral bonus?</option>
-                        <option value="Yes">Yes</option>
-                        <option value="No">No</option>
-                    </select>
-                </div>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-            </div>
-
-            <div class='row'>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-                <div class='submitindexform mdc-form-field text-center col-md-8 col-sm-8 col-xs-12 formselectors'>
-                    <select name="Do you know any drivers you'd like to refer to Rideo for a referral bonus?" id="jointodayselector" class="mdc-select mainforminput">
-                        <option default selected>Do you know any drivers you'd like to refer to Rideo for a referral bonus?</option>
-                        <option value="Yes">Yes</option>
-                        <option value="No">No</option>
-                    </select>
-                </div>
-                <div class='col-md-2 col-sm-2 hidden-xs'></div>
-            </div>
-
-            <div id="agreementbutton" class="row">
-                <div id='signbuttondiv' class="text-center">
-                    <button id='signupbutton' type="submit" class="btn-yellow mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Submit</button>
-                </div>
-            </div>
-            </form>
+                </form>
             </div>
         </div>
-
     </section>
-
-
     <footer class="page-footer content-2">
         <div class="small-print">
             <div id='footer' class="container">

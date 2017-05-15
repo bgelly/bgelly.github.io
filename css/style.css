@@ -69,7 +69,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/Rideo_background_2c.jpg');
+    background-image: url('../images/Rideo_background_2d.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -85,10 +85,26 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-    margin-top: 0;
+    margin-top: -10px;
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: 200;
+}
+
+header .header-content .header-content-inner h4 {
+        display: none;
+}
+
+header .header-content .header-content-inner a {
+        margin-top: 25%;
+        display: block;
+}
+
+@media(max-width: 666px) {
+    header .header-content .header-content-inner a {
+        margin-top: 45%;
+        display: block;
+    }
 }
 
 @media(min-width:768px) {
@@ -124,11 +140,17 @@ header .header-content .header-content-inner h1 {
         font-size: 180%;
         line-height: 75%;
         text-shadow: 0px 7px 20px rgba(0, 0, 0, 0.9);
+        display: block;
     }
     #jointodaybutton {
         margin-top: -10px;
     }
+    header .header-content .header-content-inner a {
+        margin-top: 0;
+    }
 }
+
+
 
 .logoimage {
     content: url('../images/RideoLogo.png')
@@ -207,6 +229,7 @@ header .header-content .header-content-inner h1 {
 #tabletimage {
     width: 100%;
 }
+
 
 @media(max-width:1200px) {
     .infographic {
@@ -287,7 +310,7 @@ header .header-content .header-content-inner h1 {
         margin-top: 20px;
     }
     #tabletimage {
-        width: 66%;
+        width: 100%;
         margin-top: 20px;
     }
     .navbar-header {
@@ -420,7 +443,6 @@ header .header-content .header-content-inner h1 {
 
 #mainheader {
     font-weight: bold;
-    margin-top: 20px;
     padding-top: 0;
     padding-bottom: 5px
 }
@@ -504,7 +526,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .logoimages {
-    height: 180px;
+    height: 190px;
     float: left;
     margin: 10px;
 }
@@ -676,7 +698,7 @@ header .header-content .header-content-inner h1 {
 
 .descriptionpar {
     margin-bottom: -15px;
-    font-size: 120%;
+    font-size: 150%;
 }
 
 .joinlinktext {

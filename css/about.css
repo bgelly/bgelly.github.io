@@ -91,6 +91,10 @@ header .header-content .header-content-inner h1 {
     font-weight: 200;
 }
 
+.logoimage {
+    content: url('../images/RideoLogo.png')
+}
+
 @media(min-width:768px) {
     header {
         min-height: 110%;
@@ -191,6 +195,9 @@ header .header-content .header-content-inner h1 {
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #221E1F;
+    }
+    .navbar-default.affix > div > div a > img {
+        content: url('../images/rideo_logo_v2.png')
     }
 }
 

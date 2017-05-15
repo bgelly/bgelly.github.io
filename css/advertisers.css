@@ -152,6 +152,10 @@ header .header-content .header-content-inner h1 {
     outline: none;
 }
 
+.logoimage {
+    content: url('../images/RideoLogo.png')
+}
+
 @media(min-width:768px) {
     .navbar-default {
         /*border-color: rgba(255, 255, 255, .3);*/
@@ -182,6 +186,9 @@ header .header-content .header-content-inner h1 {
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #221E1F;
+    }
+    .navbar-default.affix > div > div a > img {
+        content: url('../images/rideo_logo_v2.png')
     }
 }
 
@@ -257,9 +264,6 @@ header .header-content .header-content-inner h1 {
     color: #221E1F;
 }
 
-.drivetitle {
-}
-
 .driveicons {
     font-family: pierSans;
     font-size: 200%;
@@ -309,6 +313,7 @@ header .header-content .header-content-inner h1 {
     margin: 0 auto;
     width: 60px;
     display: block;
+    margin-top: 30px;
 }
 
 .panel > a:focus {
