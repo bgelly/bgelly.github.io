@@ -656,6 +656,18 @@ header .header-content .header-content-inner a {
     }
 }
 
+@media(max-width:525px) {
+    .logoimages {
+        height: 110px;
+    }
+}
+
+@media(max-width:320px) {
+    .logoimages {
+        height: 80px;
+    }
+}
+
 .faqtitle {
     color: #7ca689;
     margin-bottom: 4%;
