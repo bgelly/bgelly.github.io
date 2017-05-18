@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).ready(function() {
 
   mdc.autoInit();
 
@@ -10,7 +10,7 @@ $(document).ready(() => {
 
   $('.driverinfo').hide();
 
-  $('#showdriver').click(() => {
+  $('#showdriver').click(function() {
     if (!$('#showdriver').hasClass('activebutton')) {
       $('.advertiserinfo').hide();
       $('.driverinfo').show();
@@ -21,7 +21,7 @@ $(document).ready(() => {
     }
   });
 
-  $('#showadvertiser').click(() => {
+  $('#showadvertiser').click(function() {
     if (!$('#showadvertiser').hasClass('activebutton')) {
       $('.driverinfo').hide();
       $('.advertiserinfo').show();
@@ -32,19 +32,19 @@ $(document).ready(() => {
     }
   });
 
-  $('#bannerbutton').click(() => {
+  $('#bannerbutton').click(function() {
     $("#membershipselect select").val("Banner Ad Package (1000 views / $24.95)");
   })
 
-  $('#starterbutton').click(() => {
+  $('#starterbutton').click(function() {
     $("#membershipselect select").val("Starter Plan (1000 views / $39.95)");
   })
 
-  $('#advancedbutton').click(() => {
+  $('#advancedbutton').click(function() {
     $("#membershipselect select").val("Advanced Plan (3000 views / $99.95)");
   })
 
-  $('#commercialbutton').click(() => {
+  $('#commercialbutton').click(function() {
     $("#membershipselect select").val("Commercial Plan (19,200 views / $399.95)");
   })
 
@@ -62,7 +62,7 @@ $(document).ready(() => {
   $('.panel-group').on('hidden.bs.collapse', toggleIcon);
   $('.panel-group').on('shown.bs.collapse', toggleIcon);
 
-  $('#sendbutton, #signupbutton').click(() => {
+  $('#sendbutton, #signupbutton').click(function() {
     alert('Thanks! We will be in touch within 12 hours.');
   });
 
