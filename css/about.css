@@ -198,7 +198,7 @@ header .header-content .header-content-inner h1 {
         color: #221E1F;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v2.png')
+        content: url('../images/rideo_logo_v3.png')
     }
 }
 
@@ -220,6 +220,9 @@ header .header-content .header-content-inner h1 {
         margin-left: 5%;
         margin-right: 5%;
         font-size: 20px;
+    }
+    .navbar-default.affix > div > div a > img {
+        content: url('../images/rideo_logo_v3.png')
     }
 }
 
