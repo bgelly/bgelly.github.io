@@ -166,7 +166,7 @@ header .header-content .header-content-inner a {
 
 @media(max-width:400px) {
     .logoimage {
-        content: url('../images/Rideo_Logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 }
 
@@ -199,7 +199,7 @@ header .header-content .header-content-inner a {
 
 .content-5 {
     color: #FFFFFF;
-    background-image: url('../images/RideoDemographics_V3.png');
+    background-image: url('../images/RideoDemographics_V4.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -326,7 +326,7 @@ header .header-content .header-content-inner a {
         color: #221E1F;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 
 }
@@ -364,7 +364,7 @@ header .header-content .header-content-inner a {
         margin-top: 20px;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 }
 

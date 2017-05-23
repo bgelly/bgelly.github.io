@@ -239,7 +239,7 @@ header .header-content .header-content-inner h1 {
         color: #221E1F;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 }
 
@@ -254,7 +254,7 @@ header .header-content .header-content-inner h1 {
         border-color: #7CA689;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 }
 
@@ -389,7 +389,7 @@ header .header-content .header-content-inner h1 {
 
 .content-5 {
     color: #FFFFFF;
-    background-image: url('../images/RideoDemographics_V2.png');
+    background-image: url('../images/RideoDemographics_V4.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
