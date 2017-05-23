@@ -527,3 +527,8 @@ header .header-content .header-content-inner h1 {
 #signupbutton {
     color: #FFFFFF !important;
 }
+
+.pricinglist {
+    padding-left: 20px;
+    padding-right: 10px;
+}

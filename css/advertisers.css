@@ -201,10 +201,13 @@ header .header-content .header-content-inner h1 {
         font-size: 110%;
     }
     .iconimages {
-        width: 60px;
+        width: 40px;
     }
     #toplogosrow {
-        margin-top: 10%;
+        margin-top: 5%;
+    }
+    #logosheader {
+        font-size: 130%;
     }
 }
 
