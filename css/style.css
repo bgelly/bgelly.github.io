@@ -102,10 +102,17 @@ header .header-content .header-content-inner a {
 
 @media(max-width: 666px) {
     header .header-content .header-content-inner a {
-        margin-top: 97%;
+        margin-top: 10%;
         display: block;
     }
 }
+
+@media(max-width: 320px) {
+    header .header-content .header-content-inner a {
+        margin-top: -9%;
+        display: block;
+    }
+ }
 
 @media(min-width:768px) {
     header {
@@ -157,6 +164,12 @@ header .header-content .header-content-inner a {
     content: url('../images/RideoLogo.png')
 }
 
+@media(max-width:400px) {
+    .logoimage {
+        content: url('../images/Rideo_Logo_v3.png')
+    }
+}
+
 .content {
     padding: 40px 0;
     background-color: #4f4e4e;
@@ -186,7 +199,7 @@ header .header-content .header-content-inner a {
 
 .content-5 {
     color: #FFFFFF;
-    background-image: url('../images/RideoDemographics_V2.png');
+    background-image: url('../images/RideoDemographics_V3.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -194,6 +207,30 @@ header .header-content .header-content-inner a {
     -o-background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+}
+
+
+#demographicstitle {
+    margin-bottom: 5%;
+    /*margin-top: 4%;*/
+}
+
+@media(max-width: 530px) {
+    .content-5{
+        background-image: url('../images/RideoDemographics_skinny2.png');
+        width: 100%;
+        height: 68%;
+    }
+    #demographicstitle {
+        margin-bottom: 0;
+        margin-top: -2%;
+    }
+}
+
+@media(max-width: 320px) {
+    #demographicstitle {
+        margin-top: -6%;
+    }
 }
 
 .page-footer .small-print {
@@ -557,11 +594,6 @@ header .header-content .header-content-inner a {
     width: 80%;
 }
 
-#demographicstitle {
-    margin-bottom: 5%;
-    /*margin-top: 4%;*/
-}
-
 #contactrow {
     margin-left: 1px;
     margin-right: 1px;
@@ -729,7 +761,8 @@ header .header-content .header-content-inner a {
 }
 
 .descriptionpar {
-    margin-bottom: -15px;
+    /*margin-bottom: -15px;*/
+    margin-top: 5%;
     font-size: 150%;
 }
 
