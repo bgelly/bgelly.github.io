@@ -8,77 +8,56 @@ var config = {
 };
 firebase.initializeApp(config);
 
+$(document).ready(() => {
+  $('#loginbutton').on('click', function(e) {
+    e.preventDefault();
+
+    if ($('#loginEmail').val() != '' && $('#loginPassword').val() != '') {
+      var userEmail = $('#loginEmail').val();
+      var userPassword = $('#loginPassword').val();
+
+      firebase.auth().signInWithEmailAndPassword(userEmail, userPassword)
+        .then(function(data) {
+          // successful login, redirect to login page
+          window.location = "pages/data.html"
+        })
+        .catch(function(error) {
+          // error handling
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          console.log('Error: ', errorCode, " - ", errorMessage)
+        });
+    }
+  })
+})
 
 // upon redirect, check if a user is logged in
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     console.log('theres a user!')
-    // User is signed in.
+      // User is signed in.
     var displayName = user.displayName;
-    var email = user.email;
-    var emailVerified = user.emailVerified;
-    var photoURL = user.photoURL;
-    var isAnonymous = user.isAnonymous;
-    var uid = user.uid;
-    var providerData = user.providerData;
-    console.log(user)
+    var userEmail = user.email;
+
+    console.log(userEmail)
+
+    var ref = firebase.database().ref('advertisers');
+    ref.orderByChild("email")
+    .equalTo(userEmail)
+    .on('child_added', function(snap) {
+       console.log('success', snap);
+    });
+    // var emailVerified = user.emailVerified;
+    // var photoURL = user.photoURL;
+    // var isAnonymous = user.isAnonymous;
+    // var uid = user.uid;
+    // console.log(user)
+
+    // var advertisers = firebase.database().ref('advertisers');
+    // console.log('advertisers: ', advertisers)
     // ...
   } else {
     // User is signed out.
     // ...
   }
 });
-
-$(document).ready(() => {
-  $('#loginbutton').on('click', function(e) {
-    e.preventDefault();
-    // $('#loginModal').modal('hide');
-    // $('#messageModalLabel').html('<span class="text-center text-info"><i class="fa fa-cog fa-spin"></i></span>');
-    // $('#messageModal').modal('show');
-
-    if ($('#loginEmail').val() != '' && $('#loginPassword').val() != '') {
-      console.log('in if')
-      var userEmail = $('#loginEmail').val();
-      var userPassword = $('#loginPassword').val();
-
-      firebase.auth().signInWithEmailAndPassword(userEmail, userPassword)
-      .then(function(data) {
-        // successful login, redirect to login page
-        window.location = "pages/data.html"
-      })
-      .catch(function(error) {
-        // error handling
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        console.log('Error: ', errorCode, " - ", errorMessage)
-      });
-
-
-      // dbRef.authWithPassword({
-      //   email: $('#loginEmail').val(),
-      //   password: $('#loginPassword').val()
-      // }, function(error, authData) {
-      //   if (error) {
-      //     console.log("Login Failed!", error);
-      //     $('#messageModalLabel').html('<span class="text-danger">ERROR: ' + error.code + '</span>')
-      //   } else {
-      //     console.log("Authenticated successfully with payload:", authData);
-      //     auth = authData;
-      //     $('#messageModalLabel').html('<span class="text-center text-success">Success!</span>')
-      //     setTimeout(function() {
-      //       $('#messageModal').modal('hide');
-      //       $('.unauthenticated, .userAuth').toggleClass('unauthenticated').toggleClass('authenticated');
-      //       contactsRef
-      //         .child(auth.uid)
-      //         .on("child_added", function(snap) {
-      //           console.log("added", snap.key(), snap.val());
-      //           $('#contacts').append(contactHtmlFromObject(snap.val()));
-      //         });
-      //     })
-      //   }
-      // });
-    } else {
-      console.log('nope')
-    }
-  })
-})

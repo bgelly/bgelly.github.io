@@ -102,14 +102,21 @@ header .header-content .header-content-inner a {
 
 @media(max-width: 666px) {
     header .header-content .header-content-inner a {
-        margin-top: 97%;
+        margin-top: 10%;
+        display: block;
+    }
+}
+
+@media(max-width: 320px) {
+    header .header-content .header-content-inner a {
+        margin-top: -9%;
         display: block;
     }
 }
 
 @media(min-width:768px) {
     header {
-        min-height: 110%;
+        min-height: 100%;
     }
     header .header-content {
         position: absolute;
@@ -186,7 +193,7 @@ header .header-content .header-content-inner a {
 
 .content-5 {
     color: #FFFFFF;
-    background-image: url('../images/RideoDemographics_V2.png');
+    background-image: url('../images/RideoDemographics_V3.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -194,6 +201,24 @@ header .header-content .header-content-inner a {
     -o-background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+}
+
+
+#demographicstitle {
+    margin-bottom: 5%;
+    /*margin-top: 4%;*/
+}
+
+@media(max-width: 530px) {
+    .content-5 {
+        background-image: url('../images/RideoDemographics_skinny.png');
+        width: 100%;
+        height: 75%;
+    }
+    #demographicstitle {
+        margin-bottom: 0;
+        margin-top: -2%;
+    }
 }
 
 .page-footer .small-print {
@@ -548,7 +573,7 @@ header .header-content .header-content-inner a {
 .logoimages {
     height: 190px;
     float: left;
-    margin: 10px;
+    margin: 5px;
 }
 
 #demographicsimage {
@@ -557,10 +582,6 @@ header .header-content .header-content-inner a {
     width: 80%;
 }
 
-#demographicstitle {
-    margin-bottom: 5%;
-    /*margin-top: 4%;*/
-}
 
 #contactrow {
     margin-left: 1px;
