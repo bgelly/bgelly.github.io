@@ -95,7 +95,7 @@ header .header-content .header-content-inner h1 {
     content: url('../images/RideoLogo.png')
 }
 
-@media(max-width:400px) {
+@media(max-width:768px) {
     .logoimage {
         content: url('../images/rideo_logo_v4.png')
     }
