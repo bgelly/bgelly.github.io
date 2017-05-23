@@ -123,6 +123,12 @@ header .header-content .header-content-inner h1 {
     content: url('../images/RideoLogo.png')
 }
 
+@media(max-width:400px) {
+    .logoimage {
+        content: url('../images/rideo_logo_v4.png')
+    }
+}
+
 .content {
     padding: 40px 0;
     background-color: #4f4e4e;

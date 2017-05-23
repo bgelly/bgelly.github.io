@@ -223,15 +223,16 @@ header .header-content .header-content-inner a {
     }
     #demographicstitle {
         margin-bottom: 0;
-        margin-top: -2%;
+        /*margin-top: -2%;*/
+        font-size: 150%;
     }
 }
 
-@media(max-width: 320px) {
+/*@media(max-width: 320px) {
     #demographicstitle {
         margin-top: -6%;
     }
-}
+}*/
 
 .page-footer .small-print {
     padding-top: 20px;

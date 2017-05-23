@@ -127,7 +127,7 @@ header .header-content .header-content-inner h1 {
     font-weight: bold;
 }
 
-@media(max-width:320px) {
+@media(max-width:375px) {
     header .header-content .header-content-inner h1 {
         margin-top: 1%;
         padding-top: 0;
@@ -146,37 +146,66 @@ header .header-content .header-content-inner h1 {
 }
 
 .content-3 {
-    color: #221e1f;
-    background-color: #fff;
+    color: #fff;
+    background-image: url('../images/RideoAdvertisersPage_bckgrnd.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
-#logosrow {
-    margin-top: 6%;
-    margin-bottom: 6%;
+@media (max-width: 667px) {
+    .content-3 {
+        height: 150%;
+    }
+}
+
+#toplogosrow {
+    margin-top: 2%;
+    margin-bottom: 3%
 }
 
 .iconimages {
-    width: 180px;
+    width: 100px;
     margin: 0 auto;
     display: block;
 }
 
-.logoscol {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 7%;
-}
-
 .logospar {
-    margin-bottom: 5%
+    margin-bottom: 0;
 }
 
 .logostitle {
     color: #7CA689;
+    margin: 0;
+    font-size: 150%;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #logosheader {
-    margin-top: 3%;
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+    .content-3 {
+        height: 100%;
+    }
+    .logostitle {
+        font-size: 90%;
+    }
+    .logospar {
+        font-size: 90%;
+    }
+    .iconimages {
+        width: 60px;
+    }
+    #toplogosrow {
+        margin-top: 10%;
+    }
 }
 
 .page-footer .small-print {
@@ -205,6 +234,12 @@ header .header-content .header-content-inner h1 {
 
 .logoimage {
     content: url('../images/RideoLogo.png')
+}
+
+@media(max-width:400px) {
+    .logoimage {
+        content: url('../images/rideo_logo_v4.png')
+    }
 }
 
 @media(min-width:768px) {
@@ -389,7 +424,7 @@ header .header-content .header-content-inner h1 {
 
 .content-5 {
     color: #FFFFFF;
-    background-image: url('../images/RideoDemographics_V4.png');
+    background-image: url('../images/RideoDemographics_v4.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -402,6 +437,19 @@ header .header-content .header-content-inner h1 {
 #demographicstitle {
     margin-bottom: 5%;
     /*margin-top: 4%;*/
+}
+
+@media(max-width: 530px) {
+    .content-5{
+        background-image: url('../images/RideoDemographics_skinny2.png');
+        width: 100%;
+        height: 68%;
+    }
+    #demographicstitle {
+        margin-bottom: 0;
+        /*margin-top: -2%;*/
+        font-size: 150%;
+    }
 }
 
 .submitindexform {
