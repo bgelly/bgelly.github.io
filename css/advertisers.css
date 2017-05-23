@@ -65,12 +65,12 @@ p {
 }
 
 header {
+    background-image: url('../images/cedric-dhaenens-178258.jpg');
     position: relative;
     width: 100%;
     min-height: 100%;
     text-align: center;
     color: #fff;
-    background-image: url('../images/cedric-dhaenens-178258.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
