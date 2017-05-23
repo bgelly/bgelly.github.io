@@ -105,6 +105,13 @@ header .header-content .header-content-inner h1 {
     }
 }
 
+@media(max-width: 375px) {
+    header .header-content .header-content-inner a {
+        margin-top: 5%;
+        display: block;
+    }
+}
+
 @media(min-width:768px) {
     header {
         min-height: 110%;
