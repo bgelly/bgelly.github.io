@@ -116,8 +116,8 @@ header .header-content .header-content-inner a {
 
 @media(max-width: 325px) {
     header .header-content .header-content-inner h1 {
-        margin-top: -10px;
-        font-size: 215%;
+        margin-top: -40px;
+        font-size: 275%;
         display: block;
     }
     header .header-content .header-content-inner a {
