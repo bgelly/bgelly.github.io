@@ -41,19 +41,28 @@ firebase.auth().onAuthStateChanged(function(user) {
 
     console.log(userEmail)
 
-    var ref = firebase.database().ref('advertisers');
-    ref.orderByChild("email")
-    .equalTo(userEmail)
-    .on('child_added', function(snap) {
-       console.log('success', snap);
-    });
+    //order by hash then search those children by the email?
+
+    var advertisersRef = firebase.database().ref().child('advertisers');
+
+    var query = advertisersRef.orderByKey().limitToFirst(10);
+
+    query.on('value', function(snapshot) {
+      //pull keys of snapshot in an array, filter for correct business -- deep queries?
+      var businessValues = snapshot.val();
+      var correctBusinessHash = Object.keys(businessValues).filter(function(businessHash) { return businessValues[businessHash].email === userEmail });
+
+      console.log('correct business found: ', businessValues[correctBusinessHash]);
+    })
+
+
+
     // var emailVerified = user.emailVerified;
     // var photoURL = user.photoURL;
     // var isAnonymous = user.isAnonymous;
     // var uid = user.uid;
     // console.log(user)
 
-    // var advertisers = firebase.database().ref('advertisers');
     // console.log('advertisers: ', advertisers)
     // ...
   } else {
