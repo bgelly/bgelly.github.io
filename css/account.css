@@ -3,16 +3,17 @@
     src: url(../fonts/Pier/pier-regular.otf);
 }
 
-@font-face {
+
+/*@font-face {
     font-family: eskell;
     src: url(../fonts/eksell/EksellDisplay-Small.otf);
-}
+}*/
 
 html,
 body {
     width: 100%;
     height: 100%;
-    font-family: eskell;
+    font-family: pierSans;
     text-align: justify;
 }
 
@@ -66,10 +67,10 @@ p {
 header {
     position: relative;
     width: 100%;
-    min-height: 100%;
+    min-height: 40%;
     text-align: center;
     color: #fff;
-    background-image: url('../images/justin-leibow-615.jpg');
+    background-image: url('../images/jon-flobrant-2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -103,7 +104,7 @@ header .header-content .header-content-inner h1 {
 
 @media(min-width:768px) {
     header {
-        min-height: 110%;
+        min-height: 40%;
     }
     header .header-content {
         position: absolute;
@@ -232,36 +233,14 @@ header .header-content .header-content-inner h1 {
     }
 }
 
-#navlogo {
-    padding-top: 8px;
-}
-
-.collapse {
-    color: #221e1f;
-}
-
-.contactsrow {
-    margin-bottom: 10%;
-}
-
-.nametitle {
-    margin-top: 20px;
-}
-
-.rideoteam {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.rideodescription {
-    font-weight: 300;
-    margin-bottom: 5%;
-}
-
-
 .aboutcontent {
     background-color: white;
     color: black;
+}
+
+.headerpar {
+    font-size: 150%;
+    font-weight: bold;
 }
 
 #mainheader {
@@ -277,4 +256,18 @@ header .header-content .header-content-inner h1 {
 #footertext {
     padding-top: 2px;
     margin: 0;
+}
+
+#accountheader {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: normal;
+}
+
+#map-canvas {
+    height: calc(100vh - 50px);
+    border-right: 2px solid #9e9b99;
+    border-bottom: 2px solid #9e9b99;
+    border-left: 2px solid #9e9b99;
+    width: 100%;
 }

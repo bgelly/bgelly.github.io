@@ -1,0 +1,39 @@
+.btn-red {
+    background-color: #d98661 !important;
+    padding-top: 2px !important;
+}
+
+.btn-red:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+#emailfield {
+  width: 100%;
+  font-size: 160%;
+}
+
+#loginEmail {
+  width: 100%;
+  font-size: 105%;
+}
+
+#passwordfield {
+  width: 100%;
+  font-size: 160%;
+}
+
+#loginPassword {
+  width: 100%;
+  font-size: 105%;
+}
+
+#loginbutton {
+  margin-top: 2%;
+  margin-bottom: .5%;
+}
+
+#logoutbutton {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

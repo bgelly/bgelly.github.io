@@ -10,6 +10,7 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/support.css" rel="stylesheet">
+    <link href="../css/modals.css" rel="stylesheet">
     <link rel="stylesheet" href="../js/material-components-web/dist/material-components-web.css">
 </head>
 
@@ -47,9 +48,9 @@
                     <li>
                         <a href="about.html">About</a>
                     </li>
-                    <!-- <li>
-                        <a href="#" data-toggle="modal" data-target="#modal-login">Login</a>
-                    </li> -->
+                    <li>
+                        <a id='loginlink' href="#" data-toggle="modal" data-target="#modal-login">Login</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -64,6 +65,79 @@
             </div>
         </div>
     </header>
+
+    <!-- modal FOR LOGIN -->
+        <div class="modal fade modal-ext" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header">
+                        <h3 class="w-100 text-center"><strong>Login to Rideo</strong></h3>
+                    </div>
+                    <!--Body-->
+                    <div class="modal-body">
+                        <div class='row'>
+                            <form>
+                                <div class="mdc-form-field col-sm-6 col-xs-6">
+                                    <div id='emailfield' class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+                                        <input id="loginEmail" type="text" class="mdc-textfield__input">
+                                        <label for="Email" class="mdc-textfield__label">
+                                            Email
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mdc-form-field col-sm-6 col-xs-6">
+                                    <div id='passwordfield' class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+                                        <input id="loginPassword" type="password" class="mdc-textfield__input">
+                                        <label for="Password" class="mdc-textfield__label">
+                                            Password
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button id='loginbutton' class="mdc-button mdc-button--raised mdc-button--primary btn-green" data-mdc-auto-init="MDCRipple">Login</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                        <div class="options text-right">
+<!--                             <span id='signup'>Not a member? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal-join">Sign Up</a></span> -->
+                            <button id='closebutton' class="mdc-button mdc-button--raised btn-red" data-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- modal FOR LOGOUT -->
+        <div class="modal fade modal-ext" id="modal-logout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 id="logouttitle" class="w-100 text-center"><strong>Logout from Rideo</strong></h3>
+                    </div>
+                    <div class="text-center">
+                        <button id='logoutbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Logout</button>
+                    </div>
+
+
+                    <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options text-right">
+                        <button id='closebutton' class="mdc-button mdc-button--raised btn-red" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
 
         <section id='support' class="content">
         <div class="container">
@@ -564,6 +638,8 @@
     <script src="../js/jquery.easing.min.js"></script>
     <script src="../js/material-components-web/dist/material-components-web.min.js"></script>
     <script src="../js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script src="../js/firebase.js"></script>
 </body>
 
 </html>
