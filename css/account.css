@@ -100,6 +100,9 @@ header .header-content .header-content-inner h1 {
     .logoimage {
         content: url('../images/rideo_logo_v4.png')
     }
+    header {
+        min-height: 40%;
+    }
 }
 
 @media(min-width:768px) {
@@ -267,9 +270,9 @@ header .header-content .header-content-inner h1 {
 }
 
 #map-canvas {
-    height: calc(80vh - 50px);
-    border-right: 2px solid #9e9b99;
-    border-bottom: 2px solid #9e9b99;
-    border-left: 2px solid #9e9b99;
-    width: 100%;
+    height: calc(90vh - 50px);
+    border: 2px solid #9e9b99;
+    width: 85%;
+    display: block;
+    margin: 0 auto;
 }
