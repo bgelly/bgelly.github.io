@@ -39,20 +39,22 @@ $(document).ready(() => {
     e.preventDefault();
 
     // logging out user
-    firebase.auth().signOut().then(function() {
-      $('#logoutbutton').text(function() { return 'Logged Out!'});
+    firebase.auth().signOut()
+      .then(function() {
+        $('#logoutbutton').text(function() { return 'Logged Out!'});
+        $('#logouttitle').text(function() { return 'Logged Out!'});
 
-      // depending on page location, redirect correctly to home page
-      if ($('#mainheader').text() === 'Drive Your Business.') {
-        window.location = "index.html";
-      } else {
-        window.location = "../index.html";
-      }
-    }).catch(function(error) {
-      var errorCode = error.code;
-      var errorMessage = error.message;
-      console.log('Error: ', errorCode, " - ", errorMessage)
-    });
+        // depending on page location, redirect correctly to home page
+        if ($('#mainheader').text() === 'Drive Your Business.') {
+          window.location = "index.html";
+        } else {
+          window.location = "../index.html";
+        }
+      }).catch(function(error) {
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        console.log('Error: ', errorCode, " - ", errorMessage)
+      });
   });
 })
 
