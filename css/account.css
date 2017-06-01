@@ -238,9 +238,11 @@ header .header-content .header-content-inner h1 {
     color: black;
 }
 
-.headerpar {
-    font-size: 150%;
-    font-weight: bold;
+@media(min-width:768px) {
+    .headerpar {
+        font-size: 150%;
+        font-weight: bold;
+    }
 }
 
 #mainheader {
@@ -265,7 +267,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #map-canvas {
-    height: calc(100vh - 50px);
+    height: calc(80vh - 50px);
     border-right: 2px solid #9e9b99;
     border-bottom: 2px solid #9e9b99;
     border-left: 2px solid #9e9b99;

@@ -64,7 +64,6 @@ firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // put user information on window to be used by account.js script
     window.userEmail = user.email;
-    console.log('theres a user: ', userEmail);
 
     // depending on page location, append & hide correct nav elements
     if ($('#mainheader').text() === 'Drive Your Business.') {
@@ -75,20 +74,6 @@ firebase.auth().onAuthStateChanged(function(user) {
       $('ul.navbar-nav').append('<li><a href="account.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
     }
     $('#loginlink').hide();
-
-    // if on the account page, query the necessary data from firebase
-    // if ($('#mainheader').text() === 'Your Account') {
-    //   var advertisersRef = firebase.database().ref().child('advertisers');
-    //   var query = advertisersRef.orderByKey();
-
-    //   query.on('value', function(snapshot) {
-    //     //pull keys of snapshot in an array, filter for correct business -- deep queries?
-    //     var businessValues = snapshot.val();
-    //     var correctBusinessHash = Object.keys(businessValues).filter(function(businessHash) { return businessValues[businessHash].email === userEmail });
-
-    //     console.log('correct business found: ', businessValues[correctBusinessHash]);
-    //   })
-    // }
   }
 });
 

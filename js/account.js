@@ -9,7 +9,6 @@ query.on('value', function(snapshot) {
     return businessValues[businessHash].email === window.userEmail });
 
   var foundBusinessObj = businessValues[correctBusinessHash];
-  console.log('correct business found: ', foundBusinessObj);
 
   // set header to welcome that user
   $('#mainheader').text(function() {
@@ -43,8 +42,6 @@ query.on('value', function(snapshot) {
     adViewLocations.push(latLongNumbers);
     totalClicks += foundBusinessObj.ad_views[key].clicks;
   }
-  console.log('total clicks: ', totalClicks);
-  console.log('view locations: ', adViewLocations);
 
   adViewLocations.forEach(function(coords) {
     window.drawMarker(coords);
