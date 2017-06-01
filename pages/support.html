@@ -10,6 +10,7 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/support.css" rel="stylesheet">
+    <link href="../css/modals.css" rel="stylesheet">
     <link rel="stylesheet" href="../js/material-components-web/dist/material-components-web.css">
 </head>
 
@@ -114,37 +115,28 @@
         </div>
     </div>
 
-        <!-- modal FOR LOGOUT -->
-    <div class="modal fade modal-ext" id="modal-logout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <!--Content-->
-            <div class="modal-content">
-                <!--Header-->
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h3 id='logoutmodaltitle' class="w-100 text-center"><i class="fa fa-user"></i><strong>Logout</strong></h3>
-                </div>
-                <!--Body-->
-                <div class="modal-body">
-                    <div class='row'>
+            <!-- modal FOR LOGOUT -->
+        <div class="modal fade modal-ext" id="modal-logout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header">
                         <div class="text-center">
-                            <button id='logoutbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Logout</button>
-                        </div>
+                                <button id='logoutbutton' class="mdc-button mdc-button--raised mdc-button--primary" data-mdc-auto-init="MDCRipple">Logout</button>
+                            </div>
                     </div>
-                </div>
-                <!--Footer-->
-                <div class="modal-footer">
-                    <div class="options text-right">
-                        <button id='closebutton' class="mdc-button mdc-button--raised" data-dismiss="modal">
-                            Close
-                        </button>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                        <div class="options text-right">
+                            <button id='closebutton' class="mdc-button mdc-button--raised" data-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
         <section id='support' class="content">
         <div class="container">

@@ -12,14 +12,19 @@ $(document).ready(() => {
   $('#loginbutton').on('click', function(e) {
     e.preventDefault();
 
+    // loggin in user
     if ($('#loginEmail').val() != '' && $('#loginPassword').val() != '') {
       var userEmail = $('#loginEmail').val();
       var userPassword = $('#loginPassword').val();
 
       firebase.auth().signInWithEmailAndPassword(userEmail, userPassword)
         .then(function(data) {
-          // successful login, redirect to login page
-          window.location = "pages/data.html"
+          // successful login, redirect to correct account page
+          if ($('#mainheader').text() === 'Drive Your Business.') {
+            window.location = "pages/account.html"
+          } else {
+            window.location = "account.html";
+          }
         })
         .catch(function(error) {
           // error handling
@@ -35,8 +40,9 @@ $(document).ready(() => {
 
     // logging out user
     firebase.auth().signOut().then(function() {
-      $('#logoutmodaltitle').text(function() { return 'Logged Out!'});
-      $('#logoutbutton').hide();
+      $('#logoutbutton').text(function() { return 'Logged Out!'});
+
+      // depending on page location, redirect correctly to home page
       if ($('#mainheader').text() === 'Drive Your Business.') {
         window.location = "index.html";
       } else {
@@ -50,52 +56,37 @@ $(document).ready(() => {
   });
 })
 
-// upon redirect, check if a user is logged in
+// upon page load, check if a user is logged in
 firebase.auth().onAuthStateChanged(function(user) {
+  // User is signed in.
   if (user) {
-    // depending on page location, append correct nav elements
-    if ($('#mainheader').text() === 'Drive Your Business.') {
-      $('ul.navbar-nav').append('<li><a href="pages/data.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
-    } else {
-      $('ul.navbar-nav').append('<li><a href="data.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
-    }
-
-    // remove login nav element, because a user is logged in
-    $('#loginlink').hide();
-    console.log('theres a user!')
-      // User is signed in.
     var displayName = user.displayName;
     var userEmail = user.email;
+    console.log('theres a user: ', userEmail);
 
-    console.log(userEmail)
+    // depending on page location, append & hide correct nav elements
+    if ($('#mainheader').text() === 'Drive Your Business.') {
+      $('ul.navbar-nav').append('<li><a href="pages/account.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
+    } else if ($('#mainheader').text() === 'Your Account') {
+      $('ul.navbar-nav').append('<li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
+    } else {
+      $('ul.navbar-nav').append('<li><a href="account.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
+    }
+    $('#loginlink').hide();
 
-    //order by hash then search those children by the email?
+    // if on the account page, query the necessary data from firebase
+    if ($('#mainheader').text() === 'Your Account') {
+      var advertisersRef = firebase.database().ref().child('advertisers');
+      var query = advertisersRef.orderByKey();
 
-    var advertisersRef = firebase.database().ref().child('advertisers');
+      query.on('value', function(snapshot) {
+        //pull keys of snapshot in an array, filter for correct business -- deep queries?
+        var businessValues = snapshot.val();
+        var correctBusinessHash = Object.keys(businessValues).filter(function(businessHash) { return businessValues[businessHash].email === userEmail });
 
-    var query = advertisersRef.orderByKey().limitToFirst(10);
-
-    query.on('value', function(snapshot) {
-      //pull keys of snapshot in an array, filter for correct business -- deep queries?
-      var businessValues = snapshot.val();
-      var correctBusinessHash = Object.keys(businessValues).filter(function(businessHash) { return businessValues[businessHash].email === userEmail });
-
-      console.log('correct business found: ', businessValues[correctBusinessHash]);
-    })
-
-
-
-    // var emailVerified = user.emailVerified;
-    // var photoURL = user.photoURL;
-    // var isAnonymous = user.isAnonymous;
-    // var uid = user.uid;
-    // console.log(user)
-
-    // console.log('advertisers: ', advertisers)
-    // ...
-  } else {
-    // User is signed out.
-    // ...
+        console.log('correct business found: ', businessValues[correctBusinessHash]);
+      })
+    }
   }
 });
 
