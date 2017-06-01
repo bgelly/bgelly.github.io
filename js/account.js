@@ -10,6 +10,7 @@ query.on('value', function(snapshot) {
 
   var foundBusinessObj = businessValues[correctBusinessHash];
   console.log('correct business found: ', foundBusinessObj);
+
   // set header to welcome that user
   $('#mainheader').text(function() {
     return 'Welcome, ' + foundBusinessObj.business_name;
@@ -28,5 +29,25 @@ query.on('value', function(snapshot) {
     return foundBusinessObj.num_of_views.toString() + " ad views";
   })
 
+  // pull out clicks, latlongs of all ad view data for this business
+  var totalClicks = 0;
+
+  // assign to window so it can be used in the maps.js file
+  var adViewLocations = [];
+  for (var key in foundBusinessObj.ad_views) {
+    var latLongString = foundBusinessObj.ad_views[key].location;
+    var latLongNumbers = latLongString.split(',').map(function(numString) {
+      return parseFloat(numString);
+    });
+
+    adViewLocations.push(latLongNumbers);
+    totalClicks += foundBusinessObj.ad_views[key].clicks;
+  }
+  console.log('total clicks: ', totalClicks);
+  console.log('view locations: ', adViewLocations);
+
+  adViewLocations.forEach(function(coords) {
+    window.drawMarker(coords);
+  })
 });
 

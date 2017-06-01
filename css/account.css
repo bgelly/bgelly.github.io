@@ -3,6 +3,7 @@
     src: url(../fonts/Pier/pier-regular.otf);
 }
 
+
 /*@font-face {
     font-family: eskell;
     src: url(../fonts/eksell/EksellDisplay-Small.otf);
@@ -261,4 +262,12 @@ header .header-content .header-content-inner h1 {
     margin-top: 3%;
     margin-bottom: 3%;
     font-weight: normal;
+}
+
+#map-canvas {
+    height: calc(100vh - 50px);
+    border-right: 2px solid #9e9b99;
+    border-bottom: 2px solid #9e9b99;
+    border-left: 2px solid #9e9b99;
+    width: 100%;
 }

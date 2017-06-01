@@ -92,6 +92,7 @@
     <section id="about" class="content aboutcontent">
         <div class="container">
             <h2 id='accountheader' class='text-center'>Account Overview</h2>
+
             <div class="row">
                 <div class="headerrow col-lg-4 col-md-4 col-sm-4 col-xs-4">
                     <p id="par1" class='text-center headerpar'></p>
@@ -103,6 +104,15 @@
                     <p id="par3" class='text-center headerpar'></p>
                </div>
            </div>
+
+           <div class="row">
+                <div class="map-container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div>
+                        <div id="map-canvas"></div>
+                    </div>
+               </div>
+           </div>
+
         </div>
     </section>
 
@@ -120,7 +130,9 @@
     <script src="../js/material-components-web/dist/material-components-web.min.js"></script>
     <script src="../js/main.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASpd-i4jJ5soLwu-ukjB15xuNUPcUfWmQ&sensor=true"></script>
     <script src="../js/firebase.js"></script>
+    <script src="../js/map.js"></script>
     <script src="../js/account.js"></script>
 </body>
 
