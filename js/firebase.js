@@ -28,12 +28,40 @@ $(document).ready(() => {
           console.log('Error: ', errorCode, " - ", errorMessage)
         });
     }
-  })
+  });
+
+  $('#logoutbutton').on('click', function(e) {
+    e.preventDefault();
+
+    // logging out user
+    firebase.auth().signOut().then(function() {
+      $('#logoutmodaltitle').text(function() { return 'Logged Out!'});
+      $('#logoutbutton').hide();
+      if ($('#mainheader').text() === 'Drive Your Business.') {
+        window.location = "index.html";
+      } else {
+        window.location = "../index.html";
+      }
+    }).catch(function(error) {
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      console.log('Error: ', errorCode, " - ", errorMessage)
+    });
+  });
 })
 
 // upon redirect, check if a user is logged in
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
+    // depending on page location, append correct nav elements
+    if ($('#mainheader').text() === 'Drive Your Business.') {
+      $('ul.navbar-nav').append('<li><a href="pages/data.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
+    } else {
+      $('ul.navbar-nav').append('<li><a href="data.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
+    }
+
+    // remove login nav element, because a user is logged in
+    $('#loginlink').hide();
     console.log('theres a user!')
       // User is signed in.
     var displayName = user.displayName;
