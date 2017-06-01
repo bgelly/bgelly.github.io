@@ -62,14 +62,14 @@ $(document).ready(() => {
 firebase.auth().onAuthStateChanged(function(user) {
   // User is signed in.
   if (user) {
-    var displayName = user.displayName;
-    var userEmail = user.email;
+    // put user information on window to be used by account.js script
+    window.userEmail = user.email;
     console.log('theres a user: ', userEmail);
 
     // depending on page location, append & hide correct nav elements
     if ($('#mainheader').text() === 'Drive Your Business.') {
       $('ul.navbar-nav').append('<li><a href="pages/account.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
-    } else if ($('#mainheader').text() === 'Your Account') {
+    } else if ($('#mainheader').text().slice(0, 10) === 'Loading...') {
       $('ul.navbar-nav').append('<li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
     } else {
       $('ul.navbar-nav').append('<li><a href="account.html">Account</a></li><li><a href="#" data-toggle="modal" data-target="#modal-logout">Logout</a></li>');
@@ -77,18 +77,18 @@ firebase.auth().onAuthStateChanged(function(user) {
     $('#loginlink').hide();
 
     // if on the account page, query the necessary data from firebase
-    if ($('#mainheader').text() === 'Your Account') {
-      var advertisersRef = firebase.database().ref().child('advertisers');
-      var query = advertisersRef.orderByKey();
+    // if ($('#mainheader').text() === 'Your Account') {
+    //   var advertisersRef = firebase.database().ref().child('advertisers');
+    //   var query = advertisersRef.orderByKey();
 
-      query.on('value', function(snapshot) {
-        //pull keys of snapshot in an array, filter for correct business -- deep queries?
-        var businessValues = snapshot.val();
-        var correctBusinessHash = Object.keys(businessValues).filter(function(businessHash) { return businessValues[businessHash].email === userEmail });
+    //   query.on('value', function(snapshot) {
+    //     //pull keys of snapshot in an array, filter for correct business -- deep queries?
+    //     var businessValues = snapshot.val();
+    //     var correctBusinessHash = Object.keys(businessValues).filter(function(businessHash) { return businessValues[businessHash].email === userEmail });
 
-        console.log('correct business found: ', businessValues[correctBusinessHash]);
-      })
-    }
+    //     console.log('correct business found: ', businessValues[correctBusinessHash]);
+    //   })
+    // }
   }
 });
 

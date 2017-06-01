@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../images/favicon2.png" type="image/x-icon">
     <title>Rideo</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/about.css" rel="stylesheet">
+    <link href="../css/account.css" rel="stylesheet">
     <link href="../css/account.css" rel="stylesheet">
     <link href="../css/modals.css" rel="stylesheet">
     <link rel="stylesheet" href="../js/material-components-web/dist/material-components-web.css">
@@ -56,10 +56,7 @@
     <header id='home'>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id='mainheader'>Your Account</h1>
-                <a href="#about" class="page-scroll">
-                    <button class="btn-green mdc-button mdc-button--raised mdc-button--primary">Meet the Team</button>
-                </a>
+                <h1 id='mainheader'>Loading...</h1>
             </div>
         </div>
     </header>
@@ -94,17 +91,18 @@
 
     <section id="about" class="content aboutcontent">
         <div class="container">
-            <div id='aboutrow' class="row">
-                <div class='col-md-2'></div>
-                <div class='col-md-8 rideodescription'>
-                    <h1 class='text-center rideoteam'>Meet the <strong>Rideo Team</strong></h1>
-                    <p class='rideopar'>Rideo is a Brooklyn-based rideshare advertising and passenger entertainment platform servicing businesses in the New York-New Jersey metro area. Founded in 2016 by three friends, Rideo enables businesses to showcase what is great about their product or service to an exclusive audience, while generating extra income for drivers. Rideo’s interactive tablets display advertisements and entertainment in unique and engaging ways across a variety of mediums.</p>
-                    <br>
-                    <p class='rideopar'>To reach us e-mail info@rideomedia.com or (414) 238 4746. We guarantee a response within 12 hours.
-                    </p>
-                </div>
-                <div class='col-md-2'></div>
-            </div>
+            <h2 id='accountheader' class='text-center'>Account Overview</h2>
+            <div class="row">
+                <div class="headerrow col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p id="par1" class='text-center headerpar'></p>
+               </div>
+               <div class="headerrow col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p id="par2" class='text-center headerpar'></p>
+               </div>
+               <div class="headerrow col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p id="par3" class='text-center headerpar'></p>
+               </div>
+           </div>
         </div>
     </section>
 
@@ -123,6 +121,7 @@
     <script src="../js/main.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
     <script src="../js/firebase.js"></script>
+    <script src="../js/account.js"></script>
 </body>
 
 </html>
