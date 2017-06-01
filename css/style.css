@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 a {
@@ -88,7 +88,7 @@ header .header-content .header-content-inner h1 {
     margin-top: -10px;
     margin-bottom: 20px;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 header .header-content .header-content-inner h4 {
@@ -102,12 +102,24 @@ header .header-content .header-content-inner a {
 
 @media(max-width: 666px) {
     header .header-content .header-content-inner a {
-        margin-top: 10%;
+        margin-top: -6%;
         display: block;
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 375px) {
+    header .header-content .header-content-inner a {
+        margin-top: -9%;
+        display: block;
+    }
+}
+
+@media(max-width: 325px) {
+    header .header-content .header-content-inner h1 {
+        margin-top: -40px;
+        font-size: 275%;
+        display: block;
+    }
     header .header-content .header-content-inner a {
         margin-top: -9%;
         display: block;
@@ -137,7 +149,7 @@ header .header-content .header-content-inner a {
         margin-top: 10px;
         padding-bottom: 0px;
         margin-bottom: -10px;
-        font-weight: bold;
+        font-weight: 700;
     }
     header .header-content .header-content-inner h4 {
         margin-top: 0px;
@@ -162,6 +174,12 @@ header .header-content .header-content-inner a {
 
 .logoimage {
     content: url('../images/RideoLogo.png')
+}
+
+@media(max-width:768px) {
+    .logoimage {
+        content: url('../images/rideo_logo_v4.png')
+    }
 }
 
 .content {
@@ -193,7 +211,7 @@ header .header-content .header-content-inner a {
 
 .content-5 {
     color: #FFFFFF;
-    background-image: url('../images/RideoDemographics_V3.png');
+    background-image: url('../images/RideoDemographics_v4.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -210,14 +228,22 @@ header .header-content .header-content-inner a {
 }
 
 @media(max-width: 530px) {
-    .content-5 {
-        background-image: url('../images/RideoDemographics_skinny.png');
+    .content-5{
+        background-image: url('../images/RideoDemographics_skinny2.png');
         width: 100%;
-        height: 75%;
+        height: 475px;
     }
     #demographicstitle {
         margin-bottom: 0;
-        margin-top: -2%;
+        /*margin-top: -2%;*/
+        font-size: 180%;
+    }
+}
+
+@media(max-width: 325px) {
+    .content-5{
+        width: 100%;
+        height: 400px;
     }
 }
 
@@ -314,7 +340,7 @@ header .header-content .header-content-inner a {
         color: #221E1F;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 
 }
@@ -352,7 +378,7 @@ header .header-content .header-content-inner a {
         margin-top: 20px;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 }
 
@@ -582,7 +608,6 @@ header .header-content .header-content-inner a {
     width: 80%;
 }
 
-
 #contactrow {
     margin-left: 1px;
     margin-right: 1px;
@@ -750,7 +775,8 @@ header .header-content .header-content-inner a {
 }
 
 .descriptionpar {
-    margin-bottom: -15px;
+    /*margin-bottom: -15px;*/
+    margin-top: 5%;
     font-size: 150%;
 }
 

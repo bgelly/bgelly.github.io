@@ -119,9 +119,6 @@ header .header-content .header-content-inner h1 {
     }
 }
 
-.logoimage {
-    content: url('../images/RideoLogo.png')
-}
 
 .content {
     padding: 40px 0;
@@ -157,6 +154,18 @@ header .header-content .header-content-inner h1 {
     outline: none;
 }
 
+.logoimage {
+    content: url('../images/RideoLogo.png')
+}
+
+@media(max-width:768px) {
+    .logoimage {
+        content: url('../images/rideo_logo_v4.png')
+    }
+}
+
+
+
 @media(min-width:768px) {
     .navbar-default {
         /*border-color: rgba(255, 255, 255, .3);*/
@@ -181,7 +190,7 @@ header .header-content .header-content-inner h1 {
     }
     .navbar-default.affix {
         border-color: #7CA689;
-        background-color: #7ca689;
+        background-color: #7CA689;
         box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
     }
     .navbar-default.affix .nav > li>a:hover,
@@ -189,7 +198,7 @@ header .header-content .header-content-inner h1 {
         color: #221E1F;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 }
 
@@ -204,7 +213,7 @@ header .header-content .header-content-inner h1 {
         border-color: #7CA689;
     }
     .navbar-default.affix > div > div a > img {
-        content: url('../images/rideo_logo_v3.png')
+        content: url('../images/rideo_logo_v4.png')
     }
 }
 
@@ -225,6 +234,7 @@ header .header-content .header-content-inner h1 {
 
 .drivercontainer {
     width: 32%;
+    /*width issue? */
 }
 
 .mainforminput {
@@ -494,9 +504,9 @@ header .header-content .header-content-inner h1 {
 }
 
 #jointodayselector {
-    font-size: 120% !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    font-size: 100% !important;
+    width: 100%;
+    max-width: 100%;
 }
 
 #driverformheader {
@@ -516,4 +526,9 @@ header .header-content .header-content-inner h1 {
 
 #signupbutton {
     color: #FFFFFF !important;
+}
+
+.pricinglist {
+    padding-left: 20px;
+    padding-right: 10px;
 }
