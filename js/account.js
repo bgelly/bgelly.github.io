@@ -31,8 +31,9 @@ query.on('value', function(snapshot) {
   // pull out clicks, latlongs of all ad view data for this business
   var totalClicks = 0;
 
-  // assign to window so it can be used in the maps.js file
+
   var adViewLocations = [];
+
   for (var key in foundBusinessObj.ad_views) {
     var latLongString = foundBusinessObj.ad_views[key].location;
     var latLongNumbers = latLongString.split(',').map(function(numString) {
@@ -43,8 +44,9 @@ query.on('value', function(snapshot) {
     totalClicks += foundBusinessObj.ad_views[key].clicks;
   }
 
+  // draw google maps markers for each latlong using the drawMarker function from map.js
   adViewLocations.forEach(function(coords) {
     window.drawMarker(coords);
-  })
+  });
 });
 

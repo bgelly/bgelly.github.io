@@ -39,7 +39,7 @@ var currentMap = new google.maps.Map(mapCanvas, {
 
 function drawMarker(coords) {
   var latLng = new google.maps.LatLng(coords[0], coords[1]);
-  var markerIcon = '../images/mapicon.png';
+  var markerIcon = '../images/newmapicon.png';
   var marker = new google.maps.Marker({
     icon: markerIcon,
     position: latLng
@@ -48,10 +48,4 @@ function drawMarker(coords) {
   return marker;
 }
 
-
-// assign to window so available in account.js
 window.drawMarker = drawMarker;
-
-// window.adViewLocations.forEach(function(coors) {
-//   drawMarker(coords);
-// })
