@@ -1,6 +1,7 @@
  // query firebase using the user information put on the window in firebase.js
  var advertisersRef = firebase.database().ref().child('advertisers');
  var query = advertisersRef.orderByKey();
+ 
 
 query.on('value', function(snapshot) {
   //pull keys of snapshot in an array, filter for correct business -- deep queries?
