@@ -39,7 +39,7 @@ var currentMap = new google.maps.Map(mapCanvas, {
 
 function drawMarker(coords) {
   var latLng = new google.maps.LatLng(coords[0], coords[1]);
-  var markerIcon = '../images/newmapicon.png';
+  var markerIcon = '../images/greendot.png';
   var marker = new google.maps.Marker({
     icon: markerIcon,
     position: latLng
