@@ -1,7 +1,7 @@
  // query firebase using the user information put on the window in firebase.js
  var advertisersRef = firebase.database().ref().child('advertisers');
  var query = advertisersRef.orderByKey();
- 
+
 
 query.on('value', function(snapshot) {
   //pull keys of snapshot in an array, filter for correct business -- deep queries?
@@ -26,7 +26,7 @@ query.on('value', function(snapshot) {
   })
 
   $('#par3').text(function() {
-    return foundBusinessObj.num_of_views.toString() + " ad views";
+    return foundBusinessObj.num_of_views.toString() + " views in the last month";
   })
 
   // pull out clicks, latlongs of all ad view data for this business
