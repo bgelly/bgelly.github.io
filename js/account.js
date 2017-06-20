@@ -11,6 +11,15 @@ query.on('value', function(snapshot) {
 
   var foundBusinessObj = businessValues[correctBusinessHash];
 
+  // conditionally render different pay buttons
+  if (foundBusinessObj.business_name === "Feltraiger") {
+    $('#90pay').show();
+  } else if (foundBusinessObj.business_name === "Artists & Fleas") {
+    $('#180pay').show();
+  } else {
+    $('#normalpay').show();
+  }
+
   // set header to welcome that user
   $('#mainheader').text(function() {
     return 'Welcome, ' + foundBusinessObj.business_name;
@@ -27,6 +36,27 @@ query.on('value', function(snapshot) {
 
   $('#par3').text(function() {
     return foundBusinessObj.num_of_views.toString() + " views in the last month";
+  })
+
+  $('#par4').text(function() {
+    return foundBusinessObj.total_air_time.toString() + " total hours of air time";
+  })
+
+  $('#par5').text(function() {
+    return foundBusinessObj.unique_views.toString() + " unique views";
+  })
+
+  var peakDayVal = 0;
+  var peakDay = "";
+  for (var key in foundBusinessObj.avg_view) {
+    if (foundBusinessObj.avg_view[key] > peakDayVal) {
+      peakDayVal = foundBusinessObj.avg_view[key];
+      peakDay = key;
+    }
+  }
+
+  $('#par6').text(function() {
+    return "Peak day: " + peakDay;
   })
 
   // pull out clicks, latlongs of all ad view data for this business

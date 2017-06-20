@@ -9,6 +9,11 @@ var config = {
 firebase.initializeApp(config);
 
 $(document).ready(() => {
+  // hide pay buttons until you know account to render correct payment info
+  $('#normalpay').hide();
+  $('#90pay').hide();
+  $('#180pay').hide();
+
   $('#loginbutton').on('click', function(e) {
     e.preventDefault();
 

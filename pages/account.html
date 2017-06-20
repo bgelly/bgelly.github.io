@@ -108,6 +108,18 @@
            </div>
 
            <div class="row">
+                <div class="headerrow col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <p id="par4" class='text-center headerpar'></p>
+               </div>
+               <div class="headerrow col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <p id="par5" class='text-center headerpar'></p>
+               </div>
+               <div class="headerrow col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <p id="par6" class='text-center headerpar'></p>
+               </div>
+           </div>
+
+           <div class="row">
                 <div class="map-container col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div>
                         <div id="map-canvas" class='text-center'></div>
@@ -118,24 +130,19 @@
 
             <div id="paysection" class="row">
                 <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'></div>
-                <div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>
+                <div id='normalpay' class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>
                     <div class='centerpayment'>
-                        <h4 id='paytitle'>Rideo Monthly Payments</h4>
-                        <form class='payform' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <h4 id='paytitle' class='text-center'>Rideo Monthly Payments</h4>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="D5UBW6AFQ225G">
-                            <table class='payform' >
+                            <input type="hidden" name="hosted_button_id" value="N295QNCLV73VQ">
+                            <table class='payform'>
                                 <tr>
-                                    <td>Select the maximum amount <br> you want to pay each month</td>
+                                    <td>
+                                        <input type="hidden" name="on0" value="Rideo Monthly Subscription">Rideo Monthly Subscription</td>
                                 </tr>
-                                <td>$
-                                    <select name="os0">
-                                        <option value="24.95"> 24.95</option>
-                                        <option value="30.00"> 30.00</option>
-                                        <option value="39.95"> 39.95</option>
-                                        <option value="99.95"> 99.95</option>
-                                        <option value="399.95"> 399.95</option>
-                                    </select> USD</td>
+                                <tr>
+                                    <td>You can be billed up to $30.00</select> USD</td>
                                 </tr>
                             </table>
                             <table>
@@ -155,9 +162,43 @@
                         <p>Select the button above and enter your payment information to sign up for automatic monthly payments. Advertisers can pay through PayPal, credit card or debit card. Advertisers can cancel monthly subscriptions for the following month at any time. Advertisers will only be billed once per month for the selected amount.</p>
                     </div>
                 </div>
-            </div>
-            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'></div>
 
+
+                <div id='90pay' class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>
+                    <h4 id='paytitle' class='text-center'>Rideo Monthly Payments</h4>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="42Y4PPLKBTY9Y">
+                        <table class='payform'>
+                        <tr><td><input type="hidden" name="on0" value="Rideo Monthly Subscription">Rideo Monthly Subscription</td></tr><tr><td>You can be billed up to $90.00</select> USD</td></tr>
+                        </table>
+                        <table>
+                        </table>
+                        <table><tr><td align=center><i>Sign up for</i></td></tr><tr><td><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_auto_billing_CC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></td></tr></table>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <p>Select the button above and enter your payment information to sign up for automatic monthly payments. Advertisers can pay through PayPal, credit card or debit card. Advertisers can cancel monthly subscriptions for the following month at any time. Advertisers will only be billed once per month for the selected amount.</p>
+
+                </div>
+
+                <div id='180pay' class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>
+                    <h4 id='paytitle' class='text-center'>Rideo Monthly Payments</h4>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="QL6QP2K8RUQFQ">
+                        <table class='payform'>
+                        <tr><td><input type="hidden" name="on0" value="Rideo Monthly Subscription">Rideo Monthly Subscription</td></tr><tr><td>You can be billed up to $180.00</select> USD</td></tr>
+                        </table>
+                        <table>
+                        </table>
+                        <table><tr><td align=center><i>Sign up for</i></td></tr><tr><td><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_auto_billing_CC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></td></tr></table>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <p>Select the button above and enter your payment information to sign up for automatic monthly payments. Advertisers can pay through PayPal, credit card or debit card. Advertisers can cancel monthly subscriptions for the following month at any time. Advertisers will only be billed once per month for the selected amount.</p>
+
+            </div>
+
+            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'></div>
 
         </div>
     </section>
