@@ -1,5 +1,5 @@
  // query firebase using the user information put on the window in firebase.js
- var advertisersRef = firebase.database().ref().child('advertisers_june');
+ var advertisersRef = firebase.database().ref().child('advertisers_july');
  var query = advertisersRef.orderByKey();
 
 
